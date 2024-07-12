@@ -1,0 +1,136 @@
+Country1;Country2;Country3;Country4;Country5;Year
+Brazil;Yugoslavia;Bolivia;NONE;NONE;1930
+Uruguay;Romania;Peru;NONE;NONE;1930
+Argentina;Chile;France;Mexico;NONE;1930
+United States;Paraguay;Belgium;NONE;NONE;1930
+Argentina;Sweden;NONE;NONE;NONE;1934
+Brazil;Spain;NONE;NONE;NONE;1934
+Germany;Belgium;NONE;NONE;NONE;1934
+Italy;United States;NONE;NONE;NONE;1934
+Netherlands;Switzerland;NONE;NONE;NONE;1934
+Austria;France;NONE;NONE;NONE;1934
+Czechoslovakia;Romania;NONE;NONE;NONE;1934
+Hungary;Egypt;NONE;NONE;NONE;1934
+Germany;Switzerland;NONE;NONE;NONE;1938
+France;Belgium;NONE;NONE;NONE;1938
+Italy;Norway;NONE;NONE;NONE;1938
+Czechoslovakia;Netherlands;NONE;NONE;NONE;1938
+Hungary;Dutch East Indies;NONE;NONE;NONE;1938
+Cuba;Romania;NONE;NONE;NONE;1938
+Brazil;Poland;NONE;NONE;NONE;1938
+Brazil;Yugoslavia;Switzerland;Mexico;NONE;1950
+United Kingdom;Spain;Chile;United States;NONE;1950
+Italy;Sweden;Paraguay;NONE;NONE;1950
+Uruguay;Bolivia;NONE;NONE;NONE;1950
+Austria;Czechoslovakia;NONE;NONE;NONE;1954
+Brazil;Mexico;NONE;NONE;NONE;1954
+United Kingdom;Switzerland;NONE;NONE;NONE;1954
+France;Mexico;NONE;NONE;NONE;1954
+Hungary;West Germany;NONE;NONE;NONE;1954
+Italy;Switzerland;NONE;NONE;NONE;1954
+Turkey;West Germany;NONE;NONE;NONE;1954
+Uruguay;Czechoslovakia;NONE;NONE;NONE;1954
+Austria;Scotland;NONE;NONE;NONE;1954
+Brazil;Yugoslavia;NONE;NONE;NONE;1954
+United Kingdom;Belgium;NONE;NONE;NONE;1954
+France;Yugoslavia;NONE;NONE;NONE;1954
+Hungary;South Korea;NONE;NONE;NONE;1954
+Italy;Belgium;NONE;NONE;NONE;1954
+Turkey;South Korea;NONE;NONE;NONE;1954
+Uruguay;Scotland;NONE;NONE;NONE;1954
+West Germany;Czechoslovakia;Northern Ireland;Argentina;NONE;1958
+France;Yugoslavia;Scotland;Paraguay;NONE;1958
+Sweden;Hungary;Wales;Mexico;NONE;1958
+Austria;Soviet Union;United Kingdom;Brazil;NONE;1958
+Uruguay;Soviet Union;Yugoslavia;Colombia;NONE;1962
+Chile;West Germany;Italy;Switzerland;NONE;1962
+Brazil;Czechoslovakia;Spain;Mexico;NONE;1962
+Argentina;United Kingdom;Hungary;Bulgaria;NONE;1962
+Uruguay;United Kingdom;France;Mexico;NONE;1966
+Argentina;West Germany;Spain;Switzerland;NONE;1966
+Brazil;Hungary;Portugal;Bulgaria;NONE;1966
+Chile;Soviet Union;Italy;North Korea;NONE;1966
+Soviet Union;Mexico;Belgium;El Salvador;NONE;1970
+Italy;Uruguay;Sweden;Israel;NONE;1970
+United Kingdom;Brazil;Czechoslovakia;Romania;NONE;1970
+West Germany;Peru;Bulgaria;Morocco;NONE;1970
+West Germany;East Germany;Chile;Australia;NONE;1974
+Scotland;Yugoslavia;Brazil;Zaire;NONE;1974
+Netherlands;Bulgaria;Uruguay;Sweden;NONE;1974
+Italy;Poland;Argentina;Haiti;NONE;1974
+Argentina;Italy;Hungary;France;NONE;1978
+West Germany;Mexico;Poland;Tunisia;NONE;1978
+Netherlands;Peru;Scotland;Iran;NONE;1978
+Brazil;Sweden;Spain;Austria;NONE;1978
+Spain;Yugoslavia;Northern Ireland;Honduras;NONE;1982
+Argentina;Hungary;Belgium;El Salvador;NONE;1982
+Brazil;Soviet Union;Scotland;New Zealand;NONE;1982
+Italy;Poland;Peru;Cameroon;NONE;1982
+West Germany;Austria;Chile;Algeria;NONE;1982
+United Kingdom;Czechoslovakia;France;Kuwait;NONE;1982
+Mexico;Paraguay;Iraq;Belgium;NONE;1986
+Italy;Argentina;South Korea;Bulgaria;NONE;1986
+West Germany;Uruguay;Denmark;Scotland;NONE;1986
+Poland;United Kingdom;Morocco;Portugal;NONE;1986
+France;Soviet Union;Canada;Hungary;NONE;1986
+Brazil;Spain;Algeria;Northern Ireland;NONE;1986
+Italy;Austria;Czechoslovakia;United States;NONE;1990
+Argentina;Soviet Union;Romania;Cameroon;NONE;1990
+Brazil;Scotland;Sweden;Costa Rica;NONE;1990
+West Germany;Yugoslavia;Colombia;UAE;NONE;1990
+Belgium;Spain;Uruguay;South Korea;NONE;1990
+United Kingdom;Netherlands;Ireland;Egypt;NONE;1990
+United States;Romania;Switzerland;Colombia;NONE;1994
+Germany;Spain;South Korea;Bolivia;NONE;1994
+Argentina;Bulgaria;Greece;Nigeria;NONE;1994
+Belgium;Netherlands;Saudi Arabia;Morocco;NONE;1994
+Brazil;Russia;Sweden;Cameroon;NONE;1994
+Italy;Ireland;Norway;Mexico;NONE;1994
+Argentina;Croatia;Jamaica;Japan;NONE;1998
+Brazil;Norway;Scotland;Morocco;NONE;1998
+France;Denmark;Saudi Arabia;South Africa;NONE;1998
+Germany;Serbia-Montenegro;Iran;United States;NONE;1998
+Italy;Austria;Chile;Cameroon;NONE;1998
+Netherlands;Belgium;South Korea;Mexico;NONE;1998
+Romania;United Kingdom;Colombia;Tunisia;NONE;1998
+Spain;Bulgaria;Paraguay;Nigeria;NONE;1998
+Argentina;Sweden;United Kingdom;Nigeria;NONE;2002
+Japan;Belgium;Russia;Tunisia;NONE;2002
+South Korea;Portugal;Poland;United States;NONE;2002
+Brazil;Turkey;China;Costa Rica;NONE;2002
+Italy;Croatia;Ecuador;Mexico;NONE;2002
+Germany;Ireland;Saudi Arabia;Cameroon;NONE;2002
+France;Denmark;Uruguay;Senegal;NONE;2002
+Spain;Slovenia;Paraguay;South Africa;NONE;2002
+Argentina;Ivory Coast;Netherlands;Serbia-Montenegro;NONE;2006
+Brazil;Australia;Croatia;Japan;NONE;2006
+United Kingdom;Paraguay;Sweden;Trinidad-Tobago;NONE;2006
+France;Togo;Switzerland;South Korea;NONE;2006
+Germany;Ecuador;Poland;Costa Rica;NONE;2006
+Italy;Ghana;Czech Republic;United States;NONE;2006
+Mexico;Angola;Portugal;Iran;NONE;2006
+Spain;Tunisia;Ukraine;Saudi Arabia;NONE;2006
+South Africa;Mexico;Uruguay;France;NONE;2010
+Brazil;North Korea;Ivory Coast;Portugal;NONE;2010
+Spain;Honduras;Chile;Switzerland;NONE;2010
+Netherlands;Japan;Cameroon;Denmark;NONE;2010
+Italy;New Zealand;Paraguay;Slovakia;NONE;2010
+Germany;Australia;Ghana;Serbia;NONE;2010
+Argentina;South Korea;Nigeria;Greece;NONE;2010
+United Kingdom;United States;Algeria;Slovenia;NONE;2010
+Brazil;Cameroon;Mexico;Croatia;NONE;2014
+Spain;Chile;Australia;Netherlands;NONE;2014
+Colombia;Ivory Coast;Japan;Greece;NONE;2014
+Uruguay;Italy;Costa Rica;United Kingdom;NONE;2014
+Switzerland;Ecuador;Honduras;France;NONE;2014
+Argentina;Nigeria;Iran;Bosnia-Herzegovina;NONE;2014
+Germany;Ghana;United States;Portugal;NONE;2014
+Belgium;Algeria;South Korea;Russia;NONE;2014
+Russia;Uruguay;Egypt;Saudi Arabia;NONE;2018
+Portugal;Spain;Iran;Morocco;NONE;2018
+France;Peru;Denmark;Australia;NONE;2018
+Argentina;Croatia;Iceland;Nigeria;NONE;2018
+Brazil;Switzerland;Costa Rica;Serbia;NONE;2018
+Germany;Mexico;Sweden;South Korea;NONE;2018
+Belgium;United Kingdom;Tunisia;Panama;NONE;2018
+Poland;Colombia;Senegal;Japan;NONE;2018
