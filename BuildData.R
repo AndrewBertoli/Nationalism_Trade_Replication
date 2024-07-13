@@ -69,7 +69,7 @@ games$Country2[games$Country2=="Serbia-Montenegro"]<-"Yugoslavia"
 
 source("GetPairs.R")
 
-source("Adapt_Names.R")
+source("AdaptNames.R")
 
 
 
