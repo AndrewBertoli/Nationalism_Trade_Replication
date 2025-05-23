@@ -1,0 +1,1080 @@
+Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Score2;Penalities;Day;Month;Event
+1960;Soviet Union;Czechoslovakia;0;1;0;0;0;2;3;0;0;6;7;Europe
+1960;Yugoslavia;France;0;1;0;0;0;2;5;4;0;6;7;Europe
+1960;Czechoslovakia;France;0;0;1;0;0;2;2;0;0;9;7;Europe
+1960;Soviet Union;Yugoslavia;0;0;1;0;0;2;2;1;0;10;7;Europe
+1964;Spain;Hungary;0;1;0;0;0;2;2;1;0;17;6;Europe
+1964;Soviet Union;Denmark;0;1;0;0;0;2;3;0;0;17;6;Europe
+1964;Hungary;Denmark;0;0;1;0;0;2;3;1;0;20;6;Europe
+1964;Spain;Soviet Union;0;0;1;0;0;2;2;1;0;21;6;Europe
+1968;Italy;Soviet Union;0;1;0;0;0;2;0;0;0;5;6;Europe
+1968;Yugoslavia;United Kingdom;0;1;0;0;0;2;1;0;0;5;6;Europe
+1968;United Kingdom;Soviet Union;0;0;1;0;0;2;2;0;0;8;6;Europe
+1968;Italy;Yugoslavia;0;0;1;0;0;2;2;0;0;8;6;Europe
+1972;West Germany;Belgium;0;1;0;0;0;2;2;1;0;14;6;Europe
+1972;Soviet Union;Hungary;0;1;0;0;0;2;1;0;0;14;6;Europe
+1972;Belgium;Hungary;0;0;1;0;0;2;2;1;0;17;6;Europe
+1972;West Germany;Soviet Union;0;0;1;0;0;2;3;0;0;18;6;Europe
+1976;Czechoslovakia;Netherlands;0;1;0;0;0;2;3;1;0;16;6;Europe
+1976;West Germany;Yugoslavia;0;1;0;0;0;2;4;2;0;17;6;Europe
+1976;Netherlands;Yugoslavia;0;0;1;0;0;2;3;2;0;19;6;Europe
+1976;Czechoslovakia;West Germany;0;0;1;0;0;2;5;3;1;20;6;Europe
+1980;West Germany;Czechoslovakia;1;0;0;0;0;2;1;0;0;11;6;Europe
+1980;Netherlands;Greece;1;0;0;0;0;2;1;0;0;11;6;Europe
+1980;West Germany;Netherlands;1;0;0;0;0;2;3;2;0;14;6;Europe
+1980;Czechoslovakia;Greece;1;0;0;0;0;2;3;1;0;14;6;Europe
+1980;Netherlands;Czechoslovakia;1;0;0;0;0;2;1;1;0;17;6;Europe
+1980;West Germany;Greece;1;0;0;0;0;2;0;0;0;17;6;Europe
+1980;Belgium;United Kingdom;1;0;0;0;0;2;1;1;0;12;6;Europe
+1980;Spain;Italy;1;0;0;0;0;2;0;0;0;12;6;Europe
+1980;Belgium;Spain;1;0;0;0;0;2;2;1;0;15;6;Europe
+1980;Italy;United Kingdom;1;0;0;0;0;2;1;0;0;15;6;Europe
+1980;United Kingdom;Spain;1;0;0;0;0;2;2;1;0;18;6;Europe
+1980;Italy;Belgium;1;0;0;0;0;2;0;0;0;18;6;Europe
+1980;Czechoslovakia;Italy;0;1;0;0;0;2;9;8;1;21;6;Europe
+1980;West Germany;Belgium;0;1;0;0;0;2;2;1;0;22;6;Europe
+1984;France;Denmark;1;0;0;0;0;3;1;0;0;12;6;Europe
+1984;Belgium;Yugoslavia;1;0;0;0;0;3;2;0;0;13;6;Europe
+1984;France;Belgium;1;0;0;0;0;3;5;0;0;16;6;Europe
+1984;Denmark;Yugoslavia;1;0;0;0;0;3;5;0;0;16;6;Europe
+1984;France;Yugoslavia;1;0;0;0;0;3;3;2;0;19;6;Europe
+1984;Denmark;Belgium;1;0;0;0;0;3;3;2;0;19;6;Europe
+1984;West Germany;Portugal;1;0;0;0;0;3;0;0;0;14;6;Europe
+1984;Romania;Spain;1;0;0;0;0;3;1;1;0;14;6;Europe
+1984;West Germany;Romania;1;0;0;0;0;3;2;1;0;17;6;Europe
+1984;Portugal;Spain;1;0;0;0;0;3;1;1;0;17;6;Europe
+1984;Spain;West Germany;1;0;0;0;0;3;1;0;0;20;6;Europe
+1984;Portugal;Romania;1;0;0;0;0;3;1;0;0;20;6;Europe
+1984;France;Portugal;0;1;0;0;0;3;3;2;0;23;6;Europe
+1984;Spain;Denmark;0;1;0;0;0;3;5;4;1;24;6;Europe
+1984;France;Spain;0;0;1;0;0;3;2;0;0;27;6;Europe
+1988;West Germany;Italy;1;0;0;0;0;3;1;1;0;10;6;Europe
+1988;Spain;Denmark;1;0;0;0;0;3;3;2;0;11;6;Europe
+1988;West Germany;Denmark;1;0;0;0;0;3;2;0;0;14;6;Europe
+1988;Italy;Spain;1;0;0;0;0;3;1;0;0;14;6;Europe
+1988;West Germany;Spain;1;0;0;0;0;3;2;0;0;17;6;Europe
+1988;Italy;Denmark;1;0;0;0;0;3;2;0;0;17;6;Europe
+1988;Ireland;United Kingdom;1;0;0;0;0;3;1;0;0;12;6;Europe
+1988;Soviet Union;Netherlands;1;0;0;0;0;3;1;0;0;12;6;Europe
+1988;Netherlands;United Kingdom;1;0;0;0;0;3;3;1;0;15;6;Europe
+1988;Soviet Union;Ireland;1;0;0;0;0;3;1;1;0;15;6;Europe
+1988;Soviet Union;United Kingdom;1;0;0;0;0;3;3;1;0;18;6;Europe
+1988;Netherlands;Ireland;1;0;0;0;0;3;1;0;0;18;6;Europe
+1988;Netherlands;West Germany;0;1;0;0;0;3;2;1;0;21;6;Europe
+1988;Soviet Union;Italy;0;1;0;0;0;3;2;0;0;22;6;Europe
+1992;Sweden;France;1;0;0;0;0;3;1;1;0;10;6;Europe
+1992;Denmark;United Kingdom;1;0;0;0;0;3;0;0;0;11;6;Europe
+1992;France;United Kingdom;1;0;0;0;0;3;0;0;0;14;6;Europe
+1992;Sweden;Denmark;1;0;0;0;0;3;1;0;0;14;6;Europe
+1992;Sweden;United Kingdom;1;0;0;0;0;3;2;1;0;17;6;Europe
+1992;Denmark;France;1;0;0;0;0;3;2;1;0;17;6;Europe
+1992;Netherlands;Scotland;1;0;0;0;0;3;1;0;0;12;6;Europe
+1992;CIS;Germany;1;0;0;0;0;3;1;1;0;12;6;Europe
+1992;Germany;Scotland;1;0;0;0;0;3;2;0;0;15;6;Europe
+1992;Netherlands;CIS;1;0;0;0;0;3;0;0;0;15;6;Europe
+1992;Netherlands;Germany;1;0;0;0;0;3;3;1;0;18;6;Europe
+1992;Scotland;CIS;1;0;0;0;0;3;3;0;0;18;6;Europe
+1992;Denmark;Netherlands;0;1;0;0;0;3;5;4;1;22;6;Europe
+1992;Germany;Sweden;0;1;0;0;0;3;3;2;0;21;6;Europe
+1992;Denmark;Germany;0;0;1;0;0;3;2;0;0;26;6;Europe
+1996;United Kingdom;Switzerland;1;0;0;0;0;4;1;1;0;8;6;Europe
+1996;Netherlands;Scotland;1;0;0;0;0;4;0;0;0;10;6;Europe
+1996;Netherlands;Switzerland;1;0;0;0;0;4;2;0;0;13;6;Europe
+1996;United Kingdom;Scotland;1;0;0;0;0;4;2;0;0;15;6;Europe
+1996;Scotland;Switzerland;1;0;0;0;0;4;1;0;0;18;6;Europe
+1996;United Kingdom;Netherlands;1;0;0;0;0;4;4;1;0;18;6;Europe
+1996;Spain;Bulgaria;1;0;0;0;0;4;1;1;0;9;6;Europe
+1996;France;Romania;1;0;0;0;0;4;1;0;0;10;6;Europe
+1996;Bulgaria;Romania;1;0;0;0;0;4;1;0;0;13;6;Europe
+1996;France;Spain;1;0;0;0;0;4;1;1;0;15;6;Europe
+1996;France;Bulgaria;1;0;0;0;0;4;3;1;0;18;6;Europe
+1996;Spain;Romania;1;0;0;0;0;4;2;1;0;18;6;Europe
+1996;Germany;Czech Republic;1;0;0;0;0;4;2;0;0;9;6;Europe
+1996;Italy;Russia;1;0;0;0;0;4;2;1;0;11;6;Europe
+1996;Czech Republic;Italy;1;0;0;0;0;4;2;1;0;14;6;Europe
+1996;Germany;Russia;1;0;0;0;0;4;3;0;0;16;6;Europe
+1996;Russia;Czech Republic;1;0;0;0;0;4;3;3;0;19;6;Europe
+1996;Italy;Germany;1;0;0;0;0;4;0;0;0;19;6;Europe
+1996;Denmark;Portugal;1;0;0;0;0;4;1;1;0;9;6;Europe
+1996;Croatia;Turkey;1;0;0;0;0;4;1;0;0;11;6;Europe
+1996;Portugal;Turkey;1;0;0;0;0;4;1;0;0;14;6;Europe
+1996;Croatia;Denmark;1;0;0;0;0;4;3;0;0;16;6;Europe
+1996;Portugal;Croatia;1;0;0;0;0;4;3;0;0;19;6;Europe
+1996;Denmark;Turkey;1;0;0;0;0;4;3;0;0;19;6;Europe
+1996;France;Netherlands;0;1;0;0;0;4;5;4;1;22;6;Europe
+1996;United Kingdom;Spain;0;1;0;0;0;4;4;2;1;22;6;Europe
+1996;Czech Republic;Portugal;0;1;0;0;0;4;1;0;0;23;6;Europe
+1996;Germany;Croatia;0;1;0;0;0;4;2;1;0;23;6;Europe
+1996;Czech Republic;France;0;0;1;0;0;4;6;5;1;26;6;Europe
+1996;Germany;United Kingdom;0;0;1;0;0;4;6;5;1;26;6;Europe
+1996;Germany;Czech Republic;0;0;0;1;0;4;2;1;0;30;6;Europe
+2000;Germany;Romania;1;0;0;0;0;4;1;1;0;12;6;Europe
+2000;Portugal;United Kingdom;1;0;0;0;0;4;3;2;0;12;6;Europe
+2000;Portugal;Romania;1;0;0;0;0;4;1;0;0;17;6;Europe
+2000;United Kingdom;Germany;1;0;0;0;0;4;1;0;0;17;6;Europe
+2000;Romania;United Kingdom;1;0;0;0;0;4;3;2;0;20;6;Europe
+2000;Portugal;Germany;1;0;0;0;0;4;3;0;0;20;6;Europe
+2000;Belgium;Sweden;1;0;0;0;0;4;2;1;0;10;6;Europe
+2000;Italy;Turkey;1;0;0;0;0;4;2;1;0;11;6;Europe
+2000;Italy;Belgium;1;0;0;0;0;4;2;0;0;14;6;Europe
+2000;Sweden;Turkey;1;0;0;0;0;4;0;0;0;15;6;Europe
+2000;Turkey;Belgium;1;0;0;0;0;4;2;0;0;19;6;Europe
+2000;Italy;Sweden;1;0;0;0;0;4;2;1;0;19;6;Europe
+2000;Norway;Spain;1;0;0;0;0;4;1;0;0;13;6;Europe
+2000;Yugoslavia;Slovenia;1;0;0;0;0;4;3;3;0;13;6;Europe
+2000;Spain;Slovenia;1;0;0;0;0;4;2;1;0;18;6;Europe
+2000;Yugoslavia;Norway;1;0;0;0;0;4;1;0;0;18;6;Europe
+2000;Spain;Yugoslavia;1;0;0;0;0;4;4;3;0;21;6;Europe
+2000;Slovenia;Norway;1;0;0;0;0;4;0;0;0;21;6;Europe
+2000;France;Denmark;1;0;0;0;0;4;3;0;0;11;6;Europe
+2000;Netherlands;Czech Republic;1;0;0;0;0;4;1;0;0;11;6;Europe
+2000;France;Czech Republic;1;0;0;0;0;4;2;1;0;16;6;Europe
+2000;Netherlands;Denmark;1;0;0;0;0;4;3;0;0;16;6;Europe
+2000;Czech Republic;Denmark;1;0;0;0;0;4;2;0;0;21;6;Europe
+2000;Netherlands;France;1;0;0;0;0;4;3;2;0;21;6;Europe
+2000;Portugal;Turkey;0;1;0;0;0;4;2;0;0;24;6;Europe
+2000;Italy;Romania;0;1;0;0;0;4;2;0;0;24;6;Europe
+2000;France;Spain;0;1;0;0;0;4;2;1;0;25;6;Europe
+2000;Netherlands;Yugoslavia;0;1;0;0;0;4;6;1;0;25;6;Europe
+2000;France;Portugal;0;0;1;0;0;4;2;1;0;28;6;Europe
+2000;Italy;Netherlands;0;0;1;0;0;4;3;1;1;29;6;Europe
+2000;France;Italy;0;0;0;1;0;4;2;1;0;2;7;Europe
+2004;Greece;Portugal;1;0;0;0;0;4;2;1;0;12;6;Europe
+2004;Spain;Russia;1;0;0;0;0;4;1;0;0;12;6;Europe
+2004;Greece;Spain;1;0;0;0;0;4;1;1;0;16;6;Europe
+2004;Portugal;Russia;1;0;0;0;0;4;2;0;0;16;6;Europe
+2004;Portugal;Spain;1;0;0;0;0;4;1;0;0;20;6;Europe
+2004;Russia;Greece;1;0;0;0;0;4;2;1;0;20;6;Europe
+2004;Switzerland;Croatia;1;0;0;0;0;4;0;0;0;13;6;Europe
+2004;France;United Kingdom;1;0;0;0;0;4;2;1;0;13;6;Europe
+2004;United Kingdom;Switzerland;1;0;0;0;0;4;3;0;0;17;6;Europe
+2004;Croatia;France;1;0;0;0;0;4;2;2;0;17;6;Europe
+2004;United Kingdom;Croatia;1;0;0;0;0;4;4;2;0;21;6;Europe
+2004;France;Switzerland;1;0;0;0;0;4;3;1;0;21;6;Europe
+2004;Denmark;Italy;1;0;0;0;0;4;0;0;0;14;6;Europe
+2004;Sweden;Bulgaria;1;0;0;0;0;4;5;0;0;14;6;Europe
+2004;Denmark;Bulgaria;1;0;0;0;0;4;2;0;0;18;6;Europe
+2004;Italy;Sweden;1;0;0;0;0;4;1;1;0;18;6;Europe
+2004;Italy;Bulgaria;1;0;0;0;0;4;2;1;0;22;6;Europe
+2004;Denmark;Sweden;1;0;0;0;0;4;2;2;0;22;6;Europe
+2004;Czech Republic;Latvia;1;0;0;0;0;4;2;1;0;15;6;Europe
+2004;Germany;Netherlands;1;0;0;0;0;4;1;1;0;15;6;Europe
+2004;Latvia;Germany;1;0;0;0;0;4;0;0;0;19;6;Europe
+2004;Czech Republic;Netherlands;1;0;0;0;0;4;3;2;0;19;6;Europe
+2004;Netherlands;Latvia;1;0;0;0;0;4;3;0;0;23;6;Europe
+2004;Czech Republic;Germany;1;0;0;0;0;4;2;1;0;23;6;Europe
+2004;Portugal;United Kingdom;0;1;0;0;0;4;6;5;1;24;6;Europe
+2004;Greece;France;0;1;0;0;0;4;1;0;0;25;6;Europe
+2004;Netherlands;Sweden;0;1;0;0;0;4;5;4;1;26;6;Europe
+2004;Czech Republic;Denmark;0;1;0;0;0;4;3;0;0;27;6;Europe
+2004;Portugal;Netherlands;0;0;1;0;0;4;2;1;0;30;6;Europe
+2004;Greece;Czech Republic;0;0;1;0;0;4;1;0;0;1;7;Europe
+2008;Czech Republic;Switzerland;1;0;0;0;0;4;1;0;0;7;6;Europe
+2008;Portugal;Turkey;1;0;0;0;0;4;2;0;0;7;6;Europe
+2008;Portugal;Czech Republic;1;0;0;0;0;4;3;1;0;11;6;Europe
+2008;Turkey;Switzerland;1;0;0;0;0;4;2;1;0;11;6;Europe
+2008;Switzerland;Portugal;1;0;0;0;0;4;2;0;0;15;6;Europe
+2008;Turkey;Czech Republic;1;0;0;0;0;4;3;2;0;15;6;Europe
+2008;Croatia;Austria;1;0;0;0;0;4;1;0;0;8;6;Europe
+2008;Germany;Poland;1;0;0;0;0;4;2;0;0;8;6;Europe
+2008;Croatia;Germany;1;0;0;0;0;4;2;1;0;12;6;Europe
+2008;Austria;Poland;1;0;0;0;0;4;1;1;0;12;6;Europe
+2008;Croatia;Poland;1;0;0;0;0;4;1;0;0;16;6;Europe
+2008;Germany;Austria;1;0;0;0;0;4;1;0;0;16;6;Europe
+2008;Romania;France;1;0;0;0;0;4;0;0;0;9;6;Europe
+2008;Netherlands;Italy;1;0;0;0;0;4;3;0;0;9;6;Europe
+2008;Italy;Romania;1;0;0;0;0;4;1;1;0;13;6;Europe
+2008;Netherlands;France;1;0;0;0;0;4;4;1;0;13;6;Europe
+2008;Netherlands;Romania;1;0;0;0;0;4;2;0;0;17;6;Europe
+2008;Italy;France;1;0;0;0;0;4;2;0;0;17;6;Europe
+2008;Spain;Russia;1;0;0;0;0;4;4;1;0;10;6;Europe
+2008;Sweden;Greece;1;0;0;0;0;4;2;0;0;10;6;Europe
+2008;Spain;Sweden;1;0;0;0;0;4;2;1;0;14;6;Europe
+2008;Russia;Greece;1;0;0;0;0;4;1;0;0;14;6;Europe
+2008;Spain;Greece;1;0;0;0;0;4;2;1;0;18;6;Europe
+2008;Russia;Sweden;1;0;0;0;0;4;2;0;0;18;6;Europe
+2008;Germany;Portugal;0;1;0;0;0;4;3;2;0;19;6;Europe
+2008;Turkey;Croatia;0;1;0;0;0;4;3;1;1;20;6;Europe
+2008;Russia;Netherlands;0;1;0;0;0;4;3;1;0;21;6;Europe
+2008;Spain;Italy;0;1;0;0;0;4;4;2;1;22;6;Europe
+2008;Germany;Turkey;0;0;1;0;0;4;3;2;0;25;6;Europe
+2008;Spain;Russia;0;0;1;0;0;4;3;0;0;26;6;Europe
+2008;Spain;Germany;0;0;0;1;0;4;1;0;0;29;6;Europe
+2012;Poland;Greece;1;0;0;0;0;4;1;1;0;8;6;Europe
+2012;Russia;Czech Republic;1;0;0;0;0;4;4;1;0;8;6;Europe
+2012;Czech Republic;Greece;1;0;0;0;0;4;2;1;0;12;6;Europe
+2012;Poland;Russia;1;0;0;0;0;4;1;1;0;12;6;Europe
+2012;Czech Republic;Poland;1;0;0;0;0;4;1;0;0;16;6;Europe
+2012;Greece;Russia;1;0;0;0;0;4;1;0;0;16;6;Europe
+2012;Denmark;Netherlands;1;0;0;0;0;4;1;0;0;9;6;Europe
+2012;Germany;Portugal;1;0;0;0;0;4;1;0;0;9;6;Europe
+2012;Portugal;Denmark;1;0;0;0;0;4;3;2;0;13;6;Europe
+2012;Germany;Netherlands;1;0;0;0;0;4;2;1;0;13;6;Europe
+2012;Portugal;Netherlands;1;0;0;0;0;4;2;1;0;17;6;Europe
+2012;Germany;Denmark;1;0;0;0;0;4;2;1;0;17;6;Europe
+2012;Spain;Italy;1;0;0;0;0;4;1;1;0;10;6;Europe
+2012;Croatia;Ireland;1;0;0;0;0;4;3;1;0;10;6;Europe
+2012;Italy;Croatia;1;0;0;0;0;4;1;1;0;14;6;Europe
+2012;Spain;Ireland;1;0;0;0;0;4;4;0;0;14;6;Europe
+2012;Spain;Croatia;1;0;0;0;0;4;1;0;0;18;6;Europe
+2012;Italy;Ireland;1;0;0;0;0;4;2;0;0;18;6;Europe
+2012;United Kingdom;France;1;0;0;0;0;4;1;1;0;11;6;Europe
+2012;Ukriaine;Sweden;1;0;0;0;0;4;2;1;0;11;6;Europe
+2012;France;Ukriaine;1;0;0;0;0;4;2;0;0;15;6;Europe
+2012;United Kingdom;Sweden;1;0;0;0;0;4;3;2;0;15;6;Europe
+2012;United Kingdom;Ukriaine;1;0;0;0;0;4;1;0;0;19;6;Europe
+2012;Sweden;France;1;0;0;0;0;4;2;0;0;19;6;Europe
+2012;Portugal;Czech Republic;0;1;0;0;0;4;1;0;0;21;6;Europe
+2012;Spain;France;0;1;0;0;0;4;2;0;0;23;6;Europe
+2012;Germany;Greece;0;1;0;0;0;4;4;2;0;22;6;Europe
+2012;Italy;United Kingdom;0;1;0;0;0;4;4;2;1;24;6;Europe
+2012;Spain;Portugal;0;0;1;0;0;4;4;2;1;27;6;Europe
+2012;Italy;Germany;0;0;1;0;0;4;2;1;0;28;6;Europe
+2012;Spain;Italy;0;0;0;1;0;4;4;0;0;1;7;Europe
+2016;Italy;Turkey;1;0;0;0;0;5;3;0;0;11;6;Europe
+2016;Wales;Switzerland;1;0;0;0;0;5;1;1;0;12;6;Europe
+2016;Wales;Turkey;1;0;0;0;0;5;2;0;0;16;6;Europe
+2016;Italy;Switzerland;1;0;0;0;0;5;3;0;0;16;6;Europe
+2016;Switzerland;Turkey;1;0;0;0;0;5;3;1;0;20;6;Europe
+2016;Italy;Wales;1;0;0;0;0;5;1;0;0;20;6;Europe
+2016;Finland;Denmark;1;0;0;0;0;5;1;0;0;12;6;Europe
+2016;Belgium;Russia;1;0;0;0;0;5;3;0;0;12;6;Europe
+2016;Russia;Finland;1;0;0;0;0;5;1;0;0;16;6;Europe
+2016;Belgium;Denmark;1;0;0;0;0;5;2;1;0;17;6;Europe
+2016;Denmark;Russia;1;0;0;0;0;5;4;1;0;21;6;Europe
+2016;Belgium;Finland;1;0;0;0;0;5;2;0;0;21;6;Europe
+2016;Austria;North Macedonia;1;0;0;0;0;5;3;1;0;13;6;Europe
+2016;Netherlands;Ukraine;1;0;0;0;0;5;3;2;0;13;6;Europe
+2016;Ukraine;North Macedonia;1;0;0;0;0;5;2;1;0;17;6;Europe
+2016;Netherlands;Austria;1;0;0;0;0;5;2;0;0;17;6;Europe
+2016;Netherlands;North Macedonia;1;0;0;0;0;5;3;0;0;21;6;Europe
+2016;Austria;Ukraine;1;0;0;0;0;5;1;0;0;21;6;Europe
+2016;United Kingdom;Croatia;1;0;0;0;0;5;1;0;0;13;6;Europe
+2016;Czech Republic;Scotland;1;0;0;0;0;5;2;0;0;14;6;Europe
+2016;Croatia;Czech Republic;1;0;0;0;0;5;1;1;0;18;6;Europe
+2016;United Kingdom;Scotland;1;0;0;0;0;5;0;0;0;18;6;Europe
+2016;Croatia;Scotland;1;0;0;0;0;5;3;1;0;22;6;Europe
+2016;United Kingdom;Czech Republic;1;0;0;0;0;5;1;0;0;22;6;Europe
+2016;Slovakia;Poland;1;0;0;0;0;5;2;1;0;14;6;Europe
+2016;Spain;Sweden;1;0;0;0;0;5;0;0;0;14;6;Europe
+2016;Sweden;Slovakia;1;0;0;0;0;5;1;0;0;18;6;Europe
+2016;Spain;Poland;1;0;0;0;0;5;1;1;0;19;6;Europe
+2016;Spain;Slovakia;1;0;0;0;0;5;5;0;0;23;6;Europe
+2016;Sweden;Poland;1;0;0;0;0;5;3;2;0;23;6;Europe
+2016;Portugal;Hungary;1;0;0;0;0;5;3;0;0;15;6;Europe
+2016;France;Germany;1;0;0;0;0;5;1;0;0;15;6;Europe
+2016;Hungary;France;1;0;0;0;0;5;1;1;0;19;6;Europe
+2016;Germany;Portugal;1;0;0;0;0;5;4;2;0;19;6;Europe
+2016;Portugal;France;1;0;0;0;0;5;2;2;0;23;6;Europe
+2016;Germany;Hungary;1;0;0;0;0;5;2;2;0;23;6;Europe
+2016;Belgium;Portugal;0;1;0;0;0;5;1;0;0;27;6;Europe
+2016;Italy;Austria;0;1;0;0;0;5;2;1;0;26;6;Europe
+2016;Switzerland;France;0;1;0;0;0;5;5;4;1;28;6;Europe
+2016;Spain;Croatia;0;1;0;0;0;5;5;3;0;28;6;Europe
+2016;Ukraine;Sweden;0;1;0;0;0;5;2;1;0;29;6;Europe
+2016;United Kingdom;Germany;0;1;0;0;0;5;2;0;0;29;6;Europe
+2016;Czech Republic;Netherlands;0;1;0;0;0;5;2;0;0;27;6;Europe
+2016;Denmark;Wales;0;1;0;0;0;5;4;0;0;26;6;Europe
+2016;Italy;Belgium;0;0;1;0;0;5;2;1;0;2;7;Europe
+2016;Spain;Switzerland;0;0;1;0;0;5;3;1;1;2;7;Europe
+2016;United Kingdom;Ukraine;0;0;1;0;0;5;4;0;0;3;7;Europe
+2016;Denmark;Czech Republic;0;0;1;0;0;5;2;1;0;3;7;Europe
+2016;Italy;Spain;0;0;0;1;0;5;4;2;1;6;7;Europe
+2016;United Kingdom;Denmark;0;0;0;1;0;5;2;1;0;7;7;Europe
+2016;Italy;United Kingdom;0;0;0;0;1;5;3;2;1;11;7;Europe
+2021;Italy;Turkey;1;0;0;0;0;5;3;0;0;11;6;Europe
+2021;Wales;Switzerland;1;0;0;0;0;5;1;1;0;12;6;Europe
+2021;Wales;Turkey;1;0;0;0;0;5;2;0;0;16;6;Europe
+2021;Italy;Switzerland;1;0;0;0;0;5;3;0;0;16;6;Europe
+2021;Switzerland;Turkey;1;0;0;0;0;5;3;1;0;20;6;Europe
+2021;Italy;Wales;1;0;0;0;0;5;1;0;0;20;6;Europe
+2021;Finland;Denmark;1;0;0;0;0;5;1;0;0;12;6;Europe
+2021;Belgium;Russia;1;0;0;0;0;5;3;0;0;12;6;Europe
+2021;Russia;Finland;1;0;0;0;0;5;1;0;0;16;6;Europe
+2021;Belgium;Denmark;1;0;0;0;0;5;2;1;0;17;6;Europe
+2021;Denmark;Russia;1;0;0;0;0;5;4;1;0;21;6;Europe
+2021;Belgium;Finland;1;0;0;0;0;5;2;0;0;21;6;Europe
+2021;Austria;North Macedonia;1;0;0;0;0;5;3;1;0;13;6;Europe
+2021;Netherlands;Ukraine;1;0;0;0;0;5;3;2;0;13;6;Europe
+2021;Ukraine;North Macedonia;1;0;0;0;0;5;2;1;0;17;6;Europe
+2021;Netherlands;Austria;1;0;0;0;0;5;2;0;0;17;6;Europe
+2021;Netherlands;North Macedonia;1;0;0;0;0;5;3;0;0;21;6;Europe
+2021;Austria;Ukraine;1;0;0;0;0;5;1;0;0;21;6;Europe
+2021;United Kingdom;Croatia;1;0;0;0;0;5;1;0;0;13;6;Europe
+2021;Czech Republic;Scotland;1;0;0;0;0;5;2;0;0;14;6;Europe
+2021;Croatia;Czech Republic;1;0;0;0;0;5;1;1;0;18;6;Europe
+2021;United Kingdom;Scotland;1;0;0;0;0;5;0;0;0;18;6;Europe
+2021;Croatia;Scotland;1;0;0;0;0;5;3;1;0;22;6;Europe
+2021;United Kingdom;Czech Republic;1;0;0;0;0;5;1;0;0;22;6;Europe
+2021;Slovakia;Poland;1;0;0;0;0;5;2;1;0;14;6;Europe
+2021;Spain;Sweden;1;0;0;0;0;5;0;0;0;14;6;Europe
+2021;Sweden;Slovakia;1;0;0;0;0;5;1;0;0;18;6;Europe
+2021;Spain;Poland;1;0;0;0;0;5;1;1;0;19;6;Europe
+2021;Spain;Slovakia;1;0;0;0;0;5;5;0;0;23;6;Europe
+2021;Sweden;Poland;1;0;0;0;0;5;3;2;0;23;6;Europe
+2021;Portugal;Hungary;1;0;0;0;0;5;3;0;0;15;6;Europe
+2021;France;Germany;1;0;0;0;0;5;1;0;0;15;6;Europe
+2021;Hungary;France;1;0;0;0;0;5;1;1;0;19;6;Europe
+2021;Germany;Portugal;1;0;0;0;0;5;4;2;0;19;6;Europe
+2021;Portugal;France;1;0;0;0;0;5;2;2;0;23;6;Europe
+2021;Germany;Hungary;1;0;0;0;0;5;2;2;0;23;6;Europe
+2021;Belgium;Portugal;0;1;0;0;0;5;1;0;0;27;6;Europe
+2021;Italy;Austria;0;1;0;0;0;5;2;1;0;26;6;Europe
+2021;Switzerland;France;0;1;0;0;0;5;5;4;1;28;6;Europe
+2021;Spain;Croatia;0;1;0;0;0;5;5;3;0;28;6;Europe
+2021;Ukraine;Sweden;0;1;0;0;0;5;2;1;0;29;6;Europe
+2021;United Kingdom;Germany;0;1;0;0;0;5;2;0;0;29;6;Europe
+2021;Czech Republic;Netherlands;0;1;0;0;0;5;2;0;0;27;6;Europe
+2021;Denmark;Wales;0;1;0;0;0;5;4;0;0;26;6;Europe
+2021;Italy;Belgium;0;0;1;0;0;5;2;1;0;2;7;Europe
+2021;Spain;Switzerland;0;0;1;0;0;5;3;1;1;2;7;Europe
+2021;United Kingdom;Ukraine;0;0;1;0;0;5;4;0;0;3;7;Europe
+2021;Denmark;Czech Republic;0;0;1;0;0;5;2;1;0;3;7;Europe
+2021;Italy;Spain;0;0;0;1;0;5;4;2;1;6;7;Europe
+2021;United Kingdom;Denmark;0;0;0;1;0;5;2;1;0;7;7;Europe
+2021;Italy;United Kingdom;0;0;0;0;1;5;3;2;1;11;7;Europe
+1957;Egypt;Sudan;0;1;0;0;0;2;2;1;0;10;2;Africa
+1957;Ethiopia;South Africa;0;1;0;0;0;2;0;0;0;10;2;Africa
+1957;Egypt;Ethiopia;0;0;1;0;0;2;4;0;0;16;2;Africa
+1959;UAE;Ethiopia;0;1;0;0;0;1;4;0;0;22;5;Africa
+1959;Sudan;Ethiopia;0;1;0;0;0;1;1;0;0;25;5;Africa
+1959;UAE;Sudan;0;1;0;0;0;1;2;1;0;29;5;Africa
+1962;Ethiopia;Tunisia;0;1;0;0;0;2;4;2;0;14;1;Africa
+1962;UAE;Uganda;0;1;0;0;0;2;2;1;0;18;1;Africa
+1962;Tunisia;Uganda;0;0;1;0;0;2;3;0;0;20;1;Africa
+1962;Ethiopia;UAE;0;0;1;0;0;2;4;2;0;21;1;Africa
+1963;Ghana;Tunisia;1;0;0;0;0;2;1;1;0;24;11;Africa
+1963;Ghana;Ethiopia;1;0;0;0;0;2;2;0;0;26;11;Africa
+1963;Ethiopia;Tunisia;1;0;0;0;0;2;4;2;0;28;11;Africa
+1963;UAE;Nigeria;1;0;0;0;0;2;6;3;0;24;11;Africa
+1963;UAE;Sudan;1;0;0;0;0;2;2;2;0;26;11;Africa
+1963;Sudan;Nigeria;1;0;0;0;0;2;4;0;0;28;11;Africa
+1963;UAE;Ethiopia;0;1;0;0;0;2;3;0;0;30;11;Africa
+1963;Ghana;Sudan;0;1;0;0;0;2;3;0;0;1;12;Africa
+1965;Tunisia;Ethiopia;1;0;0;0;0;2;4;0;0;12;11;Africa
+1965;Senegal;Tunisia;1;0;0;0;0;2;0;0;0;14;11;Africa
+1965;Senegal;Ethiopia;1;0;0;0;0;2;5;1;0;19;11;Africa
+1965;Ghana;DRC;1;0;0;0;0;2;5;2;0;12;11;Africa
+1965;Ivory Coast;DRC;1;0;0;0;0;2;3;0;0;14;11;Africa
+1965;Ghana;Ivory Coast;1;0;0;0;0;2;4;1;0;19;11;Africa
+1965;Ivory Coast;Senegal;0;1;0;0;0;2;1;0;0;21;11;Africa
+1965;Ghana;Tunisia;0;1;0;0;0;2;3;2;0;21;11;Africa
+1968;Ethiopia;Uganda;1;0;0;0;0;3;2;1;0;12;1;Africa
+1968;Ivory Coast;Algeria;1;0;0;0;0;3;3;0;0;12;1;Africa
+1968;Ethiopia;Ivory Coast;1;0;0;0;0;3;1;0;0;14;1;Africa
+1968;Algeria;Uganda;1;0;0;0;0;3;4;0;0;14;1;Africa
+1968;Ivory Coast;Uganda;1;0;0;0;0;3;2;1;0;16;1;Africa
+1968;Ethiopia;Algeria;1;0;0;0;0;3;3;1;0;16;1;Africa
+1968;Ghana;Senegal;1;0;0;0;0;3;2;2;0;12;1;Africa
+1968;Congo;DRC;1;0;0;0;0;3;3;0;0;12;1;Africa
+1968;Senegal;Congo;1;0;0;0;0;3;2;1;0;14;1;Africa
+1968;Ghana;DRC;1;0;0;0;0;3;2;1;0;14;1;Africa
+1968;DRC;Senegal;1;0;0;0;0;3;2;1;0;16;1;Africa
+1968;Ghana;Congo;1;0;0;0;0;3;3;1;0;16;1;Africa
+1968;DRC;Ethiopia;0;1;0;0;0;3;3;2;0;19;1;Africa
+1968;Ghana;Ivory Coast;0;1;0;0;0;3;4;3;0;19;1;Africa
+1968;Ivory Coast;Ethiopia;0;0;1;0;0;3;1;0;0;21;1;Africa
+1968;DRC;Ghana;0;0;1;0;0;3;1;0;0;21;1;Africa
+1970;Cameroon;Ivory Coast;1;0;0;0;0;3;3;2;0;6;2;Africa
+1970;Sudan;Ethiopia;1;0;0;0;0;3;3;0;0;6;2;Africa
+1970;Cameroon;Ethiopia;1;0;0;0;0;3;3;2;0;8;2;Africa
+1970;Ivory Coast;Sudan;1;0;0;0;0;3;1;0;0;8;2;Africa
+1970;Ivory Coast;Ethiopia;1;0;0;0;0;3;6;1;0;10;2;Africa
+1970;Sudan;Cameroon;1;0;0;0;0;3;2;1;0;10;2;Africa
+1970;Ghana;DRC;1;0;0;0;0;3;2;0;0;7;2;Africa
+1970;UAE;Guinea;1;0;0;0;0;3;4;1;0;7;2;Africa
+1970;DRC;Guinea;1;0;0;0;0;3;2;2;0;9;2;Africa
+1970;UAE;Ghana;1;0;0;0;0;3;1;1;0;9;2;Africa
+1970;Guinea;Ghana;1;0;0;0;0;3;1;1;0;11;2;Africa
+1970;UAE;DRC;1;0;0;0;0;3;1;0;0;11;2;Africa
+1970;Ghana;Ivory Coast;0;1;0;0;0;3;2;1;0;14;2;Africa
+1970;Sudan;UAE;0;1;0;0;0;3;2;1;0;14;2;Africa
+1970;UAE;Ivory Coast;0;0;1;0;0;3;3;1;0;16;2;Africa
+1970;Sudan;Ghana;0;0;1;0;0;3;1;0;0;16;2;Africa
+1972;Cameroon;Kenya;1;0;0;0;0;3;2;1;0;24;2;Africa
+1972;Mali;Togo;1;0;0;0;0;3;3;3;0;24;2;Africa
+1972;Mali;Kenya;1;0;0;0;0;3;1;1;0;26;2;Africa
+1972;Cameroon;Togo;1;0;0;0;0;3;2;0;0;26;2;Africa
+1972;Togo;Kenya;1;0;0;0;0;3;1;1;0;28;2;Africa
+1972;Cameroon;Mali;1;0;0;0;0;3;1;1;0;28;2;Africa
+1972;Congo;Morocco;1;0;0;0;0;3;1;1;0;25;2;Africa
+1972;DRC;Sudan;1;0;0;0;0;3;1;1;0;25;2;Africa
+1972;Morocco;Sudan;1;0;0;0;0;3;1;1;0;27;2;Africa
+1972;DRC;Congo;1;0;0;0;0;3;2;0;0;27;2;Africa
+1972;Morocco;DRC;1;0;0;0;0;3;1;1;0;29;2;Africa
+1972;Congo;Sudan;1;0;0;0;0;3;4;2;0;29;2;Africa
+1972;Congo;Cameroon;0;1;0;0;0;3;1;0;0;2;3;Africa
+1972;Mali;DRC;0;1;0;0;0;3;4;3;0;2;3;Africa
+1972;Cameroon;DRC;0;0;1;0;0;3;5;2;0;4;3;Africa
+1972;Congo;Mali;0;0;1;0;0;3;3;2;0;5;3;Africa
+1974;Egypt;Uganda;1;0;0;0;0;3;2;1;0;1;3;Africa
+1974;Zambia;Ivory Coast;1;0;0;0;0;3;1;0;0;2;3;Africa
+1974;Egypt;Zambia;1;0;0;0;0;3;3;1;0;4;3;Africa
+1974;Ivory Coast;Uganda;1;0;0;0;0;3;2;2;0;4;3;Africa
+1974;Egypt;Ivory Coast;1;0;0;0;0;3;2;0;0;6;3;Africa
+1974;Zambia;Uganda;1;0;0;0;0;3;1;0;0;6;3;Africa
+1974;DRC;Guinea;1;0;0;0;0;3;2;1;0;3;3;Africa
+1974;Congo;Mauritius;1;0;0;0;0;3;2;0;0;3;3;Africa
+1974;Guinea;Mauritius;1;0;0;0;0;3;2;1;0;5;3;Africa
+1974;Congo;DRC;1;0;0;0;0;3;2;1;0;5;3;Africa
+1974;Congo;Guinea;1;0;0;0;0;3;1;1;0;7;3;Africa
+1974;DRC;Mauritius;1;0;0;0;0;3;4;1;0;7;3;Africa
+1974;DRC;Egypt;0;1;0;0;0;3;3;2;0;9;3;Africa
+1974;Zambia;Congo;0;1;0;0;0;3;4;2;0;9;3;Africa
+1974;Egypt;Congo;0;0;1;0;0;3;4;0;0;11;3;Africa
+1974;DRC;Zambia;0;0;1;0;0;3;2;0;1;12;3;Africa
+1976;Ethiopia;Uganda;1;0;0;0;0;2;2;0;0;29;2;Africa
+1976;Egypt;Guinea;1;0;0;0;0;2;1;1;0;29;2;Africa
+1976;Egypt;Uganda;1;0;0;0;0;2;2;1;0;3;3;Africa
+1976;Guinea;Ethiopia;1;0;0;0;0;2;2;1;0;3;3;Africa
+1976;Guinea;Uganda;1;0;0;0;0;2;2;1;0;5;3;Africa
+1976;Ethiopia;Egypt;1;0;0;0;0;2;1;1;0;5;3;Africa
+1976;Nigeria;DRC;1;0;0;0;0;2;4;2;0;1;3;Africa
+1976;Morocco;Sudan;1;0;0;0;0;2;2;2;0;1;3;Africa
+1976;Nigeria;Sudan;1;0;0;0;0;2;1;0;0;4;3;Africa
+1976;Morocco;DRC;1;0;0;0;0;2;1;0;0;4;3;Africa
+1976;Morocco;Nigeria;1;0;0;0;0;2;3;1;0;6;3;Africa
+1976;DRC;Sudan;1;0;0;0;0;2;1;1;0;6;3;Africa
+1976;Guinea;Nigeria;0;1;0;0;0;2;1;1;0;9;3;Africa
+1976;Morocco;Egypt;0;1;0;0;0;2;2;1;0;9;3;Africa
+1976;Morocco;Nigeria;0;1;0;0;0;2;2;1;0;11;3;Africa
+1976;Guinea;Egypt;0;1;0;0;0;2;4;2;0;11;3;Africa
+1976;Nigeria;Egypt;0;1;0;0;0;2;3;2;0;14;3;Africa
+1976;Guinea;Morocco;0;1;0;0;0;2;1;1;0;14;3;Africa
+1978;Ghana;Zambia;1;0;0;0;0;3;2;1;0;5;3;Africa
+1978;Nigeria;Upper Volta;1;0;0;0;0;3;4;2;0;5;3;Africa
+1978;Zambia;Upper Volta;1;0;0;0;0;3;2;0;0;8;3;Africa
+1978;Nigeria;Ghana;1;0;0;0;0;3;1;1;0;8;3;Africa
+1978;Zambia;Nigeria;1;0;0;0;0;3;0;0;0;10;3;Africa
+1978;Ghana;Upper Volta;1;0;0;0;0;3;3;0;0;10;3;Africa
+1978;Morocco;Tunisia;1;0;0;0;0;3;1;1;0;6;3;Africa
+1978;Uganda;Congo;1;0;0;0;0;3;3;1;0;6;3;Africa
+1978;Tunisia;Uganda;1;0;0;0;0;3;3;1;0;9;3;Africa
+1978;Morocco;Congo;1;0;0;0;0;3;1;0;0;9;3;Africa
+1978;Congo;Tunisia;1;0;0;0;0;3;0;0;0;11;3;Africa
+1978;Uganda;Morocco;1;0;0;0;0;3;3;0;0;11;3;Africa
+1978;Ghana;Tunisia;0;1;0;0;0;3;1;0;0;14;3;Africa
+1978;Uganda;Nigeria;0;1;0;0;0;3;2;1;0;14;3;Africa
+1978;Nigeria;Tunisia;0;0;1;0;0;3;2;0;0;16;3;Africa
+1978;Ghana;Uganda;0;0;1;0;0;3;2;0;0;16;3;Africa
+1980;Nigeria;Tanzania;1;0;0;0;0;3;3;1;0;8;3;Africa
+1980;Egypt;Ivory Coast;1;0;0;0;0;3;2;1;0;8;3;Africa
+1980;Egypt;Tanzania;1;0;0;0;0;3;2;1;0;12;3;Africa
+1980;Nigeria;Ivory Coast;1;0;0;0;0;3;0;0;0;12;3;Africa
+1980;Ivory Coast;Tanzania;1;0;0;0;0;3;1;1;0;15;3;Africa
+1980;Nigeria;Egypt;1;0;0;0;0;3;1;0;0;15;3;Africa
+1980;Ghana;Algeria;1;0;0;0;0;3;0;0;0;9;3;Africa
+1980;Morocco;Guinea;1;0;0;0;0;3;1;1;0;9;3;Africa
+1980;Algeria;Morocco;1;0;0;0;0;3;1;0;0;13;3;Africa
+1980;Ghana;Guinea;1;0;0;0;0;3;1;0;0;13;3;Africa
+1980;Algeria;Guinea;1;0;0;0;0;3;3;2;0;16;3;Africa
+1980;Morocco;Ghana;1;0;0;0;0;3;1;0;0;16;3;Africa
+1980;Nigeria;Morocco;0;1;0;0;0;3;1;0;0;19;3;Africa
+1980;Algeria;Egypt;0;1;0;0;0;3;4;2;1;19;3;Africa
+1980;Morocco;Egypt;0;0;1;0;0;3;2;0;0;21;3;Africa
+1980;Nigeria;Algeria;0;0;1;0;0;3;3;0;0;22;3;Africa
+1982;Libya;Ghana;1;0;0;0;0;3;2;2;0;5;3;Africa
+1982;Cameroon;Tunisia;1;0;0;0;0;3;1;1;0;5;3;Africa
+1982;Cameroon;Ghana;1;0;0;0;0;3;0;0;0;9;3;Africa
+1982;Libya;Tunisia;1;0;0;0;0;3;2;0;0;9;3;Africa
+1982;Ghana;Tunisia;1;0;0;0;0;3;1;0;0;12;3;Africa
+1982;Libya;Cameroon;1;0;0;0;0;3;0;0;0;12;3;Africa
+1982;Nigeria;Ethiopia;1;0;0;0;0;3;3;0;0;7;3;Africa
+1982;Algeria;Zambia;1;0;0;0;0;3;1;0;0;7;3;Africa
+1982;Zambia;Ethiopia;1;0;0;0;0;3;1;0;0;10;3;Africa
+1982;Algeria;Nigeria;1;0;0;0;0;3;2;1;0;10;3;Africa
+1982;Algeria;Ethiopia;1;0;0;0;0;3;0;0;0;13;3;Africa
+1982;Zambia;Nigeria;1;0;0;0;0;3;3;0;0;13;3;Africa
+1982;Ghana;Algeria;0;1;0;0;0;3;3;2;0;16;3;Africa
+1982;Libya;Zambia;0;1;0;0;0;3;2;1;0;16;3;Africa
+1982;Zambia;Algeria;0;0;1;0;0;3;2;0;0;18;3;Africa
+1982;Ghana;Libya;0;0;1;0;0;3;7;6;1;19;3;Africa
+1984;Ivory Coast;Togo;1;0;0;0;0;3;3;0;0;4;3;Africa
+1984;Egypt;Cameroon;1;0;0;0;0;3;1;0;0;4;3;Africa
+1984;Cameroon;Togo;1;0;0;0;0;3;4;1;0;7;3;Africa
+1984;Egypt;Ivory Coast;1;0;0;0;0;3;2;1;0;7;3;Africa
+1984;Egypt;Togo;1;0;0;0;0;3;0;0;0;10;3;Africa
+1984;Cameroon;Ivory Coast;1;0;0;0;0;3;2;0;0;10;3;Africa
+1984;Nigeria;Ghana;1;0;0;0;0;3;2;1;0;5;3;Africa
+1984;Algeria;Malawi;1;0;0;0;0;3;3;0;0;5;3;Africa
+1984;Malawi;Nigeria;1;0;0;0;0;3;2;2;0;8;3;Africa
+1984;Algeria;Ghana;1;0;0;0;0;3;2;0;0;8;3;Africa
+1984;Algeria;Nigeria;1;0;0;0;0;3;0;0;0;11;3;Africa
+1984;Ghana;Malawi;1;0;0;0;0;3;1;0;0;11;3;Africa
+1984;Nigeria;Egypt;0;1;0;0;0;3;8;7;1;14;3;Africa
+1984;Cameroon;Algeria;0;1;0;0;0;3;5;4;1;14;3;Africa
+1984;Algeria;Egypt;0;0;1;0;0;3;3;1;0;17;3;Africa
+1984;Cameroon;Nigeria;0;0;1;0;0;3;3;1;0;18;3;Africa
+1986;Senegal;Egypt;1;0;0;0;0;3;1;0;0;7;3;Africa
+1986;Ivory Coast;Mozambique;1;0;0;0;0;3;3;0;0;7;3;Africa
+1986;Senegal;Mozambique;1;0;0;0;0;3;2;0;0;10;3;Africa
+1986;Egypt;Ivory Coast;1;0;0;0;0;3;2;0;0;10;3;Africa
+1986;Ivory Coast;Senegal;1;0;0;0;0;3;1;0;0;13;3;Africa
+1986;Egypt;Mozambique;1;0;0;0;0;3;2;0;0;13;3;Africa
+1986;Algeria;Morocco;1;0;0;0;0;3;0;0;0;8;3;Africa
+1986;Cameroon;Zambia;1;0;0;0;0;3;3;2;0;8;3;Africa
+1986;Algeria;Zambia;1;0;0;0;0;3;0;0;0;11;3;Africa
+1986;Cameroon;Morocco;1;0;0;0;0;3;1;1;0;11;3;Africa
+1986;Morocco;Zambia;1;0;0;0;0;3;1;0;0;14;3;Africa
+1986;Cameroon;Algeria;1;0;0;0;0;3;3;2;0;14;3;Africa
+1986;Cameroon;Ivory Coast;0;1;0;0;0;3;1;0;0;17;3;Africa
+1986;Egypt;Morocco;0;1;0;0;0;3;1;0;0;17;3;Africa
+1986;Ivory Coast;Morocco;0;0;1;0;0;3;3;2;0;20;3;Africa
+1986;Egypt;Cameroon;0;0;1;0;0;3;5;4;1;21;3;Africa
+1988;Morocco;DRC;1;0;0;0;0;3;1;1;0;13;3;Africa
+1988;Ivory Coast;Algeria;1;0;0;0;0;3;1;1;0;13;3;Africa
+1988;Ivory Coast;DRC;1;0;0;0;0;3;1;1;0;16;3;Africa
+1988;Morocco;Algeria;1;0;0;0;0;3;1;0;0;16;3;Africa
+1988;Algeria;DRC;1;0;0;0;0;3;1;0;0;19;3;Africa
+1988;Morocco;Ivory Coast;1;0;0;0;0;3;0;0;0;19;3;Africa
+1988;Cameroon;Egypt;1;0;0;0;0;3;1;0;0;14;3;Africa
+1988;Nigeria;Kenya;1;0;0;0;0;3;3;0;0;14;3;Africa
+1988;Cameroon;Nigeria;1;0;0;0;0;3;1;1;0;17;3;Africa
+1988;Egypt;Kenya;1;0;0;0;0;3;3;0;0;17;3;Africa
+1988;Cameroon;Kenya;1;0;0;0;0;3;0;0;0;20;3;Africa
+1988;Nigeria;Egypt;1;0;0;0;0;3;0;0;0;20;3;Africa
+1988;Nigeria;Algeria;0;1;0;0;0;3;9;8;1;23;3;Africa
+1988;Cameroon;Morocco;0;1;0;0;0;3;1;0;0;23;3;Africa
+1988;Algeria;Morocco;0;0;1;0;0;3;4;3;1;26;3;Africa
+1988;Cameroon;Nigeria;0;0;1;0;0;3;1;0;0;27;3;Africa
+1990;Algeria;Nigeria;1;0;0;0;0;3;5;1;0;2;3;Africa
+1990;Ivory Coast;Egypt;1;0;0;0;0;3;3;1;0;2;3;Africa
+1990;Nigeria;Egypt;1;0;0;0;0;3;1;0;0;5;3;Africa
+1990;Algeria;Ivory Coast;1;0;0;0;0;3;3;0;0;5;3;Africa
+1990;Nigeria;Ivory Coast;1;0;0;0;0;3;1;0;0;8;3;Africa
+1990;Algeria;Egypt;1;0;0;0;0;3;2;0;0;8;3;Africa
+1990;Zambia;Cameroon;1;0;0;0;0;3;1;0;0;3;3;Africa
+1990;Senegal;Kenya;1;0;0;0;0;3;0;0;0;3;3;Africa
+1990;Zambia;Kenya;1;0;0;0;0;3;1;0;0;6;3;Africa
+1990;Senegal;Cameroon;1;0;0;0;0;3;2;0;0;6;3;Africa
+1990;Zambia;Senegal;1;0;0;0;0;3;0;0;0;9;3;Africa
+1990;Cameroon;Kenya;1;0;0;0;0;3;2;0;0;9;3;Africa
+1990;Nigeria;Zambia;0;1;0;0;0;3;2;0;0;12;3;Africa
+1990;Algeria;Senegal;0;1;0;0;0;3;2;1;0;12;3;Africa
+1990;Zambia;Senegal;0;0;1;0;0;3;1;0;0;15;3;Africa
+1990;Algeria;Nigeria;0;0;1;0;0;3;1;0;0;16;3;Africa
+1992;Nigeria;Senegal;1;0;0;0;0;4;2;1;0;12;1;Africa
+1992;Nigeria;Kenya;1;0;0;0;0;4;2;1;0;14;1;Africa
+1992;Senegal;Kenya;1;0;0;0;0;4;3;0;0;16;1;Africa
+1992;Cameroon;Morocco;1;0;0;0;0;4;1;0;0;12;1;Africa
+1992;Morocco;DRC;1;0;0;0;0;4;1;1;0;14;1;Africa
+1992;Cameroon;DRC;1;0;0;0;0;4;1;1;0;16;1;Africa
+1992;Ivory Coast;Algeria;1;0;0;0;0;4;3;0;0;13;1;Africa
+1992;Ivory Coast;Congo;1;0;0;0;0;4;0;0;0;15;1;Africa
+1992;Algeria;Congo;1;0;0;0;0;4;1;1;0;17;1;Africa
+1992;Zambia;Egypt;1;0;0;0;0;4;1;0;0;13;1;Africa
+1992;Ghana;Zambia;1;0;0;0;0;4;1;0;0;15;1;Africa
+1992;Ghana;Egypt;1;0;0;0;0;4;1;0;0;17;1;Africa
+1992;Nigeria;DRC;0;1;0;0;0;4;1;0;0;19;1;Africa
+1992;Cameroon;Senegal;0;1;0;0;0;4;1;0;0;19;1;Africa
+1992;Ivory Coast;Zambia;0;1;0;0;0;4;1;0;0;20;1;Africa
+1992;Ghana;Congo;0;1;0;0;0;4;2;1;0;20;1;Africa
+1992;Ghana;Nigeria;0;0;1;0;0;4;2;1;0;23;1;Africa
+1992;Ivory Coast;Cameroon;0;0;1;0;0;4;3;1;1;23;1;Africa
+1992;Nigeria;Cameroon;0;0;0;1;0;4;2;1;0;25;1;Africa
+1992;Ivory Coast;Ghana;0;0;0;1;0;4;11;10;1;26;1;Africa
+1994;Mali;Tunisia;1;0;0;0;0;4;2;0;0;26;3;Africa
+1994;DRC;Mali;1;0;0;0;0;4;1;0;0;28;3;Africa
+1994;Tunisia;DRC;1;0;0;0;0;4;1;1;0;30;3;Africa
+1994;Nigeria;Gabon;1;0;0;0;0;4;3;0;0;26;3;Africa
+1994;Egypt;Gabon;1;0;0;0;0;4;4;0;0;28;3;Africa
+1994;Nigeria;Egypt;1;0;0;0;0;4;0;0;0;30;3;Africa
+1994;Ivory Coast;Sierra Leone;1;0;0;0;0;4;4;0;0;27;3;Africa
+1994;Zambia;Sierra Leone;1;0;0;0;0;4;0;0;0;29;3;Africa
+1994;Zambia;Ivory Coast;1;0;0;0;0;4;1;0;0;31;3;Africa
+1994;Ghana;Guinea;1;0;0;0;0;4;1;0;0;27;3;Africa
+1994;Senegal;Guinea;1;0;0;0;0;4;2;1;0;29;3;Africa
+1994;Ghana;Senegal;1;0;0;0;0;4;1;0;0;31;3;Africa
+1994;Nigeria;DRC;0;1;0;0;0;4;2;0;0;2;4;Africa
+1994;Mali;Egypt;0;1;0;0;0;4;1;0;0;2;4;Africa
+1994;Zambia;Senegal;0;1;0;0;0;4;1;0;0;3;4;Africa
+1994;Ivory Coast;Ghana;0;1;0;0;0;4;2;1;0;3;4;Africa
+1994;Nigeria;Ivory Coast;0;0;1;0;0;4;4;2;1;6;4;Africa
+1994;Zambia;Mali;0;0;1;0;0;4;4;0;0;6;4;Africa
+1994;Ivory Coast;Mali;0;0;0;1;0;4;3;1;0;10;4;Africa
+1994;Nigeria;Zambia;0;0;0;1;0;4;2;1;0;10;4;Africa
+1996;South Africa;Cameroon;1;0;0;0;0;4;3;0;0;13;1;Africa
+1996;Egypt;Angola;1;0;0;0;0;4;2;1;0;15;1;Africa
+1996;Cameroon;Egypt;1;0;0;0;0;4;2;1;0;18;1;Africa
+1996;South Africa;Angola;1;0;0;0;0;4;1;0;0;20;1;Africa
+1996;Egypt;South Africa;1;0;0;0;0;4;1;0;0;24;1;Africa
+1996;Angola;Cameroon;1;0;0;0;0;4;3;3;0;24;1;Africa
+1996;Zambia;Algeria;1;0;0;0;0;4;0;0;0;14;1;Africa
+1996;Sierra Leone;Burkina Faso;1;0;0;0;0;4;2;1;0;15;1;Africa
+1996;Algeria;Sierra Leone;1;0;0;0;0;4;2;0;0;18;1;Africa
+1996;Zambia;Burkina Faso;1;0;0;0;0;4;5;1;0;20;1;Africa
+1996;Algeria;Burkina Faso;1;0;0;0;0;4;2;1;0;24;1;Africa
+1996;Zambia;Sierra Leone;1;0;0;0;0;4;4;0;0;24;1;Africa
+1996;Gabon;Liberia;1;0;0;0;0;4;2;1;0;16;1;Africa
+1996;Gabon;DRC;1;0;0;0;0;4;2;0;0;19;1;Africa
+1996;DRC;Liberia;1;0;0;0;0;4;2;0;0;25;1;Africa
+1996;Ghana;Ivory Coast;1;0;0;0;0;4;2;0;0;14;1;Africa
+1996;Tunisia;Mozambique;1;0;0;0;0;4;1;1;0;16;1;Africa
+1996;Ghana;Tunisia;1;0;0;0;0;4;2;1;0;19;1;Africa
+1996;Ivory Coast;Mozambique;1;0;0;0;0;4;1;0;0;21;1;Africa
+1996;Tunisia;Ivory Coast;1;0;0;0;0;4;3;1;0;25;1;Africa
+1996;Ghana;Mozambique;1;0;0;0;0;4;2;0;0;25;1;Africa
+1996;South Africa;Algeria;0;1;0;0;0;4;2;1;0;27;1;Africa
+1996;Zambia;Egypt;0;1;0;0;0;4;3;1;0;27;1;Africa
+1996;Tunisia;Gabon;0;1;0;0;0;4;4;1;1;28;1;Africa
+1996;Ghana;DRC;0;1;0;0;0;4;1;0;0;28;1;Africa
+1996;South Africa;Ghana;0;0;1;0;0;4;3;0;0;31;1;Africa
+1996;Tunisia;Zambia;0;0;1;0;0;4;4;2;0;31;1;Africa
+1996;Zambia;Ghana;0;0;0;1;0;4;1;0;0;3;2;Africa
+1996;South Africa;Tunisia;0;0;0;1;0;4;2;0;0;3;2;Africa
+1998;Cameroon;Burkina Faso;1;0;0;0;0;4;1;0;0;7;2;Africa
+1998;Guinea;Algeria;1;0;0;0;0;4;1;0;0;8;2;Africa
+1998;Cameroon;Guinea;1;0;0;0;0;4;2;2;0;11;2;Africa
+1998;Burkina Faso;Algeria;1;0;0;0;0;4;2;1;0;11;2;Africa
+1998;Burkina Faso;Guinea;1;0;0;0;0;4;1;0;0;15;2;Africa
+1998;Cameroon;Algeria;1;0;0;0;0;4;2;1;0;15;2;Africa
+1998;DRC;Togo;1;0;0;0;0;4;2;1;0;9;2;Africa
+1998;Ghana;Tunisia;1;0;0;0;0;4;2;0;0;9;2;Africa
+1998;Tunisia;DRC;1;0;0;0;0;4;2;1;0;12;2;Africa
+1998;Togo;Ghana;1;0;0;0;0;4;2;1;0;12;2;Africa
+1998;DRC;Ghana;1;0;0;0;0;4;1;0;0;16;2;Africa
+1998;Tunisia;Togo;1;0;0;0;0;4;3;1;0;16;2;Africa
+1998;South Africa;Angola;1;0;0;0;0;4;0;0;0;8;2;Africa
+1998;Ivory Coast;Namibia;1;0;0;0;0;4;4;3;0;8;2;Africa
+1998;Ivory Coast;South Africa;1;0;0;0;0;4;1;1;0;11;2;Africa
+1998;Angola;Namibia;1;0;0;0;0;4;3;3;0;12;2;Africa
+1998;Ivory Coast;Angola;1;0;0;0;0;4;5;2;0;16;2;Africa
+1998;South Africa;Namibia;1;0;0;0;0;4;4;1;0;16;2;Africa
+1998;Morocco;Zambia;1;0;0;0;0;4;1;1;0;9;2;Africa
+1998;Egypt;Mozambique;1;0;0;0;0;4;2;0;0;10;2;Africa
+1998;Egypt;Zambia;1;0;0;0;0;4;4;0;0;13;2;Africa
+1998;Morocco;Mozambique;1;0;0;0;0;4;3;0;0;13;2;Africa
+1998;Zambia;Mozambique;1;0;0;0;0;4;3;1;0;17;2;Africa
+1998;Morocco;Egypt;1;0;0;0;0;4;1;0;0;17;2;Africa
+1998;DRC;Cameroon;0;1;0;0;0;4;1;0;0;20;2;Africa
+1998;Burkina Faso;Tunisia;0;1;0;0;0;4;8;7;1;21;2;Africa
+1998;Egypt;Ivory Coast;0;1;0;0;0;4;5;4;1;21;2;Africa
+1998;South Africa;Morocco;0;1;0;0;0;4;2;1;0;22;2;Africa
+1998;South Africa;DRC;0;0;1;0;0;4;2;1;0;25;2;Africa
+1998;Egypt;Burkina Faso;0;0;1;0;0;4;2;0;0;25;2;Africa
+1998;DRC;Burkina Faso;0;0;0;1;0;4;4;1;1;27;2;Africa
+1998;Egypt;South Africa;0;0;0;1;0;4;2;0;0;28;2;Africa
+2000;Cameroon;Ghana;1;0;0;0;0;4;1;1;0;22;1;Africa
+2000;Ivory Coast;Togo;1;0;0;0;0;4;1;1;0;24;1;Africa
+2000;Ghana;Togo;1;0;0;0;0;4;2;0;0;27;1;Africa
+2000;Cameroon;Ivory Coast;1;0;0;0;0;4;3;0;0;28;1;Africa
+2000;Ivory Coast;Ghana;1;0;0;0;0;4;2;0;0;31;1;Africa
+2000;Togo;Cameroon;1;0;0;0;0;4;1;0;0;31;1;Africa
+2000;South Africa;Gabon;1;0;0;0;0;4;3;1;0;23;1;Africa
+2000;DRC;Algeria;1;0;0;0;0;4;0;0;0;24;1;Africa
+2000;South Africa;DRC;1;0;0;0;0;4;1;0;0;27;1;Africa
+2000;Algeria;Gabon;1;0;0;0;0;4;3;1;0;29;1;Africa
+2000;South Africa;Algeria;1;0;0;0;0;4;1;1;0;2;2;Africa
+2000;DRC;Gabon;1;0;0;0;0;4;0;0;0;2;2;Africa
+2000;Egypt;Zambia;1;0;0;0;0;4;2;0;0;23;1;Africa
+2000;Senegal;Burkina Faso;1;0;0;0;0;4;3;1;0;25;1;Africa
+2000;Egypt;Senegal;1;0;0;0;0;4;1;0;0;28;1;Africa
+2000;Zambia;Burkina Faso;1;0;0;0;0;4;1;1;0;29;1;Africa
+2000;Egypt;Burkina Faso;1;0;0;0;0;4;4;2;0;2;2;Africa
+2000;Zambia;Senegal;1;0;0;0;0;4;2;2;0;2;2;Africa
+2000;Nigeria;Tunisia;1;0;0;0;0;4;4;2;0;23;1;Africa
+2000;Morocco;Congo;1;0;0;0;0;4;1;0;0;25;1;Africa
+2000;Nigeria;Congo;1;0;0;0;0;4;0;0;0;28;1;Africa
+2000;Tunisia;Morocco;1;0;0;0;0;4;0;0;0;29;1;Africa
+2000;Nigeria;Morocco;1;0;0;0;0;4;2;0;0;3;2;Africa
+2000;Tunisia;Congo;1;0;0;0;0;4;1;0;0;3;2;Africa
+2000;Cameroon;Algeria;0;1;0;0;0;4;2;1;0;6;2;Africa
+2000;South Africa;Ghana;0;1;0;0;0;4;1;0;0;6;2;Africa
+2000;Tunisia;Egypt;0;1;0;0;0;4;1;0;0;7;2;Africa
+2000;Nigeria;Senegal;0;1;0;0;0;4;2;1;0;7;2;Africa
+2000;Nigeria;South Africa;0;0;1;0;0;4;2;0;0;10;2;Africa
+2000;Cameroon;Tunisia;0;0;1;0;0;4;3;0;0;10;2;Africa
+2000;South Africa;Tunisia;0;0;0;1;0;4;4;3;1;12;2;Africa
+2000;Nigeria;Cameroon;0;0;0;1;0;4;4;3;1;13;2;Africa
+2002;Mali;Liberia;1;0;0;0;0;4;1;1;0;19;1;Africa
+2002;Nigeria;Algeria;1;0;0;0;0;4;1;0;0;21;1;Africa
+2002;Mali;Nigeria;1;0;0;0;0;4;0;0;0;24;1;Africa
+2002;Liberia;Algeria;1;0;0;0;0;4;2;2;0;25;1;Africa
+2002;Mali;Algeria;1;0;0;0;0;4;2;0;0;28;1;Africa
+2002;Nigeria;Liberia;1;0;0;0;0;4;1;0;0;28;1;Africa
+2002;South Africa;Burkina Faso;1;0;0;0;0;4;0;0;0;20;1;Africa
+2002;Morocco;Ghana;1;0;0;0;0;4;0;0;0;21;1;Africa
+2002;South Africa;Ghana;1;0;0;0;0;4;0;0;0;24;1;Africa
+2002;Morocco;Burkina Faso;1;0;0;0;0;4;2;1;0;26;1;Africa
+2002;South Africa;Morocco;1;0;0;0;0;4;3;1;0;30;1;Africa
+2002;Ghana;Burkina Faso;1;0;0;0;0;4;2;1;0;30;1;Africa
+2002;Cameroon;DRC;1;0;0;0;0;4;1;0;0;20;1;Africa
+2002;Togo;Ivory Coast;1;0;0;0;0;4;0;0;0;21;1;Africa
+2002;Cameroon;Ivory Coast;1;0;0;0;0;4;1;0;0;25;1;Africa
+2002;DRC;Togo;1;0;0;0;0;4;0;0;0;26;1;Africa
+2002;Cameroon;Togo;1;0;0;0;0;4;3;0;0;29;1;Africa
+2002;DRC;Ivory Coast;1;0;0;0;0;4;3;1;0;29;1;Africa
+2002;Senegal;Egypt;1;0;0;0;0;4;1;0;0;20;1;Africa
+2002;Zambia;Tunisia;1;0;0;0;0;4;0;0;0;21;1;Africa
+2002;Egypt;Tunisia;1;0;0;0;0;4;1;0;0;25;1;Africa
+2002;Senegal;Zambia;1;0;0;0;0;4;1;0;0;26;1;Africa
+2002;Egypt;Zambia;1;0;0;0;0;4;2;1;0;31;1;Africa
+2002;Senegal;Tunisia;1;0;0;0;0;4;0;0;0;31;1;Africa
+2002;Mali;South Africa;0;1;0;0;0;4;2;0;0;3;2;Africa
+2002;Nigeria;Ghana;0;1;0;0;0;4;1;0;0;3;2;Africa
+2002;Cameroon;Egypt;0;1;0;0;0;4;1;0;0;4;2;Africa
+2002;Senegal;DRC;0;1;0;0;0;4;2;0;0;4;2;Africa
+2002;Senegal;Nigeria;0;0;1;0;0;4;2;1;0;7;2;Africa
+2002;Cameroon;Mali;0;0;1;0;0;4;3;0;0;7;2;Africa
+2002;Nigeria;Mali;0;0;0;1;0;4;1;0;0;9;2;Africa
+2002;Cameroon;Senegal;0;0;0;1;0;4;3;2;1;13;2;Africa
+2004;Tunisia;Rwanda;1;0;0;0;0;4;2;1;0;24;1;Africa
+2004;Guinea;DRC;1;0;0;0;0;4;2;1;0;25;1;Africa
+2004;Rwanda;Guinea;1;0;0;0;0;4;1;1;0;28;1;Africa
+2004;Tunisia;DRC;1;0;0;0;0;4;3;0;0;28;1;Africa
+2004;Tunisia;Guinea;1;0;0;0;0;4;1;1;0;1;2;Africa
+2004;Rwanda;DRC;1;0;0;0;0;4;1;0;0;1;2;Africa
+2004;Mali;Kenya;1;0;0;0;0;4;3;1;0;26;1;Africa
+2004;Senegal;Burkina Faso;1;0;0;0;0;4;0;0;0;26;1;Africa
+2004;Senegal;Kenya;1;0;0;0;0;4;3;0;0;30;1;Africa
+2004;Mali;Burkina Faso;1;0;0;0;0;4;3;1;0;30;1;Africa
+2004;Senegal;Mali;1;0;0;0;0;4;1;1;0;2;2;Africa
+2004;Kenya;Burkina Faso;1;0;0;0;0;4;3;0;0;2;2;Africa
+2004;Egypt;Zimbabwe;1;0;0;0;0;4;2;1;0;25;1;Africa
+2004;Cameroon;Algeria;1;0;0;0;0;4;1;1;0;25;1;Africa
+2004;Cameroon;Zimbabwe;1;0;0;0;0;4;5;3;0;29;1;Africa
+2004;Algeria;Egypt;1;0;0;0;0;4;2;1;0;29;1;Africa
+2004;Cameroon;Egypt;1;0;0;0;0;4;0;0;0;3;2;Africa
+2004;Zimbabwe;Algeria;1;0;0;0;0;4;2;1;0;3;2;Africa
+2004;Morocco;Nigeria;1;0;0;0;0;4;1;0;0;27;1;Africa
+2004;South Africa;Benin;1;0;0;0;0;4;2;0;0;27;1;Africa
+2004;Nigeria;South Africa;1;0;0;0;0;4;4;0;0;31;1;Africa
+2004;Morocco;Benin;1;0;0;0;0;4;4;0;0;31;1;Africa
+2004;Morocco;South Africa;1;0;0;0;0;4;1;1;0;4;2;Africa
+2004;Nigeria;Benin;1;0;0;0;0;4;2;1;0;4;2;Africa
+2004;Mali;Guinea;0;1;0;0;0;4;2;1;0;7;2;Africa
+2004;Tunisia;Senegal;0;1;0;0;0;4;1;0;0;7;2;Africa
+2004;Nigeria;Cameroon;0;1;0;0;0;4;2;1;0;8;2;Africa
+2004;Morocco;Algeria;0;1;0;0;0;4;3;1;0;8;2;Africa
+2004;Tunisia;Nigeria;0;0;1;0;0;4;5;3;1;11;2;Africa
+2004;Morocco;Mali;0;0;1;0;0;4;4;0;0;11;2;Africa
+2004;Nigeria;Mali;0;0;0;1;0;4;2;1;0;13;2;Africa
+2004;Tunisia;Morocco;0;0;0;1;0;4;2;1;0;14;2;Africa
+2006;Egypt;Libya;1;0;0;0;0;4;3;0;0;21;1;Africa
+2006;Ivory Coast;Morocco;1;0;0;0;0;4;1;0;0;21;1;Africa
+2006;Ivory Coast;Libya;1;0;0;0;0;4;2;1;0;24;1;Africa
+2006;Egypt;Morocco;1;0;0;0;0;4;0;0;0;24;1;Africa
+2006;Egypt;Ivory Coast;1;0;0;0;0;4;3;1;0;28;1;Africa
+2006;Libya;Morocco;1;0;0;0;0;4;0;0;0;28;1;Africa
+2006;Cameroon;Angola;1;0;0;0;0;4;3;1;0;21;1;Africa
+2006;DRC;Togo;1;0;0;0;0;4;2;0;0;21;1;Africa
+2006;Angola;DRC;1;0;0;0;0;4;0;0;0;25;1;Africa
+2006;Cameroon;Togo;1;0;0;0;0;4;2;0;0;25;1;Africa
+2006;Angola;Togo;1;0;0;0;0;4;3;2;0;29;1;Africa
+2006;Cameroon;DRC;1;0;0;0;0;4;2;0;0;29;1;Africa
+2006;Tunisia;Zambia;1;0;0;0;0;4;4;1;0;22;1;Africa
+2006;Guinea;South Africa;1;0;0;0;0;4;2;0;0;22;1;Africa
+2006;Guinea;Zambia;1;0;0;0;0;4;2;1;0;26;1;Africa
+2006;Tunisia;South Africa;1;0;0;0;0;4;2;0;0;26;1;Africa
+2006;Guinea;Tunisia;1;0;0;0;0;4;3;0;0;30;1;Africa
+2006;Zambia;South Africa;1;0;0;0;0;4;1;0;0;30;1;Africa
+2006;Nigeria;Ghana;1;0;0;0;0;4;1;0;0;23;1;Africa
+2006;Senegal;Zimbabwe;1;0;0;0;0;4;2;0;0;23;1;Africa
+2006;Ghana;Senegal;1;0;0;0;0;4;1;0;0;27;1;Africa
+2006;Nigeria;Zimbabwe;1;0;0;0;0;4;2;0;0;27;1;Africa
+2006;Nigeria;Senegal;1;0;0;0;0;4;2;1;0;31;1;Africa
+2006;Zimbabwe;Ghana;1;0;0;0;0;4;2;1;0;31;1;Africa
+2006;Senegal;Guinea;0;1;0;0;0;4;3;2;0;3;2;Africa
+2006;Egypt;DRC;0;1;0;0;0;4;4;1;0;3;2;Africa
+2006;Nigeria;Tunisia;0;1;0;0;0;4;6;5;1;4;2;Africa
+2006;Ivory Coast;Cameroon;0;1;0;0;0;4;12;11;1;4;2;Africa
+2006;Egypt;Senegal;0;0;1;0;0;4;2;1;0;7;2;Africa
+2006;Ivory Coast;Nigeria;0;0;1;0;0;4;1;0;0;7;2;Africa
+2006;Nigeria;Senegal;0;0;0;1;0;4;1;0;0;9;2;Africa
+2006;Egypt;Ivory Coast;0;0;0;1;0;4;4;2;1;10;2;Africa
+2008;Ghana;Guinea;1;0;0;0;0;4;2;1;0;21;1;Africa
+2008;Morocco;Namibia;1;0;0;0;0;4;5;1;0;21;1;Africa
+2008;Guinea;Morocco;1;0;0;0;0;4;3;2;0;25;1;Africa
+2008;Ghana;Namibia;1;0;0;0;0;4;1;0;0;25;1;Africa
+2008;Ghana;Morocco;1;0;0;0;0;4;2;0;0;29;1;Africa
+2008;Guinea;Namibia;1;0;0;0;0;4;1;1;0;29;1;Africa
+2008;Ivory Coast;Nigeria;1;0;0;0;0;4;1;0;0;22;1;Africa
+2008;Mali;Benin;1;0;0;0;0;4;1;0;0;22;1;Africa
+2008;Ivory Coast;Benin;1;0;0;0;0;4;4;1;0;26;1;Africa
+2008;Nigeria;Mali;1;0;0;0;0;4;0;0;0;26;1;Africa
+2008;Nigeria;Benin;1;0;0;0;0;4;2;0;0;30;1;Africa
+2008;Ivory Coast;Mali;1;0;0;0;0;4;3;0;0;30;1;Africa
+2008;Egypt;Cameroon;1;0;0;0;0;4;4;2;0;22;1;Africa
+2008;Zambia;Suadn;1;0;0;0;0;4;3;0;0;22;1;Africa
+2008;Cameroon;Zambia;1;0;0;0;0;4;5;1;0;26;1;Africa
+2008;Egypt;Suadn;1;0;0;0;0;4;3;0;0;26;1;Africa
+2008;Cameroon;Suadn;1;0;0;0;0;4;3;0;0;30;1;Africa
+2008;Egypt;Zambia;1;0;0;0;0;4;1;1;0;30;1;Africa
+2008;Tunisia;Senegal;1;0;0;0;0;4;2;2;0;23;1;Africa
+2008;South Africa;Angola;1;0;0;0;0;4;1;1;0;23;1;Africa
+2008;Angola;Senegal;1;0;0;0;0;4;3;1;0;27;1;Africa
+2008;Tunisia;South Africa;1;0;0;0;0;4;3;1;0;27;1;Africa
+2008;Senegal;South Africa;1;0;0;0;0;4;1;1;0;31;1;Africa
+2008;Tunisia;Angola;1;0;0;0;0;4;0;0;0;31;1;Africa
+2008;Ghana;Nigeria;0;1;0;0;0;4;2;1;0;3;2;Africa
+2008;Ivory Coast;Guinea;0;1;0;0;0;4;5;0;0;3;2;Africa
+2008;Egypt;Angola;0;1;0;0;0;4;2;1;0;4;2;Africa
+2008;Cameroon;Tunisia;0;1;0;0;0;4;3;2;0;4;2;Africa
+2008;Cameroon;Ghana;0;0;1;0;0;4;1;0;0;7;2;Africa
+2008;Egypt;Ivory Coast;0;0;1;0;0;4;4;1;0;7;2;Africa
+2008;Ghana;Ivory Coast;0;0;0;1;0;4;4;2;0;9;2;Africa
+2008;Egypt;Cameroon;0;0;0;1;0;4;1;0;0;10;2;Africa
+2010;Angola;Mali;1;0;0;0;0;4;4;4;0;10;1;Africa
+2010;Malawi;Algeria;1;0;0;0;0;4;3;0;0;11;1;Africa
+2010;Algeria;Mali;1;0;0;0;0;4;1;0;0;14;1;Africa
+2010;Angola;Malawi;1;0;0;0;0;4;2;0;0;14;1;Africa
+2010;Angola;Algeria;1;0;0;0;0;4;0;0;0;18;1;Africa
+2010;Mali;Malawi;1;0;0;0;0;4;3;1;0;18;1;Africa
+2010;Ivory Coast;Burkina Faso;1;0;0;0;0;4;0;0;0;11;1;Africa
+2010;Ghana;Togo;1;0;0;0;0;4;NA;NA;0;11;1;Africa
+2010;Burkina Faso;Togo;1;0;0;0;0;4;NA;NA;0;15;1;Africa
+2010;Ivory Coast;Ghana;1;0;0;0;0;4;3;1;0;16;1;Africa
+2010;Ghana;Burkina Faso;1;0;0;0;0;4;1;0;0;19;1;Africa
+2010;Ivory Coast;Togo;1;0;0;0;0;4;NA;NA;0;19;1;Africa
+2010;Egypt;Nigeria;1;0;0;0;0;4;3;1;0;12;1;Africa
+2010;Mozambique;Benin;1;0;0;0;0;4;2;2;0;12;1;Africa
+2010;Nigeria;Benin;1;0;0;0;0;4;1;0;0;16;1;Africa
+2010;Egypt;Mozambique;1;0;0;0;0;4;2;0;0;16;1;Africa
+2010;Egypt;Benin;1;0;0;0;0;4;2;0;0;20;1;Africa
+2010;Nigeria;Mozambique;1;0;0;0;0;4;3;0;0;20;1;Africa
+2010;Gabon;Cameroon;1;0;0;0;0;4;1;0;0;13;1;Africa
+2010;Zambia;Tunisia;1;0;0;0;0;4;1;1;0;13;1;Africa
+2010;Gabon;Tunisia;1;0;0;0;0;4;0;0;0;17;1;Africa
+2010;Cameroon;Zambia;1;0;0;0;0;4;3;2;0;17;1;Africa
+2010;Zambia;Gabon;1;0;0;0;0;4;2;1;0;21;1;Africa
+2010;Cameroon;Tunisia;1;0;0;0;0;4;2;2;0;21;1;Africa
+2010;Ghana;Angola;0;1;0;0;0;4;1;0;0;24;1;Africa
+2010;Nigeria;Zambia;0;1;0;0;0;4;5;4;1;25;1;Africa
+2010;Algeria;Ivory Coast;0;1;0;0;0;4;3;2;0;24;1;Africa
+2010;Egypt;Cameroon;0;1;0;0;0;4;3;1;0;25;1;Africa
+2010;Ghana;Nigeria;0;0;1;0;0;4;1;0;0;28;1;Africa
+2010;Egypt;Algeria;0;0;1;0;0;4;4;0;0;28;1;Africa
+2010;Egypt;Ghana;0;0;0;1;0;4;1;0;0;31;1;Africa
+2010;Nigeria;Algeria;0;0;0;1;0;4;1;0;0;30;1;Africa
+2012;Equatorial Guinea;Libya;1;0;0;0;0;4;1;0;0;21;1;Africa
+2012;Zambia;Senegal;1;0;0;0;0;4;2;1;0;21;1;Africa
+2012;Libya;Zambia;1;0;0;0;0;4;2;2;0;25;1;Africa
+2012;Equatorial Guinea;Senegal;1;0;0;0;0;4;2;1;0;25;1;Africa
+2012;Zambia;Equatorial Guinea;1;0;0;0;0;4;1;0;0;29;1;Africa
+2012;Libya;Senegal;1;0;0;0;0;4;2;1;0;29;1;Africa
+2012;Ivory Coast;Sudan;1;0;0;0;0;4;1;0;0;22;1;Africa
+2012;Angola;Burkina Faso;1;0;0;0;0;4;2;1;0;22;1;Africa
+2012;Sudan;Angola;1;0;0;0;0;4;2;2;0;26;1;Africa
+2012;Ivory Coast;Burkina Faso;1;0;0;0;0;4;2;0;0;26;1;Africa
+2012;Sudan;Burkina Faso;1;0;0;0;0;4;2;1;0;30;1;Africa
+2012;Ivory Coast;Angola;1;0;0;0;0;4;2;0;0;30;1;Africa
+2012;Gabon;Niger;1;0;0;0;0;4;2;0;0;23;1;Africa
+2012;Tunisia;Morocco;1;0;0;0;0;4;2;1;0;23;1;Africa
+2012;Tunisia;Niger;1;0;0;0;0;4;2;1;0;27;1;Africa
+2012;Gabon;Morocco;1;0;0;0;0;4;3;2;0;27;1;Africa
+2012;Gabon;Tunisia;1;0;0;0;0;4;1;0;0;31;1;Africa
+2012;Morocco;Niger;1;0;0;0;0;4;1;0;0;31;1;Africa
+2012;Ghana;Botswana;1;0;0;0;0;4;1;0;0;24;1;Africa
+2012;Mali;Guinea;1;0;0;0;0;4;1;0;0;24;1;Africa
+2012;Guinea;Botswana;1;0;0;0;0;4;6;1;0;28;1;Africa
+2012;Ghana;Mali;1;0;0;0;0;4;2;0;0;28;1;Africa
+2012;Mali;Botswana;1;0;0;0;0;4;2;1;0;1;2;Africa
+2012;Ghana;Guinea;1;0;0;0;0;4;1;1;0;1;2;Africa
+2012;Zambia;Sudan;0;1;0;0;0;4;3;0;0;4;2;Africa
+2012;Ghana;Tunisia;0;1;0;0;0;4;2;1;0;5;2;Africa
+2012;Mali;Gabon;0;1;0;0;0;4;5;4;1;5;2;Africa
+2012;Ivory Coast;Equatorial Guinea;0;1;0;0;0;4;3;0;0;4;2;Africa
+2012;Zambia;Ghana;0;0;1;0;0;4;1;0;0;8;2;Africa
+2012;Ivory Coast;Mali;0;0;1;0;0;4;1;0;0;8;2;Africa
+2012;Mali;Ghana;0;0;0;1;0;4;2;0;0;11;2;Africa
+2012;Zambia;Ivory Coast;0;0;0;1;0;4;8;7;1;12;2;Africa
+2013;South Africa;Cape Verde;1;0;0;0;0;4;0;0;0;19;1;Africa
+2013;Angola;Morocco;1;0;0;0;0;4;0;0;0;19;1;Africa
+2013;South Africa;Angola;1;0;0;0;0;4;2;0;0;23;1;Africa
+2013;Cape Verde;Morocco;1;0;0;0;0;4;1;1;0;23;1;Africa
+2013;Morocco;South Africa;1;0;0;0;0;4;2;2;0;27;1;Africa
+2013;Cape Verde;Angola;1;0;0;0;0;4;2;1;0;27;1;Africa
+2013;Ghana;DRC;1;0;0;0;0;4;2;2;0;20;1;Africa
+2013;Mali;Niger;1;0;0;0;0;4;1;0;0;20;1;Africa
+2013;Ghana;Mali;1;0;0;0;0;4;1;0;0;24;1;Africa
+2013;Niger;DRC;1;0;0;0;0;4;0;0;0;24;1;Africa
+2013;Ghana;Niger;1;0;0;0;0;4;3;0;0;28;1;Africa
+2013;DRC;Mali;1;0;0;0;0;4;1;1;0;28;1;Africa
+2013;Zambia;Ethiopia;1;0;0;0;0;4;1;1;0;21;1;Africa
+2013;Nigeria;Burkina Faso;1;0;0;0;0;4;1;1;0;21;1;Africa
+2013;Zambia;Nigeria;1;0;0;0;0;4;1;1;0;25;1;Africa
+2013;Burkina Faso;Ethiopia;1;0;0;0;0;4;4;0;0;25;1;Africa
+2013;Burkina Faso;Zambia;1;0;0;0;0;4;0;0;0;29;1;Africa
+2013;Nigeria;Ethiopia;1;0;0;0;0;4;2;0;0;29;1;Africa
+2013;Ivory Coast;Togo;1;0;0;0;0;4;2;1;0;22;1;Africa
+2013;Tunisia;Algeria;1;0;0;0;0;4;1;0;0;22;1;Africa
+2013;Ivory Coast;Tunisia;1;0;0;0;0;4;3;0;0;26;1;Africa
+2013;Togo;Algeria;1;0;0;0;0;4;2;0;0;26;1;Africa
+2013;Algeria;Ivory Coast;1;0;0;0;0;4;2;2;0;30;1;Africa
+2013;Togo;Tunisia;1;0;0;0;0;4;1;1;0;30;1;Africa
+2013;Mali;South Africa;0;1;0;0;0;4;3;1;1;2;2;Africa
+2013;Nigeria;Ivory Coast;0;1;0;0;0;4;2;1;0;3;2;Africa
+2013;Burkina Faso;Togo;0;1;0;0;0;4;1;0;0;3;2;Africa
+2013;Ghana;Cape Verde;0;1;0;0;0;4;2;0;0;2;2;Africa
+2013;Nigeria;Mali;0;0;1;0;0;4;4;1;0;6;2;Africa
+2013;Burkina Faso;Ghana;0;0;1;0;0;4;3;2;1;6;2;Africa
+2013;Mali;Ghana;0;0;0;1;0;4;3;1;0;9;2;Africa
+2013;Nigeria;Burkina Faso;0;0;0;1;0;4;1;0;0;10;2;Africa
+2015;Equatorial Guinea;Ccngo;1;0;0;0;0;4;1;1;0;17;1;Africa
+2015;Gabon;Burkina Faso;1;0;0;0;0;4;2;0;0;17;1;Africa
+2015;Equatorial Guinea;Burkina Faso;1;0;0;0;0;4;0;0;0;21;1;Africa
+2015;Ccngo;Gabon;1;0;0;0;0;4;1;0;0;21;1;Africa
+2015;Equatorial Guinea;Gabon;1;0;0;0;0;4;2;0;0;25;1;Africa
+2015;Ccngo;Burkina Faso;1;0;0;0;0;4;2;1;0;25;1;Africa
+2015;Zambia;DRC;1;0;0;0;0;4;1;1;0;18;1;Africa
+2015;Tunisia;Cape Verde;1;0;0;0;0;4;1;1;0;18;1;Africa
+2015;Tunisia;Zambia;1;0;0;0;0;4;2;1;0;22;1;Africa
+2015;Cape Verde;DRC;1;0;0;0;0;4;0;0;0;22;1;Africa
+2015;Cape Verde;Zambia;1;0;0;0;0;4;0;0;0;26;1;Africa
+2015;Tunisia;DRC;1;0;0;0;0;4;1;1;0;26;1;Africa
+2015;Senegal;Ghana;1;0;0;0;0;4;2;1;0;19;1;Africa
+2015;Algeria;South Africa;1;0;0;0;0;4;3;1;0;19;1;Africa
+2015;Ghana;Algeria;1;0;0;0;0;4;1;0;0;23;1;Africa
+2015;South Africa;Senegal;1;0;0;0;0;4;1;1;0;23;1;Africa
+2015;Ghana;South Africa;1;0;0;0;0;4;2;1;0;27;1;Africa
+2015;Algeria;Senegal;1;0;0;0;0;4;2;0;0;27;1;Africa
+2015;Ivory Coast;Guinea;1;0;0;0;0;4;1;1;0;20;1;Africa
+2015;Mali;Cameroon;1;0;0;0;0;4;1;1;0;20;1;Africa
+2015;Ivory Coast;Mali;1;0;0;0;0;4;1;1;0;24;1;Africa
+2015;Cameroon;Guinea;1;0;0;0;0;4;1;1;0;24;1;Africa
+2015;Ivory Coast;Cameroon;1;0;0;0;0;4;1;0;0;28;1;Africa
+2015;Guinea;Mali;1;0;0;0;0;4;1;1;0;28;1;Africa
+2015;DRC;Congo;0;1;0;0;0;4;4;2;0;31;1;Africa
+2015;Ivory Coast;Algeria;0;1;0;0;0;4;3;1;0;1;2;Africa
+2015;Ghana;Guinea;0;1;0;0;0;4;3;0;0;1;2;Africa
+2015;Equatorial Guinea;Tunisia;0;1;0;0;0;4;2;1;0;31;1;Africa
+2015;Ivory Coast;DRC;0;0;1;0;0;4;3;1;0;4;2;Africa
+2015;Ghana;Equatorial Guinea;0;0;1;0;0;4;3;0;0;5;2;Africa
+2015;DRC;Equatorial Guinea;0;0;0;1;0;4;4;2;1;7;2;Africa
+2015;Ivory Coast;Ghana;0;0;0;1;0;4;9;8;1;8;2;Africa
+2017;Gabon;Guinea-Bissau;1;0;0;0;0;4;1;1;0;14;1;Africa
+2017;Burkina Faso;Cameroon;1;0;0;0;0;4;1;1;0;14;1;Africa
+2017;Gabon;Burkina Faso;1;0;0;0;0;4;1;1;0;18;1;Africa
+2017;Cameroon;Guinea-Bissau;1;0;0;0;0;4;2;1;0;18;1;Africa
+2017;Cameroon;Gabon;1;0;0;0;0;4;0;0;0;22;1;Africa
+2017;Burkina Faso;Guinea-Bissau;1;0;0;0;0;4;2;0;0;22;1;Africa
+2017;Algeria;Zimbabwe;1;0;0;0;0;4;2;2;0;16;1;Africa
+2017;Senegal;Zimbabwe;1;0;0;0;0;4;2;0;0;16;1;Africa
+2017;Tunisia;Algeria;1;0;0;0;0;4;2;1;0;20;1;Africa
+2017;Senegal;Zimbabwe;1;0;0;0;0;4;2;0;0;20;1;Africa
+2017;Senegal;Algeria;1;0;0;0;0;4;2;2;0;24;1;Africa
+2017;Tunisia;Zimbabwe;1;0;0;0;0;4;4;2;0;24;1;Africa
+2017;Ivory Coast;Togo;1;0;0;0;0;4;0;0;0;16;1;Africa
+2017;DRC;Morocco;1;0;0;0;0;4;1;0;0;16;1;Africa
+2017;Ivory Coast;DRC;1;0;0;0;0;4;2;2;0;20;1;Africa
+2017;Morocco;Togo;1;0;0;0;0;4;3;1;0;20;1;Africa
+2017;Morocco;Ivory Coast;1;0;0;0;0;4;1;0;0;24;1;Africa
+2017;DRC;Togo;1;0;0;0;0;4;3;1;0;24;1;Africa
+2017;Ghana;Uganda;1;0;0;0;0;4;1;0;0;17;1;Africa
+2017;Mali;Egypt;1;0;0;0;0;4;0;0;0;17;1;Africa
+2017;Ghana;Mali;1;0;0;0;0;4;1;0;0;21;1;Africa
+2017;Egypt;Uganda;1;0;0;0;0;4;1;0;0;21;1;Africa
+2017;Egypt;Ghana;1;0;0;0;0;4;1;0;0;25;1;Africa
+2017;Uganda;Mali;1;0;0;0;0;4;1;1;0;25;1;Africa
+2017;Burkina Faso;Tunisia;0;1;0;0;0;4;2;0;0;28;1;Africa
+2017;Egypt;Morocco;0;1;0;0;0;4;1;0;0;29;1;Africa
+2017;Cameroon;Senegal;0;1;0;0;0;4;5;4;1;28;1;Africa
+2017;Ghana;DRC;0;1;0;0;0;4;2;1;0;29;1;Africa
+2017;Egypt;Burkina Faso;0;0;1;0;0;4;4;3;1;1;2;Africa
+2017;Cameroon;Ghana;0;0;1;0;0;4;2;0;0;2;2;Africa
+2017;Burkina Faso;Ghana;0;0;0;1;0;4;1;0;0;4;2;Africa
+2017;Cameroon;Egypt;0;0;0;1;0;4;2;1;0;5;2;Africa
+2019;Egypt;Zimbabwe;1;0;0;0;0;5;1;0;0;21;6;Africa
+2019;Uganda;DRC;1;0;0;0;0;5;2;0;0;22;6;Africa
+2019;Uganda;Zimbabwe;1;0;0;0;0;5;1;1;0;26;6;Africa
+2019;Egypt;DRC;1;0;0;0;0;5;2;0;0;26;6;Africa
+2019;Egypt;Uganda;1;0;0;0;0;5;2;0;0;30;6;Africa
+2019;DRC;Zimbabwe;1;0;0;0;0;5;4;0;0;30;6;Africa
+2019;Nigeria;Burundi;1;0;0;0;0;5;1;0;0;22;6;Africa
+2019;Guinea;Madagascar;1;0;0;0;0;5;2;2;0;22;6;Africa
+2019;Nigeria;Guinea;1;0;0;0;0;5;1;0;0;26;6;Africa
+2019;Madagascar;Burundi;1;0;0;0;0;5;1;0;0;27;6;Africa
+2019;Madagascar;Nigeria;1;0;0;0;0;5;2;0;0;30;6;Africa
+2019;Guinea;Burundi;1;0;0;0;0;5;2;0;0;30;6;Africa
+2019;Senegal;Tanzania;1;0;0;0;0;5;2;0;0;23;6;Africa
+2019;Algeria;Kenya;1;0;0;0;0;5;2;0;0;23;6;Africa
+2019;Algeria;Senegal;1;0;0;0;0;5;1;0;0;27;6;Africa
+2019;Kenya;Tanzania;1;0;0;0;0;5;3;2;0;27;6;Africa
+2019;Senegal;Kenya;1;0;0;0;0;5;3;0;0;1;7;Africa
+2019;Algeria;Tanzania;1;0;0;0;0;5;3;0;0;1;7;Africa
+2019;Morocco;Namibia;1;0;0;0;0;5;1;0;0;23;6;Africa
+2019;Ivory Coast;South Africa;1;0;0;0;0;5;1;0;0;24;6;Africa
+2019;Morocco;Ivory Coast;1;0;0;0;0;5;1;0;0;28;6;Africa
+2019;South Africa;Namibia;1;0;0;0;0;5;1;0;0;28;6;Africa
+2019;Morocco;South Africa;1;0;0;0;0;5;1;0;0;1;7;Africa
+2019;Ivory Coast;Namibia;1;0;0;0;0;5;4;1;0;1;7;Africa
+2019;Tunisia;Angola;1;0;0;0;0;5;1;1;0;24;6;Africa
+2019;Mali;Mauritania;1;0;0;0;0;5;4;1;0;24;6;Africa
+2019;Tunisia;Mali;1;0;0;0;0;5;1;1;0;28;6;Africa
+2019;Mauritania;Angola;1;0;0;0;0;5;0;0;0;29;6;Africa
+2019;Mauritania;Tunisia;1;0;0;0;0;5;0;0;0;2;7;Africa
+2019;Mali;Angola;1;0;0;0;0;5;1;0;0;3;7;Africa
+2019;Cameroon;Guinea-Bissau;1;0;0;0;0;5;2;0;0;25;6;Africa
+2019;Ghana;Benin;1;0;0;0;0;5;2;2;0;25;6;Africa
+2019;Cameroon;Ghana;1;0;0;0;0;5;0;0;0;29;6;Africa
+2019;Benin;Guinea-Bissau;1;0;0;0;0;5;0;0;0;29;6;Africa
+2019;Benin;Cameroon;1;0;0;0;0;5;0;0;0;2;7;Africa
+2019;Ghana;Guinea-Bissau;1;0;0;0;0;5;2;0;0;2;7;Africa
+2019;Senegal;Uganda;0;1;0;0;0;5;1;0;0;5;7;Africa
+2019;Benin;Morocco;0;1;0;0;0;5;4;1;1;5;7;Africa
+2019;Madagascar;DRC;0;1;0;0;0;5;4;2;1;7;7;Africa
+2019;Tunisia;Ghana;0;1;0;0;0;5;4;5;1;8;7;Africa
+2019;Ivory Coast;Mali;0;1;0;0;0;5;1;0;0;8;7;Africa
+2019;Algeria;Guinea;0;1;0;0;0;5;3;0;0;7;7;Africa
+2019;Nigeria;Cameroon;0;1;0;0;0;5;3;2;0;6;7;Africa
+2019;South Africa;Egypt;0;1;0;0;0;5;1;0;0;6;7;Africa
+2019;Senegal;Benin;0;0;1;0;0;5;1;0;0;10;7;Africa
+2019;Tunisia;Madagascar;0;0;1;0;0;5;3;0;0;11;7;Africa
+2019;Algeria;Ivory Coast;0;0;1;0;0;5;4;3;1;11;7;Africa
+2019;Nigeria;South Africa;0;0;1;0;0;5;2;1;0;10;7;Africa
+2019;Senegal;Tunisia;0;0;0;1;0;5;1;0;0;14;7;Africa
+2019;Algeria;Nigeria;0;0;0;1;0;5;2;1;0;14;7;Africa
+2019;Nigeria;Tunisia;0;0;0;0;1;5;1;0;0;17;7;Africa
+2019;Algeria;Senegal;0;0;0;0;1;5;1;0;0;19;7;Africa
+2022;Cameroon;Burkina Faso;1;0;0;0;0;5;2;1;0;9;1;Africa
+2022;Cape Verde;Ethiopia;1;0;0;0;0;5;1;0;0;9;1;Africa
+2022;Cameroon;Ethiopia;1;0;0;0;0;5;4;0;0;13;1;Africa
+2022;Burkina Faso;Cape Verde;1;0;0;0;0;5;1;0;0;13;1;Africa
+2022;Cape Verde;Cameroon;1;0;0;0;0;5;1;1;0;17;1;Africa
+2022;Burkina Faso;Ethiopia;1;0;0;0;0;5;1;1;0;17;1;Africa
+2022;Senegal;Zimbabwe;1;0;0;0;0;5;1;0;0;10;1;Africa
+2022;Guinea;Malawi;1;0;0;0;0;5;1;0;0;10;1;Africa
+2022;Senegal;Guinea;1;0;0;0;0;5;0;0;0;14;1;Africa
+2022;Malawi;Zimbabwe;1;0;0;0;0;5;2;1;0;14;1;Africa
+2022;Malawi;Senegal;1;0;0;0;0;5;0;0;0;18;1;Africa
+2022;Zimbabwe;Guinea;1;0;0;0;0;5;2;1;0;18;1;Africa
+2022;Morocco;Ghana;1;0;0;0;0;5;1;0;0;10;1;Africa
+2022;Gabon;Comoros;1;0;0;0;0;5;1;0;0;10;1;Africa
+2022;Morocco;Comoros;1;0;0;0;0;5;2;0;0;14;1;Africa
+2022;Gabon;Ghana;1;0;0;0;0;5;1;1;0;14;1;Africa
+2022;Gabon;Morocco;1;0;0;0;0;5;2;2;0;18;1;Africa
+2022;Comoros;Ghana;1;0;0;0;0;5;3;2;0;18;1;Africa
+2022;Nigeria;Egypt;1;0;0;0;0;5;1;0;0;11;1;Africa
+2022;Sudan;Guinea-Bissau;1;0;0;0;0;5;0;0;0;11;1;Africa
+2022;Nigeria;Sudan;1;0;0;0;0;5;3;1;0;15;1;Africa
+2022;Egypt;Guinea-Bissau;1;0;0;0;0;5;1;0;0;15;1;Africa
+2022;Nigeria;Guinea-Bissau;1;0;0;0;0;5;2;0;0;19;1;Africa
+2022;Egypt;Sudan;1;0;0;0;0;5;1;0;0;19;1;Africa
+2022;Algeria;Sierra Leone;1;0;0;0;0;5;0;0;0;11;1;Africa
+2022;Ivory Coast;Equatorial Guinea;1;0;0;0;0;5;1;0;0;12;1;Africa
+2022;Ivory Coast;Sierra Leone;1;0;0;0;0;5;2;2;0;16;1;Africa
+2022;Equatorial Guinea;Algeria;1;0;0;0;0;5;1;0;0;16;1;Africa
+2022;Ivory Coast;Algeria;1;0;0;0;0;5;3;1;0;20;1;Africa
+2022;Equatorial Guinea;Sierra Leone;1;0;0;0;0;5;1;0;0;20;1;Africa
+2022;Mali;Tunisia;1;0;0;0;0;5;1;0;0;12;1;Africa
+2022;Gambia;Mauritania;1;0;0;0;0;5;1;0;0;12;1;Africa
+2022;Gambia;Mali;1;0;0;0;0;5;1;1;0;16;1;Africa
+2022;Tunisia;Mauritania;1;0;0;0;0;5;4;0;0;16;1;Africa
+2022;Gambia;Tunisia;1;0;0;0;0;5;1;0;0;20;1;Africa
+2022;Mali;Mauritania;1;0;0;0;0;5;2;0;0;20;1;Africa
+2022;Burkina Faso;Gabon;0;1;0;0;0;5;7;6;1;23;1;Africa
+2022;Tunisia;Nigeria;0;1;0;0;0;5;1;0;0;23;1;Africa
+2022;Senegal;Cape Verde;0;1;0;0;0;5;2;0;0;25;1;Africa
+2022;Equatorial Guinea;Mali;0;1;0;0;0;5;6;5;1;26;1;Africa
+2022;Gambia;Guinea;0;1;0;0;0;5;1;0;0;24;1;Africa
+2022;Cameroon;Comoros;0;1;0;0;0;5;2;1;0;24;1;Africa
+2022;Egypt;Ivory Coast;0;1;0;0;0;5;5;4;1;26;1;Africa
+2022;Morocco;Malawi;0;1;0;0;0;5;2;1;0;25;1;Africa
+2022;Burkina Faso;Tunisia;0;0;1;0;0;5;1;0;0;29;1;Africa
+2022;Senegal;Equatorial Guinea;0;0;1;0;0;5;3;1;0;30;1;Africa
+2022;Cameroon;Gambia;0;0;1;0;0;5;2;0;0;29;1;Africa
+2022;Egypt;Morocco;0;0;1;0;0;5;2;1;0;30;1;Africa
+2022;Senegal;Burkina Faso;0;0;0;1;0;5;3;1;0;2;2;Africa
+2022;Egypt;Cameroon;0;0;0;1;0;5;3;1;1;3;2;Africa
+2022;Cameroon;Burkina Faso;0;0;0;0;1;5;5;3;1;5;2;Africa
+2022;Senegal;Egypt;0;0;0;0;1;5;4;2;1;6;2;Africa
