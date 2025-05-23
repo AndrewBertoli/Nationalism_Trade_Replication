@@ -1,0 +1,294 @@
+Country1;Country2;Country3;Country4;Country5;Year;Event
+Brazil;Yugoslavia;Bolivia;NONE;NONE;1930;WC
+Uruguay;Romania;Peru;NONE;NONE;1930;WC
+Argentina;Chile;France;Mexico;NONE;1930;WC
+United States;Paraguay;Belgium;NONE;NONE;1930;WC
+Argentina;Sweden;NONE;NONE;NONE;1934;WC
+Brazil;Spain;NONE;NONE;NONE;1934;WC
+Germany;Belgium;NONE;NONE;NONE;1934;WC
+Italy;United States;NONE;NONE;NONE;1934;WC
+Netherlands;Switzerland;NONE;NONE;NONE;1934;WC
+Austria;France;NONE;NONE;NONE;1934;WC
+Czechoslovakia;Romania;NONE;NONE;NONE;1934;WC
+Hungary;Egypt;NONE;NONE;NONE;1934;WC
+Germany;Switzerland;NONE;NONE;NONE;1938;WC
+France;Belgium;NONE;NONE;NONE;1938;WC
+Italy;Norway;NONE;NONE;NONE;1938;WC
+Czechoslovakia;Netherlands;NONE;NONE;NONE;1938;WC
+Hungary;Dutch East Indies;NONE;NONE;NONE;1938;WC
+Cuba;Romania;NONE;NONE;NONE;1938;WC
+Brazil;Poland;NONE;NONE;NONE;1938;WC
+Brazil;Yugoslavia;Switzerland;Mexico;NONE;1950;WC
+United Kingdom;Spain;Chile;United States;NONE;1950;WC
+Italy;Sweden;Paraguay;NONE;NONE;1950;WC
+Uruguay;Bolivia;NONE;NONE;NONE;1950;WC
+Austria;Czechoslovakia;NONE;NONE;NONE;1954;WC
+Brazil;Mexico;NONE;NONE;NONE;1954;WC
+United Kingdom;Switzerland;NONE;NONE;NONE;1954;WC
+France;Mexico;NONE;NONE;NONE;1954;WC
+Hungary;West Germany;NONE;NONE;NONE;1954;WC
+Italy;Switzerland;NONE;NONE;NONE;1954;WC
+Turkey;West Germany;NONE;NONE;NONE;1954;WC
+Uruguay;Czechoslovakia;NONE;NONE;NONE;1954;WC
+Austria;Scotland;NONE;NONE;NONE;1954;WC
+Brazil;Yugoslavia;NONE;NONE;NONE;1954;WC
+United Kingdom;Belgium;NONE;NONE;NONE;1954;WC
+France;Yugoslavia;NONE;NONE;NONE;1954;WC
+Hungary;South Korea;NONE;NONE;NONE;1954;WC
+Italy;Belgium;NONE;NONE;NONE;1954;WC
+Turkey;South Korea;NONE;NONE;NONE;1954;WC
+Uruguay;Scotland;NONE;NONE;NONE;1954;WC
+West Germany;Czechoslovakia;Northern Ireland;Argentina;NONE;1958;WC
+France;Yugoslavia;Scotland;Paraguay;NONE;1958;WC
+Sweden;Hungary;Wales;Mexico;NONE;1958;WC
+Austria;Soviet Union;United Kingdom;Brazil;NONE;1958;WC
+Uruguay;Soviet Union;Yugoslavia;Colombia;NONE;1962;WC
+Chile;West Germany;Italy;Switzerland;NONE;1962;WC
+Brazil;Czechoslovakia;Spain;Mexico;NONE;1962;WC
+Argentina;United Kingdom;Hungary;Bulgaria;NONE;1962;WC
+Uruguay;United Kingdom;France;Mexico;NONE;1966;WC
+Argentina;West Germany;Spain;Switzerland;NONE;1966;WC
+Brazil;Hungary;Portugal;Bulgaria;NONE;1966;WC
+Chile;Soviet Union;Italy;North Korea;NONE;1966;WC
+Soviet Union;Mexico;Belgium;El Salvador;NONE;1970;WC
+Italy;Uruguay;Sweden;Israel;NONE;1970;WC
+United Kingdom;Brazil;Czechoslovakia;Romania;NONE;1970;WC
+West Germany;Peru;Bulgaria;Morocco;NONE;1970;WC
+West Germany;East Germany;Chile;Australia;NONE;1974;WC
+Scotland;Yugoslavia;Brazil;Zaire;NONE;1974;WC
+Netherlands;Bulgaria;Uruguay;Sweden;NONE;1974;WC
+Italy;Poland;Argentina;Haiti;NONE;1974;WC
+Argentina;Italy;Hungary;France;NONE;1978;WC
+West Germany;Mexico;Poland;Tunisia;NONE;1978;WC
+Netherlands;Peru;Scotland;Iran;NONE;1978;WC
+Brazil;Sweden;Spain;Austria;NONE;1978;WC
+Spain;Yugoslavia;Northern Ireland;Honduras;NONE;1982;WC
+Argentina;Hungary;Belgium;El Salvador;NONE;1982;WC
+Brazil;Soviet Union;Scotland;New Zealand;NONE;1982;WC
+Italy;Poland;Peru;Cameroon;NONE;1982;WC
+West Germany;Austria;Chile;Algeria;NONE;1982;WC
+United Kingdom;Czechoslovakia;France;Kuwait;NONE;1982;WC
+Mexico;Paraguay;Iraq;Belgium;NONE;1986;WC
+Italy;Argentina;South Korea;Bulgaria;NONE;1986;WC
+West Germany;Uruguay;Denmark;Scotland;NONE;1986;WC
+Poland;United Kingdom;Morocco;Portugal;NONE;1986;WC
+France;Soviet Union;Canada;Hungary;NONE;1986;WC
+Brazil;Spain;Algeria;Northern Ireland;NONE;1986;WC
+Italy;Austria;Czechoslovakia;United States;NONE;1990;WC
+Argentina;Soviet Union;Romania;Cameroon;NONE;1990;WC
+Brazil;Scotland;Sweden;Costa Rica;NONE;1990;WC
+West Germany;Yugoslavia;Colombia;UAE;NONE;1990;WC
+Belgium;Spain;Uruguay;South Korea;NONE;1990;WC
+United Kingdom;Netherlands;Ireland;Egypt;NONE;1990;WC
+United States;Romania;Switzerland;Colombia;NONE;1994;WC
+Germany;Spain;South Korea;Bolivia;NONE;1994;WC
+Argentina;Bulgaria;Greece;Nigeria;NONE;1994;WC
+Belgium;Netherlands;Saudi Arabia;Morocco;NONE;1994;WC
+Brazil;Russia;Sweden;Cameroon;NONE;1994;WC
+Italy;Ireland;Norway;Mexico;NONE;1994;WC
+Argentina;Croatia;Jamaica;Japan;NONE;1998;WC
+Brazil;Norway;Scotland;Morocco;NONE;1998;WC
+France;Denmark;Saudi Arabia;South Africa;NONE;1998;WC
+Germany;Yugoslavia;Iran;United States;NONE;1998;WC
+Italy;Austria;Chile;Cameroon;NONE;1998;WC
+Netherlands;Belgium;South Korea;Mexico;NONE;1998;WC
+Romania;United Kingdom;Colombia;Tunisia;NONE;1998;WC
+Spain;Bulgaria;Paraguay;Nigeria;NONE;1998;WC
+Argentina;Sweden;United Kingdom;Nigeria;NONE;2002;WC
+Japan;Belgium;Russia;Tunisia;NONE;2002;WC
+South Korea;Portugal;Poland;United States;NONE;2002;WC
+Brazil;Turkey;China;Costa Rica;NONE;2002;WC
+Italy;Croatia;Ecuador;Mexico;NONE;2002;WC
+Germany;Ireland;Saudi Arabia;Cameroon;NONE;2002;WC
+France;Denmark;Uruguay;Senegal;NONE;2002;WC
+Spain;Slovenia;Paraguay;South Africa;NONE;2002;WC
+Argentina;Ivory Coast;Netherlands;Yugoslavia;NONE;2006;WC
+Brazil;Australia;Croatia;Japan;NONE;2006;WC
+United Kingdom;Paraguay;Sweden;Trinidad-Tobago;NONE;2006;WC
+France;Togo;Switzerland;South Korea;NONE;2006;WC
+Germany;Ecuador;Poland;Costa Rica;NONE;2006;WC
+Italy;Ghana;Czech Republic;United States;NONE;2006;WC
+Mexico;Angola;Portugal;Iran;NONE;2006;WC
+Spain;Tunisia;Ukraine;Saudi Arabia;NONE;2006;WC
+South Africa;Mexico;Uruguay;France;NONE;2010;WC
+Brazil;North Korea;Ivory Coast;Portugal;NONE;2010;WC
+Spain;Honduras;Chile;Switzerland;NONE;2010;WC
+Netherlands;Japan;Cameroon;Denmark;NONE;2010;WC
+Italy;New Zealand;Paraguay;Slovakia;NONE;2010;WC
+Germany;Australia;Ghana;Yugoslavia;NONE;2010;WC
+Argentina;South Korea;Nigeria;Greece;NONE;2010;WC
+United Kingdom;United States;Algeria;Slovenia;NONE;2010;WC
+Brazil;Cameroon;Mexico;Croatia;NONE;2014;WC
+Spain;Chile;Australia;Netherlands;NONE;2014;WC
+Colombia;Ivory Coast;Japan;Greece;NONE;2014;WC
+Uruguay;Italy;Costa Rica;United Kingdom;NONE;2014;WC
+Switzerland;Ecuador;Honduras;France;NONE;2014;WC
+Argentina;Nigeria;Iran;Bosnia-Herzegovina;NONE;2014;WC
+Germany;Ghana;United States;Portugal;NONE;2014;WC
+Belgium;Algeria;South Korea;Russia;NONE;2014;WC
+Russia;Uruguay;Egypt;Saudi Arabia;NONE;2018;WC
+Portugal;Spain;Iran;Morocco;NONE;2018;WC
+France;Peru;Denmark;Australia;NONE;2018;WC
+Argentina;Croatia;Iceland;Nigeria;NONE;2018;WC
+Brazil;Switzerland;Costa Rica;Yugoslavia;NONE;2018;WC
+Germany;Mexico;Sweden;South Korea;NONE;2018;WC
+Belgium;United Kingdom;Tunisia;Panama;NONE;2018;WC
+Poland;Colombia;Senegal;Japan;NONE;2018;WC
+West Germany;Czechoslovakia;Netherlands;Greece;NONE;1980;Europe
+Belgium;Italy;United Kingdom;Spain;NONE;1980;Europe
+France;Denmark;Belgium;Yugoslavia;NONE;1984;Europe
+Spain;Portugal;West Germany;Romania;NONE;1984;Europe
+West Germany;Italy;Spain;Denmark;NONE;1988;Europe
+Soviet Union;Netherlands;Ireland;United Kingdom;NONE;1988;Europe
+Sweden;Denmark;France;United Kingdom;NONE;1992;Europe
+Netherlands;Germany;Scotland;Russia;NONE;1992;Europe
+United Kingdom;Scotland;Switzerland;Netherlands;NONE;1996;Europe
+Denmark;Portugal;Croatia;Turkey;NONE;1996;Europe
+Spain;France;Romnia;Bulgaria;NONE;1996;Europe
+Germany;Czech Republic;Italy;Russia;NONE;1996;Europe
+Germany;Romania;Portugal;United Kingdom;NONE;2000;Europe
+Belgium;Sweden;Italy;Turkey;NONE;2000;Europe
+Spain;Norway;Yugoslavia;Slovenia;NONE;2000;Europe
+Netherlands;Czech Republic;France;Denmark;NONE;2000;Europe
+Portugal;Spain;Russia;Greece;NONE;2004;Europe
+France;United Kingdom;Croatia;Switzerland;NONE;2004;Europe
+Sweden;Italy;Denmark;Bulgaria;NONE;2004;Europe
+Czech Republic;Germany;Netherlands;Latvia;NONE;2004;Europe
+Switzerland;Czech Republic;Portugal;Turkey;NONE;2008;Europe
+Austria;Croatia;Germany;Poland;NONE;2008;Europe
+Netherlands;Italy;Romania;France;NONE;2008;Europe
+Greece;Sweden;Spain;Russia;NONE;2008;Europe
+Iran;Thailand;Iraq;NONE;NONE;1972;Asia
+South Korea;Khmer Republic;Kuwait;NONE;NONE;1972;Asia
+Kuwait;China;Malaysia;NONE;NONE;1976;Asia
+Iran;Iraq;South Yemen;NONE;NONE;1976;Asia
+Iran;North Korea;Syria;China;Bangladesh;1980;Asia
+South Korea;Kuwait;Malaysia;Qatar;UAE;1980;Asia
+Saudi Arabia;Kuwait;Qatar;Syria;South Korea;1984;Asia
+China;Iran ;UAE;Singapore;India;1984;Asia
+South Korea;Iran;Qatar;UAE;Japan;1988;Asia
+Saudi Arabia;China;Syria;Kuwait;Bahrian;1988;Asia
+Japan;UAE;Iran;North Korea;NONE;1992;Asia
+Saudi Arabia;China;Qatar;Thailand;NONE;1992;Asia
+UAE;Kuwait;South Korea;Indonesia;NONE;1996;Asia
+Iran;Saudi Arabia;Iraq;Thailand;NONE;1996;Asia
+Japan;China;Syria;Uzbekistan;NONE;1996;Asia
+Iran;Iraq;Thailand;Lebanon;NONE;2000;Asia
+China;Korea;South Korea;Indonesia;NONE;2000;Asia
+Japan;Saudi Arabia;Qatar;Uzbekistan;NONE;2000;Asia
+China;Qatar;Indonesia;Bahrain;NONE;2004;Asia
+South Korea;Kuwait;UAE;Jordan;NONE;2004;Asia
+Saudi Arabia;Iraq;Uzbekistan;Turkmenistan;NONE;2004;Asia
+Japan;Iran;Thailand;Oman;NONE;2004;Asia
+Thailand;Iraq;Oman;Australia;NONE;2007;Asia
+Vietnam;UAE;Qatar;Japan;NONE;2007;Asia
+Malaysia;China;Uzbekistan;Iran;NONE;2007;Asia
+Indonesia;Bahrain;Saudi Arabia;South Korea;NONE;2007;Asia
+Ethiopia;Ivory Coast;Algeria;Uganda;NONE;1968;Africa
+Ghana;Congo-Kinshasa;Senegal;Congo-Brazzaville;NONE;1968;Africa
+Ivory Coast;Sudan;Cameroon;Ethiopia;NONE;1970;Africa
+United Arab Republic;Ghana;Guinea;Congo-Kinshasa;NONE;1970;Africa
+Cameroon;Mali;Kenya;Togo;NONE;1972;Africa
+Zaire;Congo;Morocco;Sudan;NONE;1972;Africa
+Egypt;Zambia;Uganda;Ivory Coast;NONE;1974;Africa
+Congo;Zaire;Guinea;Mauritius;NONE;1974;Africa
+Guinea;Egypt;Ethiopia;Uganda;NONE;1976;Africa
+Morocco;Nigeria;Sudan;Zaire;NONE;1976;Africa
+Ghana;Nigeria;Zambia;Upper Volta;NONE;1978;Africa
+Uganda;Tunisia;Morocco;Congo;NONE;1978;Africa
+Nigeria;Egypt;Ivory Coast;Tanzania;NONE;1980;Africa
+Algeria;Morocco;Ghana;Guinea;NONE;1980;Africa
+Libya;Ghana;Cameroon;Tunisia;NONE;1982;Africa
+Algeria;Zambia;Nigeria;Ethiopia;NONE;1982;Africa
+Egypt;Cameroon;Ivory Coast;Togo;NONE;1984;Africa
+Algeria;Nigeria;Ghana;Malawi;NONE;1984;Africa
+Egypt;Ivory Coast;Senegal;Mozambique;NONE;1986;Africa
+Cameroon;Morocco;Algeria;Zambia;NONE;1986;Africa
+Morocco;Algeria;Ivory Coast;Zaire;NONE;1988;Africa
+Nigeria;Cameroon;Egypt;Kenya;NONE;1988;Africa
+Algeria;Nigeria;Ivory Coast;Egypt;NONE;1990;Africa
+Zambia;Senegal;Cameroon;Kenya;NONE;1990;Africa
+Nigeria;Senegal;Kenya;NONE;NONE;1992;Africa
+Cameroon;Zaire;Morocco;NONE;NONE;1992;Africa
+Ivory Coast;Congo;Algeria;NONE;NONE;1992;Africa
+Ghana;Zambia;Egypt;NONE;NONE;1992;Africa
+Tunisia;Mali;Zaire;NONE;NONE;1994;Africa
+Egypt;Nigeria;Gabon;NONE;NONE;1994;Africa
+Zambia;Ivory Coast;Sierra Leone;NONE;NONE;1994;Africa
+Ghana;Senegal;Guinea;NONE;NONE;1994;Africa
+South Africa;Zambia;Gabon;Ghana;NONE;1996;Africa
+Egypt;Algeria;Zaire;Tunisia;NONE;1996;Africa
+Cameroon;Sierra Leonne;Liberia;Ivory Coast;NONE;1996;Africa
+Angola;Burkina Faso;Nigeria;Mozambique;NONE;1996;Africa
+Burkina Faso;Tunisia;South Africa;Morocco;NONE;1998;Africa
+Cameroon;DRC;Ivory Coast;Egypt;NONE;1998;Africa
+Guinea;Ghana;Angola;Zambia;NONE;1998;Africa
+Algeria;Togo;Namibia;Mozambique;NONE;1998;Africa
+Cameroon;South Africa;Egypt;Nigeria;NONE;2000;Africa
+Ghana;Algeria;Senegal;Tunisia;NONE;2000;Africa
+Ivory Coast;DRC;Zambia;Morocco;NONE;2000;Africa
+Togo;Gabon;Burkina Faso;Congo;NONE;2000;Africa
+Mali;South Africa;Cameroon;Senegal;NONE;2002;Africa
+Nigeria;Ghana;DRC;Egypt;NONE;2002;Africa
+Liberia;Morocco;Togo;Tunisia;NONE;2002;Africa
+Algeria;Burkina Faso;Ivory Coast;Zambia;NONE;2002;Africa
+Tunisia;Mali;Cameroon;Morocco;NONE;2004;Africa
+Guinea;Senegal;Algeria;Nigeria;NONE;2004;Africa
+Rwanda;Kenya;Egypt;South Africa;NONE;2004;Africa
+DRC;Burkina Faso;Zimbabwe;Benin;NONE;2004;Africa
+Egypt;Cameroon;Tunisia;Nigeria;NONE;2006;Africa
+Ivory Coast;DRC;Guinea;Senegal;NONE;2006;Africa
+Morocco;Angola;Zambia;Ghana;NONE;2006;Africa
+Libya;Togo;South Africa;Zimbabwe;NONE;2006;Africa
+Ghana;Morocco;Guinea;Namibia;NONE;2008;Africa
+Nigeria;Ivory Coast;Mali;Benin;NONE;2008;Africa
+Egypt;Cameroon;Zambia;Sudan;NONE;2008;Africa
+Tunisia;Senegal;South Africa;Angola;NONE;2008;Africa
+Angola;Mali;Algeria;Malawi;NONE;2010;Africa
+Ivory Coast;Ghana;Togo;Burkina Faso;NONE;2010;Africa
+Egypt;Nigeria;Benin;Mozambique;NONE;2010;Africa
+Cameroon;Tunisia;Zambia;Gabon;NONE;2010;Africa
+Equatorial Guinea;Zambia;Senegal;Libya;NONE;2012;Africa
+Ivory Coast;Angola;Burkina Faso;Sudan;NONE;2012;Africa
+Gabon;Tunisia;Morocco;Niger;NONE;2012;Africa
+Ghana;Guinea;Mali;Botswana;NONE;2012;Africa
+Poland;Russia;Greece;Czech Republic;NONE;2012;Europe
+Netherlands;Germany;Portugal;Denmark;NONE;2012;Europe
+Spain;Italy;Croatia;Ireland;NONE;2012;Europe
+Ukraine;England;Sweden;France;NONE;2012;Europe
+South Africa;Angola;Morocco;Cape Verde;NONE;2013;Africa
+Ghana;Mali;Niger;DRC;NONE;2013;Africa
+Zambia;Nigeria;Burkina Faso;Ethiopia;NONE;2013;Africa
+Ivory Coast;Tunisia;Algeria;Togo;NONE;2013;Africa
+Equatorial Guinea;Burkina Faso;Gabon;Congo;NONE;2015;Africa
+Zambia;Tunisia;Cape Verde;DRC;NONE;2015;Africa
+Ghana;Algeria;South Africa;Senegal;NONE;2015;Africa
+Ivory Coast;Mali;Cameroon;Guinea;NONE;2015;Africa
+Gabon;Burkina Faso;Cameroon;Guinea-Bissau;NONE;2017;Africa
+Algeria;Tunisia;Senegal;Zimbabwe;NONE;2017;Africa
+Ivory Coast;DRC;Morocco;Togo;NONE;2017;Africa
+Ghana;Mali;Egypt;Uganda;NONE;2017;Africa
+Egypt;DRC;Uganda;Zimbabwe;NONE;2019;Africa
+Nigeria;Guinea;Madagascar;Burundi;NONE;2019;Africa
+Senegal;Algeria;Kenya;Tanzania;NONE;2019;Africa
+Morocco;Ivory Coast;South Africa;Namibia;NONE;2019;Africa
+Tunisia;Mali;Mauritania;Angola;NONE;2019;Africa
+Cameroon;Ghana;Benin;Guinea-Bissau;NONE;2019;Africa
+Cameroon;Burkina Faso;Cape Verde;Ethiopia;NONE;2022;Africa
+Senegal;Guinea;Zimbabwe;Malawi;NONE;2022;Africa
+Morocco;Ghana;Gabon;Comoros;NONE;2022;Africa
+Nigeria;Egypt;Guinea-Bissau;Sudan;NONE;2022;Africa
+Algeria;Ivory Coast;Sierra Leone;Equatorial Guinea;NONE;2022;Africa
+Tunisia;Mali;Mauritania;Gambia;NONE;2022;Africa
+France;Switzerland;Romania;Albania;NONE;2016;Europe
+United Kingdom;Russia;Slovakia;Wales;NONE;2016;Europe
+Germany;Ukraine;Poland;Northern Ireland;NONE;2016;Europe
+Spain;Croatia;Czech Republic;Turkey;NONE;2016;Europe
+Belgium;Italy;Sweden;Ireland;NONE;2016;Europe
+Portugal;Austria;Hungary;Iceland;NONE;2016;Europe
+Italy;Switzerland;Turkey;Wales;NONE;2021;Europe
+Belgium;Russia;Denmark;Finland;NONE;2021;Europe
+Ukraine;Netherlands;Austria;North Macedonia;NONE;2021;Europe
+United Kingdom;Croatia;Czech Republic;Scotland;NONE;2021;Europe
+Spain;Poland;Sweden;Slovakia;NONE;2021;Europe
+Germany;France;Portugal;Hungary;NONE;2021;Europe
