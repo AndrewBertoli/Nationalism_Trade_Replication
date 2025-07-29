@@ -2735,7 +2735,7 @@ colnames(real_data)<-c("ln_Trade_Change_Adjusted","Percent_Change_Adjusted","y",
 
 
 # Save the data for the countries that played at the World Cup.
-write.csv(real_data_full,"RealDataFull_July24.csv",row.names=F)
+write.csv(real_data_full,"RealDataFull_July25.csv",row.names=F)
 
 # Save the summary data for the countries that played at the World Cup.
-write.csv(real_data,"RealData_July24.csv",row.names=F)
+write.csv(real_data,"RealData_July25.csv",row.names=F)
