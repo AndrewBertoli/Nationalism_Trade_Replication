@@ -3,13 +3,13 @@ library(ggplot2)
 library(cowplot)
 
 setwd("~/Dropbox/WCNaturalExperiment/Data_and_Code")
-all_pairs<-read.csv("All_Pairs_July24.csv", stringsAsFactors=F)
+all_pairs<-read.csv("All_Pairs_July25.csv", stringsAsFactors=F)
 
-real_data<-read.csv("RealData_July24.csv",stringsAsFactors=F)
+real_data<-read.csv("RealData_July25.csv",stringsAsFactors=F)
 
 perm_data<-read.csv("PermData_July24.csv",stringsAsFactors=F)
 
-real_data_full<-read.csv("RealDataFull_July24.csv",stringsAsFactors=F)
+real_data_full<-read.csv("RealDataFull_July25.csv",stringsAsFactors=F)
 
 # Total number of group stage games
 sum(all_pairs$Group_Stage==1)
