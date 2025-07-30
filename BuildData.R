@@ -967,13 +967,12 @@ if(a$importer1[j]==all_pairs[i,2]){
 rm(trade)
 
 # Since the trade dataset we used ends in 2014, we will use
-# another trade dataset for the 2018 cases. This dataset includes
-# bilateral trade information for country dyads from 1995-2023.
+# another trade dataset for the 2018 cases. 
 # You can download the trade data for 2018 here:
 # https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37
-# The file is HS 92.
+# The file is HS 92 of the 202401b version.
 
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We set the year as 2018, because we will use this new dataset for
 # the 2018 cases.
@@ -983,7 +982,7 @@ year<-2018
 index<-which(all_pairs$Year%in%(year))
 
 # We will start by reading in the trade data for 2003.
-dat<-read.csv("BACI_HS92_Y2003_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2003_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1016,10 +1015,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2004.
-dat<-read.csv("BACI_HS92_Y2004_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2004_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1053,10 +1052,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2005.
-dat<-read.csv("BACI_HS92_Y2005_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2005_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1091,10 +1090,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2006.
-dat<-read.csv("BACI_HS92_Y2006_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2006_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1128,10 +1127,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2007.
-dat<-read.csv("BACI_HS92_Y2007_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2007_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1165,10 +1164,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2008.
-dat<-read.csv("BACI_HS92_Y2008_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2008_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1204,10 +1203,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2009.
-dat<-read.csv("BACI_HS92_Y2009_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2009_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1242,10 +1241,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2010.
-dat<-read.csv("BACI_HS92_Y2010_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2010_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1281,10 +1280,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2011.
-dat<-read.csv("BACI_HS92_Y2011_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2011_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1318,10 +1317,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2012.
-dat<-read.csv("BACI_HS92_Y2012_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2012_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1356,10 +1355,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2013.
-dat<-read.csv("BACI_HS92_Y2013_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2013_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1397,10 +1396,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2014.
-dat<-read.csv("BACI_HS92_Y2014_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2014_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1436,10 +1435,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2015.
-dat<-read.csv("BACI_HS92_Y2015_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2015_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1473,10 +1472,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2016.
-dat<-read.csv("BACI_HS92_Y2016_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2016_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1510,10 +1509,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2017.
-dat<-read.csv("BACI_HS92_Y2017_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2017_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1547,10 +1546,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2018.
-dat<-read.csv("BACI_HS92_Y2018_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2018_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1584,10 +1583,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2019.
-dat<-read.csv("BACI_HS92_Y2019_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2019_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1623,10 +1622,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2020.
-dat<-read.csv("BACI_HS92_Y2020_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2020_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1664,10 +1663,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2021.
-dat<-read.csv("BACI_HS92_Y2021_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2021_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
@@ -1704,10 +1703,10 @@ rm(dat)
 
 
 # Set the working directory to the folder with the trade data.
-setwd("~/Downloads/BACI_HS92_V202501")
+setwd("~/Downloads/BACI_HS92_V202401b")
 
 # We will next read in the trade data for 2022.
-dat<-read.csv("BACI_HS92_Y2022_V202501.csv",stringsAsFactors=F)
+dat<-read.csv("BACI_HS92_Y2022_V202401b.csv",stringsAsFactors=F)
 
 # Reset the working directory to the folder with the replication materials
 # from the repository.
