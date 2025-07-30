@@ -1523,7 +1523,7 @@ setwd("~/Downloads/Nationalism_Trade_Replication-main")
 source("ChangeNamesUN.R")
 
 # Reset the import values and bilateral trade information for 
-# the 2018 World Cup countries 1 years before the tournament.
+# the 2018 World Cup countries 1 year before the tournament.
 all_pairs$Imports1_Pre[index]<-NA
 all_pairs$Imports2_Pre[index]<-NA
 all_pairs$Bi_Trade_Pre[index]<-NA
