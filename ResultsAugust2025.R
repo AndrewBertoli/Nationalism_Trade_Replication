@@ -1,15 +1,30 @@
-library(foreign)
-library(ggplot2)
-library(cowplot)
+# We will start by loading the following packages.
+require(foreign)
+require(ggplot2)
+require(cowplot)
 
-setwd("~/Dropbox/WCNaturalExperiment/Data_and_Code")
+# We will next set the working directory to the folder with the replication
+# materials from the "Nationalism_Trade_Replication" repository from Github
+setwd("~/Downloads/Nationalism_Trade_Replication-main")
+
+
+# We will next bring the following datasets into the workspace.
+
+# The dataset with pairs of countries across different World Cup years.
 all_pairs<-read.csv("All_Pairs_July25.csv", stringsAsFactors=F)
 
-real_data<-read.csv("RealData_July25.csv",stringsAsFactors=F)
+# The dataset with various statistics about the pairs of countries 
+# that played in the World Cup group stage.
+real_data<-read.csv("RealData_July24.csv",stringsAsFactors=F)
 
-perm_data<-read.csv("PermData_July24.csv",stringsAsFactors=F)
+# The dataset with the country pairs that played in the World Cup group
+# stage.
+real_data_full<-read.csv("RealDataFull_July24.csv",stringsAsFactors=F)
 
-real_data_full<-read.csv("RealDataFull_July25.csv",stringsAsFactors=F)
+# The dataset with the results from the simulations that involved
+# rerandomizing the World Cup groups from 1930 to 2018.
+perm_data<-read.csv("PermData_July25.csv",stringsAsFactors=F)
+
 
 # Total number of group stage games
 sum(all_pairs$Group_Stage==1)
@@ -24,8 +39,11 @@ mean(all_pairs$Group_Stage==0&all_pairs$Knockout_Stage==1)
 # Cases where countries played in both the group and knockout stages
 all_pairs[all_pairs$Group_Stage==1&all_pairs$Knockout_Stage==1,]
 
-# Subset to pairs of countries that could have played in the group stage
+# Subset to pairs of countries that could have played in the group stage.
 sample<-all_pairs[all_pairs$Could_Play_GS==1,]
+
+# Print the total number of these dyads.
+dim(sample)
 
 # Number of these pairs that we have trade data on
 sum(is.na(sample$Bi_Trade_Pre)==F &
@@ -35,8 +53,10 @@ sum(is.na(sample$Bi_Trade_Pre)==F &
 mean(is.na(sample$Bi_Trade_Pre)==F &
     is.na(sample$Bi_Trade_Post)==F)
 
+# Drop the cases where we are missing the bilateral trade data.
 sample<-sample[is.na(sample$Bi_Trade_Pre)==F &
                is.na(sample$Bi_Trade_Post)==F,]
+
 
 
 #### DYAD-LEVEL ANALYSIS
@@ -125,7 +145,7 @@ mean(abs(perm_data$Soccer_y-
 
 
 
-# Predict missing GDP values
+# Predict missing GDP values.
 source("PredictMissingGDP.R")
 
 
@@ -139,16 +159,20 @@ model_v1<-lm(ln_Adjusted_Trade-ln_Bi_Trade_Pre ~
                Alliance_Year_Before + Any_Disputes_Before+
                as.factor(Year), sample)
 
+# View the results.
 summary(model_v1)
 
+# Calculate the standardized estimated effect.
 -0.010263/sd(sample$ln_Adjusted_Trade-sample$ln_Bi_Trade_Pre)
 
+# Calculate the one-tailed p-value.
 0.091871/2
 
+# Calculate the one-tailed standard error.
 0.006087*1.65/1.96
 
 
-
+# Soccer dyads--Gravity model
 
 model_v2<-lm(ln_Adjusted_Trade-ln_Bi_Trade_Pre ~ 
                Group_Stage + ln_Dist + ln_Country1_GDP +
@@ -157,16 +181,20 @@ model_v2<-lm(ln_Adjusted_Trade-ln_Bi_Trade_Pre ~
                Alliance_Year_Before + Any_Disputes_Before+
                as.factor(Year), sample[sample$Both_Soccer==1,])
 
+# View the results
 summary(model_v2)
 
+# Calculate the standardized estimated effect
 -0.0134348/sd((sample$ln_Adjusted_Trade-sample$ln_Bi_Trade_Pre)[sample$Both_Soccer==1])
 
+# Calculate the one-tailed p-value.
 0.041952/2
 
+# Calculate the one-tailed standard error.
 0.0066024*1.65/1.96
 
 
-# Percentage change
+# All country dyads--percentage change in trade
 
 model_v3<-lm(Percent_Change_Adjusted ~ Group_Stage + ln_Dist + ln_Country1_GDP +
                ln_Country2_GDP + Both_GATT + Both_EU +
@@ -174,16 +202,22 @@ model_v3<-lm(Percent_Change_Adjusted ~ Group_Stage + ln_Dist + ln_Country1_GDP +
                Alliance_Year_Before + Any_Disputes_Before+
                as.factor(Year), sample)
 
+# View the results
 summary(model_v3)
 
+# Calculate the standardized estimated effect
 -0.0115638/sd(sample$Percent_Change_Adjusted)
 
+# Calculate the one-tailed p-value.
 0.080999/2
 
+# Calculate the one-tailed standard error.
 0.0066253*1.65/1.96
 
 
 
+
+# Soccer dyads--percentage change in trade
 
 model_v4<-lm(Percent_Change_Adjusted ~ Group_Stage + ln_Dist + ln_Country1_GDP +
                ln_Country2_GDP + Both_GATT + Both_EU +
@@ -191,19 +225,23 @@ model_v4<-lm(Percent_Change_Adjusted ~ Group_Stage + ln_Dist + ln_Country1_GDP +
                Alliance_Year_Before + Any_Disputes_Before+
                as.factor(Year), sample[sample$Both_Soccer==1,])
 
+# View the results
 summary(model_v4)
 
+# Calculate the standardized estimated effect
 -0.014225/sd(sample$Percent_Change_Adjusted[sample$Both_Soccer==1])
 
+# Calculate the one-tailed p-value.
 0.048853/2
 
+# Calculate the one-tailed standard error.
 0.007218*1.65/1.96
 
 
 
 
 
-
+# All country dyads--probability of drop in trade
 
 model_v5<-lm(y ~ Group_Stage + ln_Dist + ln_Country1_GDP +
                ln_Country2_GDP + Both_GATT + Both_EU +
@@ -211,16 +249,20 @@ model_v5<-lm(y ~ Group_Stage + ln_Dist + ln_Country1_GDP +
                Alliance_Year_Before + Any_Disputes_Before+
                as.factor(Year), sample)
 
+# View the results
 summary(model_v5)
 
+# Calculate the standardized estimated effect
 0.048781/sd(sample$y)
 
+# Calculate the one-tailed p-value.
 0.027126/2
 
+# Calculate the one-tailed standard error.
 0.022067*1.65/1.96
 
 
-
+# Soccer dyads--probability of drop in trade
 
 model_v6<-lm(y ~ Group_Stage + ln_Dist + ln_Country1_GDP +
                ln_Country2_GDP + Both_GATT + Both_EU +
@@ -228,13 +270,20 @@ model_v6<-lm(y ~ Group_Stage + ln_Dist + ln_Country1_GDP +
                Alliance_Year_Before + Any_Disputes_Before+
                as.factor(Year), sample[sample$Both_Soccer==1,])
 
+# View the results
 summary(model_v6)
 
+# Calculate the standardized estimated effect
 0.063950/sd(sample$y[sample$Both_Soccer==1])
 
+# Calculate the one-tailed p-value.
 0.007326/2
 
+# Calculate the one-tailed standard error.
 0.023831*1.65/1.96
+
+
+
 
 sum(is.na(sample$y[sample$Both_Soccer==1])==F)
 
