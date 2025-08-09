@@ -88,53 +88,63 @@ sort(unique(c(sample$Country1,sample$Country2)))
 # View the temporal span of the data
 range(sample$Year)
 
+# View the span of time that the data covers
 range(sample$Year)[2]-range(sample$Year)[1]
+
+
 
 # One and two-sided p-value from randomization inference
 
-
+# One-tailed p-value for adjusted change in ln(trade)--gravity model approach--all dyads
 mean(perm_data$ln_Trade_Change_Adjusted<=real_data$ln_Trade_Change_Adjusted)
 
+# Two-tailed p-value for adjusted change in ln(trade)--gravity model approach--all dyads
 mean(abs(perm_data$ln_Trade_Change_Adjusted-
            mean(perm_data$ln_Trade_Change_Adjusted))>=abs(real_data$ln_Trade_Change_Adjusted-
                                                             mean(perm_data$ln_Trade_Change_Adjusted)))
 
-
+# One-tailed p-value for adjusted change in ln(trade)--gravity model approach--soccer dyads
 mean(perm_data$Soccer_ln_Trade_Change_Adjusted<=
        real_data$Soccer_ln_Trade_Change_Adjusted)
 
+# Two-tailed p-value for adjusted change in ln(trade)--gravity model approach--soccer dyads
 mean(abs(perm_data$Soccer_ln_Trade_Change_Adjusted-
            mean(perm_data$Soccer_ln_Trade_Change_Adjusted))>=
        abs(real_data$Soccer_ln_Trade_Change_Adjusted-
              mean(perm_data$Soccer_ln_Trade_Change_Adjusted)))
 
 
-
+# One-tailed p-value for adjusted percentage change in trade--all dyads
 mean(perm_data$Percent_Change_Adjusted<=real_data$Percent_Change_Adjusted)
 
+# Two-tailed p-value for adjusted percentage change in trade--all dyads
 mean(abs(perm_data$Percent_Change_Adjusted-
            mean(perm_data$Percent_Change_Adjusted))>=abs(real_data$Percent_Change_Adjusted-
                                                            mean(perm_data$Percent_Change_Adjusted)))
 
-
+# One-tailed p-value for adjusted percentage change in trade--soccer dyads
 mean(perm_data$Soccer_Percent_Change_Adjusted<=
        real_data$Soccer_Percent_Change_Adjusted)
 
+# Two-tailed p-value for adjusted percentage change in trade--soccer dyads
 mean(abs(perm_data$Soccer_Percent_Change_Adjusted-
            mean(perm_data$Soccer_Percent_Change_Adjusted))>=
        abs(real_data$Soccer_Percent_Change_Adjusted-
              mean(perm_data$Soccer_Percent_Change_Adjusted)))
 
-
+# One-tailed p-value for probability of trade drop--all dyads
 mean(perm_data$y>=real_data$y)
 
+# Two-tailed p-value for probability of trade drop--all dyads
 mean(abs(perm_data$y-
          mean(perm_data$y))>=(real_data$y-
                               mean(perm_data$y)))
 
 
+# One-tailed p-value for probability of trade drop--soccer dyads
 mean(perm_data$Soccer_y>=real_data$Soccer_y)
 
+# Two-tailed p-value for probability of trade drop--soccer dyads
 mean(abs(perm_data$Soccer_y-
      mean(perm_data$Soccer_y))>=(real_data$Soccer_y-
                                  mean(perm_data$Soccer_y)))
@@ -284,14 +294,16 @@ summary(model_v6)
 
 
 
-
+# Calculate the number of soccer dyads.
 sum(is.na(sample$y[sample$Both_Soccer==1])==F)
 
 
 
 
 
-# Logit
+# Logit results for probability of drop in trade
+
+# All dyads
 
 model_v1<-glm(y~Group_Stage + ln_Dist + ln_Country1_GDP +
              ln_Country2_GDP + Both_GATT + Both_EU +
@@ -299,9 +311,13 @@ model_v1<-glm(y~Group_Stage + ln_Dist + ln_Country1_GDP +
              Alliance_Year_Before + Any_Disputes_Before+
              as.factor(Year),family="binomial",sample)
 
+# View the results
 summary(model_v1)
 
+# Calculate the one-tailed p-value.
 0.026752/2
+
+# Soccer dyads
 
 model_v2<-glm(y~Group_Stage + ln_Dist + ln_Country1_GDP +
              ln_Country2_GDP + Both_GATT + Both_EU +
@@ -310,11 +326,19 @@ model_v2<-glm(y~Group_Stage + ln_Dist + ln_Country1_GDP +
              as.factor(Year),family="binomial",
            sample[sample$Both_Soccer==1,])
 
+# View the results
 summary(model_v2)
 
+# Calculate the one-tailed p-value.
 0.007119/2
 
-# Probit
+
+
+
+
+# Probit for probability of drop in trade
+
+# All dyads
 
 model_v1<-glm(y~Group_Stage + ln_Dist + ln_Country1_GDP +
               ln_Country2_GDP + Both_GATT + Both_EU +
@@ -323,9 +347,14 @@ model_v1<-glm(y~Group_Stage + ln_Dist + ln_Country1_GDP +
               as.factor(Year),
             family=binomial(link="probit"),sample)
 
+
+# View the results
 summary(model_v1)
 
+# Calculate the one-tailed p-value.
 0.029778/2
+
+# Soccer dyads
 
 model_v2<-glm(y~Group_Stage + ln_Dist + ln_Country1_GDP +
               ln_Country2_GDP + Both_GATT + Both_EU +
@@ -335,9 +364,17 @@ model_v2<-glm(y~Group_Stage + ln_Dist + ln_Country1_GDP +
             family=binomial(link="probit"),
             sample[sample$Both_Soccer==1,])
 
+# View the results
 summary(model_v2)
 
+# Calculate the one-tailed p-value.
 0.007893/2
+
+
+
+
+
+
 
 
 
@@ -355,8 +392,9 @@ summary(model_v2)
 
 
 
-# Placebo test on previous outcome
+# Placebo test on previous outcome--gravity model approach
 
+# All dyads
 model_v1<-lm(ln_Adjusted_Trade_Prev-ln_Bi_Trade_M2~Group_Stage + 
              ln_Dist + ln_Country1_GDP +
              ln_Country2_GDP + Both_GATT + Both_EU +
@@ -364,8 +402,12 @@ model_v1<-lm(ln_Adjusted_Trade_Prev-ln_Bi_Trade_M2~Group_Stage +
              Alliance_Year_Before + Any_Disputes_Before+
              as.factor(Year), sample)
 
+# View the results
 summary(model_v1)
 
+
+
+# Soccer dyads
 
 model_v2<-lm(ln_Adjusted_Trade_Prev-ln_Bi_Trade_M2~Group_Stage + 
                ln_Dist + ln_Country1_GDP +
@@ -373,35 +415,51 @@ model_v2<-lm(ln_Adjusted_Trade_Prev-ln_Bi_Trade_M2~Group_Stage +
                Both_Dem + Contiguous + Colony + Sibling +
                Alliance_Year_Before + Any_Disputes_Before+
                as.factor(Year), sample[sample$Both_Soccer==1,])
-
+               
+# View the results
 summary(model_v2)
 
 
 
 
 
-# Changing the minimum/maximum percentage change in trade
+# Changing the minimum/maximum percentage change in trade.
 
+# The cap in the paper is set at +/-20%. We will try different values,
+# ranging from +/-3% to +/-100%.
+
+# Create a vector with these values.
 caps<-seq(0.03, 1, by=0.01)
 
+# Start a for loop that runs through these values.
 for(i in 1:length(caps)){
   
+  
+# Set the cap as the ith element of the vector caps.
   max<-caps[i]
   
+# Calculate the unadjusted percerntage change in trade.   
   sample$Percent_Change_Shift<-(sample$Bi_Trade_Post-
                                   sample$Bi_Trade_Pre)/sample$Bi_Trade_Pre
-  
+
+# Set the maximum of this as max (defined above--e.g., 3%).     
   sample$Percent_Change_Shift[sample$Percent_Change_Shift>max&
                                 is.na(sample$Percent_Change_Shift)==F]<-max
-  
+
+# Set the maximum of this as -max (e.g., -3%).      
   sample$Percent_Change_Shift[sample$Percent_Change_Shift<(-max)&
                                 is.na(sample$Percent_Change_Shift)==F]<- -max
-  
+
+# Create a model with this new variable as the outcome.  
   model<-lm(Percent_Change_Shift~Group_Stage + ln_Dist + 
               Both_GATT + Both_EU + Both_Dem  + Contiguous +
               Colony + Sibling + Alliance_Year_Before +
               Any_Disputes_Before + as.factor(Year), sample)
+
+# Print max for this round of the for loop.            
   print(max)
+  
+# Print the p-value for this round of the for loop.    
   print(summary(model)$coefficients[2,4]/2)
   
 }
