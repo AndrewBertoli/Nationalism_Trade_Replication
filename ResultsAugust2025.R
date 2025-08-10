@@ -1,3 +1,7 @@
+# This file reproduces the main results from the paper. Before running
+# this code, it is first necessary to construct the datasets by running
+# BuildData.R and WCSimulation.R.
+
 # We will start by loading the following packages.
 require(foreign)
 require(ggplot2)
@@ -544,50 +548,79 @@ for(i in 1:length(caps)){
 
 # Winners vs. Losers
 
+# Create a data set with just the countries that played each other
+# in the group stage or knockout stage.
 games<-all_pairs[all_pairs$Group_Stage==1|
                  all_pairs$Knockout_Stage==1,]
 
-# Calculate goal difference in game (knockout stage only)
+# Calculate goal difference in each game (knockout stage only).
 games$Z<-games$KS_Score1-games$KS_Score2
 
+# For all dyads that did not play in the knockout stage, we will
+# use the score from their group stage game.
+
 # Calculate goal difference for countries that played
-# in the group stage and not in the knockout stage
+# in the group stage and not in the knockout stage and set
+# this value as Z for these dyads.
 games$Z[is.na(games$Z)==T]<-(games$GS_Score1-games$GS_Score2)[is.na(games$Z)==T]
 
+# Create a data frame called d1 that primarily has the information for Country 1 in each row.
 d1<-games[,c("Country1","Country2","Year","Irst1", "Milex1", "Milper1","Tpop1","Upop1",
-             "Democracy1","Country1_GATT","Country1_EU","IndependenceYear1","ln_Country1_GDP","ln_Country2_GDP","Both_Dem",
-             "Both_NonDem", "Diff_Regime", "Contiguous","Total_Disputes_Before", 				"Any_Disputes_Before","Alliance_Year_Before","Dist","ln_Dist","Group_Stage",
-             "Knockout_Stage","Imports1_Pre11","Imports1_Pre10","Imports1_Pre9","Imports1_Pre8","Imports1_Pre7",
-             "Imports1_Pre6","Imports1_Pre5",
-             "Imports1_Pre4","Imports1_Pre3","Imports1_Pre2","Imports1_Pre","Imports1","Imports1_Post1","Imports1_Post2","Imports1_Post3","Imports1_Post4","Imports1_Post5",
+             "Democracy1","Country1_GATT","Country1_EU","IndependenceYear1","ln_Country1_GDP",
+             "ln_Country2_GDP","Both_Dem","Both_NonDem", "Diff_Regime", "Contiguous",
+             "Total_Disputes_Before","Any_Disputes_Before","Alliance_Year_Before","Dist",
+             "ln_Dist","Group_Stage","Knockout_Stage","Imports1_Pre11","Imports1_Pre10",
+             "Imports1_Pre9","Imports1_Pre8","Imports1_Pre7","Imports1_Pre6","Imports1_Pre5",
+             "Imports1_Pre4","Imports1_Pre3","Imports1_Pre2","Imports1_Pre","Imports1",
+             "Imports1_Post1","Imports1_Post2","Imports1_Post3","Imports1_Post4","Imports1_Post5",
              "Imports1_Post6","Imports1_Post7","Imports1_Post8","Imports1_Post9","Imports1_Post10",
              "ln_Dist","Common_Religion","Colony","Sibling","Both_GATT","One_GATT","Both_EU",
              "One_EU", "SoccerMostPopular1","Could_Play_GS","y1","Z","Prediction1","y","y1m1",
              "Same_Continent","Played_Before_Last_10_Years")]
 
+# Create a column called win that is all NAs.
 d1$Win<-NA
 
+# Set the win column value to 1 for rows where the score is not 0 (since
+# Country 1 won these games).
 d1$Win[d1$Z!=0]<-1             
 
+# Create a data frame called d2 that primarily has the information for Country 2 in each row.
 d2<-games[,c("Country2","Country1","Year","Irst2", "Milex2", "Milper2","Tpop2","Upop2",
-             "Democracy2","Country2_GATT","Country2_EU","IndependenceYear2","ln_Country2_GDP","ln_Country1_GDP","Both_Dem",
-             "Both_NonDem", "Diff_Regime","Contiguous","Total_Disputes_Before", "Any_Disputes_Before","Alliance_Year_Before","Dist","ln_Dist","Group_Stage","Knockout_Stage", 
-             "Imports2_Pre11","Imports2_Pre10","Imports2_Pre9","Imports2_Pre8","Imports2_Pre7","Imports2_Pre6","Imports2_Pre5",
-             "Imports2_Pre4","Imports2_Pre3","Imports2_Pre2","Imports2_Pre","Imports2", "Imports2_Post1","Imports2_Post2","Imports2_Post3","Imports2_Post4","Imports2_Post5",
-             "Imports2_Post6","Imports2_Post7","Imports2_Post8","Imports2_Post9","Imports2_Post10","ln_Dist",
-             "Common_Religion","Colony","Sibling","Both_GATT","One_GATT","Both_EU","One_EU","SoccerMostPopular2","Could_Play_GS",
-             "y2","Z","Prediction2","y","y2m1","Same_Continent","Played_Before_Last_10_Years")]
+             "Democracy2","Country2_GATT","Country2_EU","IndependenceYear2","ln_Country2_GDP",
+             "ln_Country1_GDP","Both_Dem","Both_NonDem", "Diff_Regime","Contiguous",
+             "Total_Disputes_Before", "Any_Disputes_Before","Alliance_Year_Before","Dist",
+             "ln_Dist","Group_Stage","Knockout_Stage","Imports2_Pre11","Imports2_Pre10",
+             "Imports2_Pre9","Imports2_Pre8","Imports2_Pre7","Imports2_Pre6","Imports2_Pre5",
+             "Imports2_Pre4","Imports2_Pre3","Imports2_Pre2","Imports2_Pre","Imports2",
+             "Imports2_Post1","Imports2_Post2","Imports2_Post3","Imports2_Post4","Imports2_Post5",
+             "Imports2_Post6","Imports2_Post7","Imports2_Post8","Imports2_Post9","Imports2_Post10",
+             "ln_Dist","Common_Religion","Colony","Sibling","Both_GATT","One_GATT","Both_EU",
+             "One_EU","SoccerMostPopular2","Could_Play_GS","y2","Z","Prediction2","y","y2m1",
+             "Same_Continent","Played_Before_Last_10_Years")]
 
+# Create a column called win that is all NAs.
 d2$Win<-NA
 
+# Set the win column value to 0 for rows where the score is not 0 (since
+# Country 2 lost these games).
 d2$Win[d1$Z!=0]<-0                
 
+# Make the score differential negative for d2 (since Country 2
+# lost these games unless the goal difference was 0, in which
+# case the goal difference will remain 0).
 d2$Z<- -d2$Z
 
+# Set the d2 column names to be the same as the d1 column names so that
+# we can merge the data sets (note that this will switch Country 2 to 
+# "Country 1" in d2).
 colnames(d2)<-colnames(d1)
 
-combined<-rbind(d2,d1)
+# Merge d1 and d2 into a single data frame.
+combined<-rbind(d1,d2)
 
+# Create a column that records whether the main country in each row
+# (now called "Country 1" for all rows) lost. 
 combined$Loss<- 1-combined$Win
 
 max<-0.2
