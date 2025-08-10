@@ -416,7 +416,7 @@ model_v2<-lm(ln_Adjusted_Trade_Prev-ln_Bi_Trade_M2~Group_Stage +
                Alliance_Year_Before + Any_Disputes_Before+
                as.factor(Year), sample[sample$Both_Soccer==1,])
                
-# View the results
+# View the results.
 summary(model_v2)
 
 
@@ -431,131 +431,114 @@ summary(model_v2)
 # Create a vector with these values.
 caps<-seq(0.03, 1, by=0.01)
 
+# We will start with the percentage change in trade outcome for all dyads.
+
 # Start a for loop that runs through these values.
 for(i in 1:length(caps)){
-  
   
 # Set the cap as the ith element of the vector caps.
   max<-caps[i]
   
-# Calculate the unadjusted percerntage change in trade.   
+# Calculate the unadjusted percerntage change in trade.
   sample$Percent_Change_Shift<-(sample$Bi_Trade_Post-
                                   sample$Bi_Trade_Pre)/sample$Bi_Trade_Pre
 
-# Set the maximum of this as max (defined above--e.g., 3%).     
+# Set the maximum of this new variable as max (defined above--e.g., 3%).
   sample$Percent_Change_Shift[sample$Percent_Change_Shift>max&
                                 is.na(sample$Percent_Change_Shift)==F]<-max
 
-# Set the maximum of this as -max (e.g., -3%).      
+# Set the minimum of this new variable as -max (e.g., -3%).
   sample$Percent_Change_Shift[sample$Percent_Change_Shift<(-max)&
                                 is.na(sample$Percent_Change_Shift)==F]<- -max
 
-# Create a model with this new variable as the outcome.  
+# Create a model with this new variable as the outcome.
   model<-lm(Percent_Change_Shift~Group_Stage + ln_Dist + 
               Both_GATT + Both_EU + Both_Dem  + Contiguous +
               Colony + Sibling + Alliance_Year_Before +
               Any_Disputes_Before + as.factor(Year), sample)
-
-# Print max for this round of the for loop.            
-  print(max)
-  
-# Print the p-value for this round of the for loop.    
-  print(summary(model)$coefficients[2,4]/2)
-  
-}
-
-
-
-
-
-caps<-seq(0.03, 1, by=0.01)
-
-for(i in 1:length(caps)){
-  
-  max<-caps[i]
-  
-  sample$Percent_Change_Shift<-(sample$Bi_Trade_Post-
-                                sample$Bi_Trade_Pre)/sample$Bi_Trade_Pre
-  
-  sample$Percent_Change_Shift[sample$Percent_Change_Shift>max&
-                              is.na(sample$Percent_Change_Shift)==F]<-max
-  
-  sample$Percent_Change_Shift[sample$Percent_Change_Shift<(-max)&
-                              is.na(sample$Percent_Change_Shift)==F]<- -max
-  
-  model<-lm(Percent_Change_Shift~Group_Stage + ln_Dist + 
+              
+# Create a second model that focuses on the soccer dyads.
+  model2<-lm(Percent_Change_Shift~Group_Stage + ln_Dist + 
               Both_GATT + Both_EU + Both_Dem  + Contiguous +
               Colony + Sibling + Alliance_Year_Before +
               Any_Disputes_Before + as.factor(Year),
               sample[sample$Both_Soccer==1,])
+              
+
+# Print max for this round of the for loop.
   print(max)
+  
+# Print the one-tailed p-value for all dyads this round of the for loop.
   print(summary(model)$coefficients[2,4]/2)
   
+# Print the one-tailed p-value for soccer dyads this round of the for loop.
+  print(summary(model2)$coefficients[2,4]/2)    
+
+# End the for loop.
 }
 
 
 
 
 
+
+# Above we focused on the percentage change in trade outcome. We will now
+# look at the change in ln(trade) outcome.
+
+# Create a vector with these values that will let us run from  +/-3% to +/-100%.
 caps<-seq(0.03, 1, by=0.01)
 
+# Start a for loop that runs through these values.
 for(i in 1:length(caps)){
-  
+
+# Set the cap as the ith element of the vector caps.
   max<-caps[i]
-  
+
+# Calculate the unadjusted percerntage change in trade.
   sample$Percent_Change_Shift<-(sample$Bi_Trade_Post-
                                   sample$Bi_Trade_Pre)/sample$Bi_Trade_Pre
-  
+
+# Set the maximum of this new variable as max (defined above--e.g., 3%).
   sample$Percent_Change_Shift[sample$Percent_Change_Shift>max&
                                 is.na(sample$Percent_Change_Shift)==F]<-max
-  
+
+# Set the minimum of this new variable as -max (e.g., -3%).
   sample$Percent_Change_Shift[sample$Percent_Change_Shift<(-max)&
                                 is.na(sample$Percent_Change_Shift)==F]<- -max
   
-  sample$Adjusted_Trade_Shift<-(1+sample$Percent_Change_Shift)*sample$Bi_Trade_Pre
-  
-  sample$ln_Adjusted_Trade_Shift<-log(sample$Adjusted_Trade_Shift+1)
-  
-  model<-lm(ln_Adjusted_Trade_Shift-ln_Bi_Trade_Pre~Group_Stage + ln_Dist + 
+  sample$Adjusted_Trade_Post<-(1+sample$Percent_Change_Shift)*sample$Bi_Trade_Pre
+
+# Calculate the ln(trade) value given the adjustment.
+  sample$ln_Adjusted_Trade_Post<-log(sample$Adjusted_Trade_Post+1)
+
+# Create a model with this new variable as the outcome.
+  model<-lm(ln_Adjusted_Trade_Post-ln_Bi_Trade_Pre~Group_Stage + ln_Dist + 
               Both_GATT + Both_EU + Both_Dem  + Contiguous +
               Colony + Sibling + Alliance_Year_Before +
               Any_Disputes_Before + as.factor(Year), sample)
-  print(max)
-  print(summary(model)$coefficients[2,4]/2)
-  
-}
 
-
-
-
-caps<-seq(0.03, 1, by=0.01)
-
-for(i in 1:length(caps)){
-  
-  max<-caps[i]
-  
-  sample$Percent_Change_Shift<-(sample$Bi_Trade_Post-
-                                  sample$Bi_Trade_Pre)/sample$Bi_Trade_Pre
-  
-  sample$Percent_Change_Shift[sample$Percent_Change_Shift>max&
-                                is.na(sample$Percent_Change_Shift)==F]<-max
-  
-  sample$Percent_Change_Shift[sample$Percent_Change_Shift<(-max)&
-                                is.na(sample$Percent_Change_Shift)==F]<- -max
-  
-  sample$Adjusted_Trade_Shift<-(1+sample$Percent_Change_Shift)*sample$Bi_Trade_Pre
-  
-  sample$ln_Adjusted_Trade_Shift<-log(sample$Adjusted_Trade_Shift+1)
-  
-  model<-lm(ln_Adjusted_Trade_Shift-ln_Bi_Trade_Pre~Group_Stage + ln_Dist + 
+# Create a second model that focuses on the soccer dyads.
+  model2<-lm(ln_Adjusted_Trade_Post-ln_Bi_Trade_Pre~Group_Stage + ln_Dist + 
               Both_GATT + Both_EU + Both_Dem  + Contiguous +
               Colony + Sibling + Alliance_Year_Before +
               Any_Disputes_Before + as.factor(Year), 
             sample[sample$Both_Soccer==1,])
+            
+              
+# Print max for this round of the for loop.
   print(max)
+  
+# Print the one-tailed p-value for all dyads this round of the for loop.
   print(summary(model)$coefficients[2,4]/2)
   
+# Print the one-tailed p-value for soccer dyads this round of the for loop.
+  print(summary(model2)$coefficients[2,4]/2)  
+
+# End the for loop.  
 }
+
+
+
 
 
 
