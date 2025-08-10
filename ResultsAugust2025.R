@@ -6,6 +6,7 @@
 require(foreign)
 require(ggplot2)
 require(cowplot)
+require(rdrobust)
 
 # We will next set the working directory to the folder with the replication
 # materials from the "Nationalism_Trade_Replication" repository from Github
@@ -623,94 +624,103 @@ combined<-rbind(d1,d2)
 # (now called "Country 1" for all rows) lost. 
 combined$Loss<- 1-combined$Win
 
+# Set the max/min for a change in imports at +/-20%.
 max<-0.2
 
+# Create a column for the percent change in trade.
 combined$Percent_Change_Adjusted<-(combined$Imports1-
                                    combined$Imports1_Pre)/combined$Imports1_Pre
 
-combined$Percent_Change_Adjusted[is.na(combined$Percent_Change_Adjusted)==T&
-                                 is.na(combined$y1)==F]<-0
+# Set this value at 0 for cases where Imports1 and Imports1_Pre are both 0 
+# (meaning that Country 1 had no imports from Country 2 in the World Cup year
+# or the previous year).
+combined$Percent_Change_Adjusted[combined$Imports1==0 &
+								 combined$Imports1_Pre==0 &
+								 is.na(combined$Imports1)==F &
+								 is.na(combined$Imports1_Pre)==F]<-0
 
+# When this value is greater than 20%, cap it at 20%.
 combined$Percent_Change_Adjusted[combined$Percent_Change_Adjusted>max&
                                  is.na(combined$Percent_Change_Adjusted)==F]<-max
 
+# When this value is less than -20%, cap it at -20%.
 combined$Percent_Change_Adjusted[combined$Percent_Change_Adjusted<(-max)&
                                  is.na(combined$Percent_Change_Adjusted)==F]<- -max
 
+# Add an adjusted imports column that is the value of imports capped at a +/-20%
+# swing from the prior year.
 combined$Adjusted_Imports<-(combined$Percent_Change_Adjusted+1)*combined$Imports1_Pre
+
+# Add a column for ln(trade) for this new value.
 combined$ln_Adjusted_Imports<-log(combined$Adjusted_Imports+1)
+
+# Add a column for ln(imports) for the year before the World Cup.
 combined$ln_Imports_Pre<-log(combined$Imports1_Pre+1)
 
+# Add a column for the change in adjusted ln(imports).
 combined$Change_ln_Adjusted_Imports<-combined$ln_Adjusted_Imports-
                                      combined$ln_Imports_Pre
 
-
-combined$Percent_Change_Adjusted_Prev<-(combined$Imports1_Pre-
-                                        combined$Imports1_Pre2)/combined$Imports1_Pre2
-
-combined$Percent_Change_Adjusted_Prev[combined$Percent_Change_Adjusted_Prev>max&
-                                      is.na(combined$Percent_Change_Adjusted_Prev)==F]<-max
-
-combined$Percent_Change_Adjusted_Prev[combined$Percent_Change_Adjusted_Prev<(-max)&
-                                      is.na(combined$Percent_Change_Adjusted_Prev)==F]<- -max
-
-
-combined$Adjusted_Imports_Prev<-(combined$Percent_Change_Adjusted_Prev+1)*combined$Imports1_Pre2
-combined$ln_Adjusted_Imports_Prev<-log(combined$Adjusted_Imports_Prev+1)
-combined$ln_Imports_Pre2<-log(combined$Imports1_Pre2+1)
-
-combined$Change_ln_Adjusted_Imports_Prev<-combined$ln_Adjusted_Imports_Prev-
-                                          combined$ln_Imports_Pre2
-
-# Fll missing GDP values using earlier predictions
+# Fll missing GDP values using earlier predictions.
 source("FillMissingGDP.R")
 
+# Create a new data frame that excludes all the ties.
 no_ties<-combined[combined$Z!=0,]
 
+# Create a new data frame with just the ties.
 ties<-combined[combined$Z==0,]
 
-
-
+# Do a t-test for the countries that won or lost
+# by one point.
 t.test(Percent_Change_Adjusted~Loss,
        no_ties[abs(no_ties$Z)<=1,])
 
+# Do a t-test for the soccer countries that won or lost
+# by one point.
 t.test(Percent_Change_Adjusted~Loss,
        no_ties[abs(no_ties$Z)<=1&
        no_ties$SoccerMostPopular1==1,])
 
+# Calculate the estimated treatment effect for the soccer countries,
+# based on the t-test results.
 0.05873270-0.03759185
 
 
-library(rdrobust)
+# Since who won and lost the close games was not really random,
+# we will use local linear regression to try to adjust for small
+# differences between the bare winners and bare losers.
 
+# We will start using the rdrobust package to 
+# check for the optimal bandwidth.
+
+# Change in ln(imports) for all countries.
 with(no_ties,rdrobust(ln_Adjusted_Imports-ln_Imports_Pre,Z))
 
+# Percent change in imports for all countries.
 with(no_ties,rdrobust(Percent_Change_Adjusted,Z))
 
+# Drop in imports for all countries.
 with(no_ties,rdrobust(y1,Z))
 
+# Change in ln(imports) for soccer countries.
 with(no_ties[no_ties$SoccerMostPopular1==1,],
      rdrobust(ln_Adjusted_Imports-ln_Imports_Pre,Z))
 
+# Percent change in imports for soccer countries.
 with(no_ties[no_ties$SoccerMostPopular1==1,],
      rdrobust(Percent_Change_Adjusted,Z))
 
+# Drop in imports for soccer countries.
 with(no_ties[no_ties$SoccerMostPopular1==1,],
      rdrobust(y1,Z))
 
-# So the bandwidth should be set at <= 3
-
-t.test(ln_Adjusted_Imports-ln_Imports_Pre~Loss,
-       no_ties[abs(no_ties$Z)<=1,])
-
-t.test(ln_Adjusted_Imports-ln_Imports_Pre~Loss,
-       no_ties[abs(no_ties$Z)<=1&
-               no_ties$SoccerMostPopular1==1,])
-
+# So the optimal bandwidth is between 3 and 4 in all the above cases.
+# We will therefore set the bandwidth at <= 3.
 
 
 # RDD Estimates
 
+# Create the model for change in ln(imports) with controls.
 model<-lm(ln_Adjusted_Imports-ln_Imports_Pre~Loss+Z+I(Loss*Z)+
           ln_Dist + ln_Country1_GDP + ln_Country2_GDP + 
             Both_GATT + Both_EU + Both_Dem +  
@@ -718,27 +728,38 @@ model<-lm(ln_Adjusted_Imports-ln_Imports_Pre~Loss+Z+I(Loss*Z)+
           Alliance_Year_Before+Any_Disputes_Before+
           as.factor(Year), no_ties[abs(no_ties$Z)<=3,])
 
+# View the results.
 summary(model)
 
+# Calculate the one-tailed p-value.
 0.007310/2
 
+# Calculate the one-tailed standard error.
 0.018669*1.65/1.96
 
 
-
+# Create the model for change in ln(imports) without controls.
 model<-lm(ln_Adjusted_Imports-ln_Imports_Pre~Loss+Z+I(Loss*Z),
           no_ties[abs(no_ties$Z)<=3,])
 
+# View the results.
 summary(model)
 
+# Calculate the one-tailed p-value.
 0.010590/2
 
+# Calculate the one-tailed standard error.
 0.019858*1.65/1.96
 
 
-
+# Calculate the sample size for the two tests above.
 with(no_ties[abs(no_ties$Z)<=3,], 
      sum(is.na(ln_Adjusted_Imports-ln_Imports_Pre)==F))
+
+
+
+
+
 
 with(no_ties[abs(no_ties$Z)<=3,], 
      sum(is.na(Percent_Change_Adjusted)==F))
@@ -749,7 +770,7 @@ with(no_ties[abs(no_ties$Z)<=3,],
 
 
 
-
+# Repeast the test above, but for soccer countries.
 model<-lm(ln_Adjusted_Imports-ln_Imports_Pre~Loss+Z+I(Loss*Z)+
             ln_Dist + ln_Country1_GDP + ln_Country2_GDP + 
             Both_GATT + Both_EU + Both_Dem +  
@@ -758,31 +779,42 @@ model<-lm(ln_Adjusted_Imports-ln_Imports_Pre~Loss+Z+I(Loss*Z)+
             as.factor(Year), no_ties[abs(no_ties$Z)<=3&
                                      no_ties$SoccerMostPopular1==1,])
 
+# View the results.
 summary(model)
 
+# Calculate the one-tailed p-value.
 0.007181/2
 
+# Calculate the one-tailed standard error.
 0.019298*1.65/1.96
 
 
-
+# We will now do the model without control variables.
 model<-lm(ln_Adjusted_Imports-ln_Imports_Pre~Loss+Z+I(Loss*Z),
           no_ties[abs(no_ties$Z)<=3&
                   no_ties$SoccerMostPopular1==1,])
 
+# View the results.
 summary(model)
 
+# Calculate the one-tailed p-value.
 0.007962/2
 
+# Calculate the one-tailed standard error.
 0.020525*1.65/1.96
 
+
+# Calculate the sample size for the two tests above.
 with(no_ties[abs(no_ties$Z)<=3&
              no_ties$SoccerMostPopular1==1,], 
      sum(is.na(ln_Adjusted_Imports-ln_Imports_Pre)==F))
 
 
 
+# We will now focus on the percentage change in imports.
 
+# Create the model for change in percentage change in imports
+# variable, with controls.
 
 model<-lm(Percent_Change_Adjusted~Loss+Z+I(Loss*Z)+
             ln_Dist + ln_Country1_GDP + ln_Country2_GDP + 
@@ -791,21 +823,29 @@ model<-lm(Percent_Change_Adjusted~Loss+Z+I(Loss*Z)+
             Alliance_Year_Before+Any_Disputes_Before+
             as.factor(Year), no_ties[abs(no_ties$Z)<=3,])
 
+# View the results.
 summary(model)
 
+# Calculate the one-tailed p-value.
 0.00453/2
 
+# Calculate the one-tailed standard error.
 0.020958*1.65/1.96
 
 
+# We will now create the model for change in percentage change in imports
+# variable, without controls.
 
 model<-lm(Percent_Change_Adjusted~Loss+Z+I(Loss*Z),
           no_ties[abs(no_ties$Z)<=3,])
 
+# View the results.
 summary(model)
 
+# Calculate the one-tailed p-value.
 0.006538/2
 
+# Calculate the one-tailed standard error.
 0.022053*1.65/1.96
 
 
