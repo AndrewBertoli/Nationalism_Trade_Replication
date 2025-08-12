@@ -758,19 +758,7 @@ with(no_ties[abs(no_ties$Z)<=3,],
 
 
 
-
-
-
-with(no_ties[abs(no_ties$Z)<=3,], 
-     sum(is.na(Percent_Change_Adjusted)==F))
-
-with(no_ties[abs(no_ties$Z)<=3,], 
-     sum(is.na(y1)==F))
-
-
-
-
-# Repeast the test above, but for soccer countries.
+# Repeat the tests above, but for soccer countries.
 model<-lm(ln_Adjusted_Imports-ln_Imports_Pre~Loss+Z+I(Loss*Z)+
             ln_Dist + ln_Country1_GDP + ln_Country2_GDP + 
             Both_GATT + Both_EU + Both_Dem +  
@@ -848,10 +836,17 @@ summary(model)
 # Calculate the one-tailed standard error.
 0.022053*1.65/1.96
 
+# Calculate the sample size for the two tests above.
+with(no_ties[abs(no_ties$Z)<=3,], 
+     sum(is.na(Percent_Change_Adjusted)==F))
 
 
 
 
+
+# Repeat the tests above, but for soccer countries.
+
+# Create the model with controls.
 model<-lm(Percent_Change_Adjusted~Loss+Z+I(Loss*Z)+
             ln_Dist + ln_Country1_GDP + ln_Country2_GDP + 
             Both_GATT + Both_EU + Both_Dem +  
@@ -860,33 +855,47 @@ model<-lm(Percent_Change_Adjusted~Loss+Z+I(Loss*Z)+
             as.factor(Year), no_ties[abs(no_ties$Z)<=3&
                                      no_ties$SoccerMostPopular1==1,])
 
+# View the results.
 summary(model)
 
+# Calculate the one-tailed p-value.
 0.00650/2
 
+# Calculate the one-tailed standard error.
 0.021676*1.65/1.96
 
 
-
+# We will now do the model without control variables.
 model<-lm(Percent_Change_Adjusted~Loss+Z+I(Loss*Z),
           no_ties[abs(no_ties$Z)<=3&
                     no_ties$SoccerMostPopular1==1,])
 
+# View the results.
 summary(model)
 
+# Calculate the one-tailed p-value.
 0.007557/2
 
+# Calculate the one-tailed standard error.
 0.022787*1.65/1.96
 
 
 
 
+# Calculate the sample size for the two tests above.
+with(no_ties[abs(no_ties$Z)<=3&
+             no_ties$SoccerMostPopular1==1,], 
+     sum(is.na(Percent_Change_Adjusted)==F))
 
 
 
 
 
 
+
+# We will now focus on the drop in trade outcome.
+
+# Create the model for the drop in trade, with controls.
 
 model<-lm(y1~Loss+Z+I(Loss*Z)+
             ln_Dist + ln_Country1_GDP + ln_Country2_GDP +
@@ -895,27 +904,43 @@ model<-lm(y1~Loss+Z+I(Loss*Z)+
             Alliance_Year_Before+Any_Disputes_Before+
             as.factor(Year), no_ties[abs(no_ties$Z)<=3,])
 
+# View the results.
 summary(model)
 
+# Calculate the one-tailed p-value.
 0.07818/2
 
+# Calculate the one-tailed standard error.
 0.068155*1.65/1.96
 
 
-
+# We will now do the model without control variables.
 model<-lm(y1~Loss+Z+I(Loss*Z),
           no_ties[abs(no_ties$Z)<=3,])
 
+# View the results.
 summary(model)
 
+# Calculate the one-tailed p-value.
 0.0905/2
 
+# Calculate the one-tailed standard error.
 0.07121*1.65/1.96
 
 
 
+# Calculate the sample size for the two tests above.
+with(no_ties[abs(no_ties$Z)<=3,], 
+     sum(is.na(y1)==F))
 
 
+
+
+
+
+# Repeat the tests above, but for soccer countries.
+
+# Create the model with controls.
 model<-lm(y1~Loss+Z+I(Loss*Z)+
             ln_Dist + ln_Country1_GDP + ln_Country2_GDP +
             Both_GATT + Both_EU + Both_Dem +  
@@ -924,102 +949,159 @@ model<-lm(y1~Loss+Z+I(Loss*Z)+
             as.factor(Year), no_ties[abs(no_ties$Z)<=3&
                                        no_ties$SoccerMostPopular1==1,])
 
+# View the results.
 summary(model)
 
+# Calculate the one-tailed p-value.
 0.0420/2
 
+# Calculate the one-tailed standard error.
 0.069799*1.65/1.96
 
 
 
+
+
+# Create the model without controls.
 model<-lm(y1~Loss+Z+I(Loss*Z),
           no_ties[abs(no_ties$Z)<=3&
                     no_ties$SoccerMostPopular1==1,])
 
+# View the results.
 summary(model)
 
+# Calculate the one-tailed p-value.
 0.0454/2
 
+# Calculate the one-tailed standard error.
 0.07302*1.65/1.96
 
 
-
-
-
-
-with(no_ties[no_ties$SoccerMostPopular1==1,],
-     rdplot(Percent_Change_Adjusted,Z))
-
-with(no_ties[no_ties$SoccerMostPopular1==1,],
-     rdplot(Percent_Change_Adjusted,Z,
-            x.lim=c(-3,3),y.lim=c(-.1,.3),p=1,h=3))
-
-x<-with(no_ties[no_ties$SoccerMostPopular1==1,],
-     rdplot(Percent_Change_Adjusted*100,Z,
-            ,x.lim=c(-2.9,2.9),
-            y.lim=c(-10,20),p=1,h=3,x.label="Points from Winning",
-            y.label="Percentage Change in Imports",
-            col.lines = "cornflowerblue",
-            col.dots = "darkblue")$rdplot)
+# Calculate the sample size for the two tests above.
+with(no_ties[abs(no_ties$Z)<=3&
+             no_ties$SoccerMostPopular1==1,], 
+     sum(is.na(y1)==F))
 
 
 
 
 
 
+
+
+            
+# We will now create the RD graph with confidence intervals.
+
+# Create a new data frame for countries where soccer is the most 
+# popular sport.
 soc<-no_ties[no_ties$SoccerMostPopular1==1,]
+
+
+# Create a vector for win/loss differential: -3, -2, -1, 1, 2, 3
+# We ignore ties here, as well as games that were decided by 4 points
+# or more.
 
 zs<-c(-3:-1,1:3)
 
+
+# Create a regression model for the winners called mod1.
 mod1<-lm(Percent_Change_Adjusted*100~Z,soc[soc$Z%in%1:3,])
 
+# Store the intercept of this regression model as a1.
 a1<-as.numeric(mod1$coefficients[1])
+
+# Store the slope of this regression model as b1.
 b1<-as.numeric(mod1$coefficients[2])
 
+
+# Create a regression model for the losers called mod1.
 mod2<-lm(Percent_Change_Adjusted*100~Z,soc[soc$Z%in%(-1:-3),])
 
+# Store the intercept of this regression model as a1.
 a2<-as.numeric(mod2$coefficients[1])
+
+# Store the slope of this regression model as b2.
 b2<-as.numeric(mod2$coefficients[2])
+
+# Use tapply to calculate and store the average outcome 
+# (Perecent_Change_Adjusted) for each value in the vector zs.
 
 avgs<-with(soc[abs(soc$Z)<=3,],
      tapply(Percent_Change_Adjusted,Z,
             mean,na.rm=T)*100
 )
 
+# Create a data frame that contains the values in zs
+# as one column and the corresponding average outcome
+# for each value in zs as a second column.
+
 x<-data.frame(zs,avgs)
 
-plot1<-ggplot(x,aes(x=zs,y=avgs))+
-       geom_point(color="darkblue")+
-       theme_classic()+xlim(-3.1,3.1)+
-       ylim(-5,12)+xlab("Points from Winning")+
-       ylab("Percentage Change in Imports")+geom_vline(xintercept=0)+
-       geom_segment(aes(x=0,y=a1,
-                    xend=3.1,yend=a1+b1*3.1),
-                    color="cornflowerblue")+
-      geom_segment(aes(x=0,y=a2,
-                   xend=-3.1,yend=a2+b2*-3.1),
-               color="cornflowerblue")
+# Create a ggplot called plot1.
+plot1<-ggplot(x,aes(x=zs,y=avgs))+ # Set the x values as zs and the
+								   # y values as the average outcomes
+								   # for each value in zs.
+geom_point(color="darkblue")+ # Set dark blue points.
+theme_classic()+ # Set the theme.
+xlim(-3.1,3.1)+ ylim(-5,12)+# Set the x-limits and y-limits.
+xlab("Points from Winning")+ylab("Percentage Change in Imports")+ # Set the x 
+																  # and y labels.
+geom_vline(xintercept=0)+ # Draw a vertical line at x=0
+geom_segment(aes(x=0,y=a1,xend=3.1,yend=a1+b1*3.1),
+             color="cornflowerblue") + # Add the regression line for the winners.
+geom_segment(aes(x=0,y=a2,xend=-3.1,yend=a2+b2*-3.1),
+             color="cornflowerblue") # Add the regression line for the losers.
        
-       
+# We will now add confidence intervals to plot1.       
 
+# Create a vector to store the upper bounds of the confidence intervals.
 upper<-rep(NA,6)
+
+# Create another vector to store the lower bounds of the confidence intervals.
 lower<-rep(NA,6)
 
+# Start a for loop to calculate and store the upper and lower 
+# bounds for each value in zs.
 for(i in 1:length(zs)){
+
+# Calculte the standard error for each value in zs.
+# Note here thatwe are using the formula SE=sigma/sqrt(n).
+	
   se<-sd(soc$Percent_Change_Adjusted[soc$Z==zs[i]]*100,na.rm=T)/
     sqrt(sum(is.na(soc$Percent_Change_Adjusted[soc$Z==zs[i]]==F)))
-  m<-mean(soc$Percent_Change_Adjusted[soc$Z==zs[i]]*100,na.rm=T)
-  upper[i]<-m+1.96*se
+
+# Calculate and store the upper bound of the confidence interval for
+# each value in zs.    
+  upper[i]<-avgs[i]+1.96*se
+  
+# Calculate and store the lower bound of the confidence interval for
+# each value in zs.    
   lower[i]<-m-1.96*se
+
+# End the for loop.
 }
 
-plot1+geom_segment(aes(x=-3,xend=-3,y=upper[1],yend=lower[1]),color="darkblue")+
-  geom_segment(aes(x=-2,xend=-2,y=upper[2],yend=lower[2]),color="darkblue")+
-  geom_segment(aes(x=-1,xend=-1,y=upper[3],yend=lower[3]),color="darkblue")+
-  geom_segment(aes(x=1,xend=1,y=upper[4],yend=lower[4]),color="darkblue")+
-  geom_segment(aes(x=2,xend=2,y=upper[5],yend=lower[5]),color="darkblue")+
-  geom_segment(aes(x=3,xend=3,y=upper[6],yend=lower[6]),color="darkblue")+
-  scale_y_continuous(limits=c(-10,20),breaks=c(-10,-5,0,5,10,15,20),labels=c("-10%","-5%","0%","5%","10%","15%","20%"))
+
+# We will now generate plot1 with the confidence intervals for each value in zs.
+
+# Start the plot.
+plot1+ 
+# Plot the confidence interval for z=-3.
+geom_segment(aes(x=-3,xend=-3,y=upper[1],yend=lower[1]),color="darkblue")+
+# Plot the confidence interval for z=-2.
+geom_segment(aes(x=-2,xend=-2,y=upper[2],yend=lower[2]),color="darkblue")+
+# Plot the confidence interval for z=-1.
+geom_segment(aes(x=-1,xend=-1,y=upper[3],yend=lower[3]),color="darkblue")+
+# Plot the confidence interval for z=1.
+geom_segment(aes(x=1,xend=1,y=upper[4],yend=lower[4]),color="darkblue")+
+# Plot the confidence interval for z=2.
+geom_segment(aes(x=2,xend=2,y=upper[5],yend=lower[5]),color="darkblue")+
+# Plot the confidence interval for z=3.
+geom_segment(aes(x=3,xend=3,y=upper[6],yend=lower[6]),color="darkblue")+
+scale_y_continuous(limits=c(-10,20), # Set the y-limits.
+				   breaks=c(-10,-5,0,5,10,15,20), # Set the y-axis breaks. 
+				   # Set the y-axis tick labels at the breaks. 
+				   labels=c("-10%","-5%","0%","5%","10%","15%","20%"))
 
 
 
@@ -1050,27 +1132,17 @@ summary(model)
 
 
 
-# Viewing sensitivity to where we set the 20% Cap
 
-caps<-seq(0.03, 1, by=0.01)
 
-for(i in 1:length(caps)){
-  
-  max=caps[i]
-  
-  combined$Percent_Change<-(combined$Imports1-combined$Imports1_Pre)/combined$Imports1_Pre
-  
-  combined$Percent_Change[combined$Percent_Change>max&is.na(combined$Percent_Change)==F]<-max
-  
-  combined$Percent_Change[combined$Percent_Change<(-max)&is.na(combined$Percent_Change)==F]<- -max
-  
-  no_ties<-combined[combined$Z!=0,]
-  
-  ties<-combined[combined$Z==0,]
-  
-  model<-lm(Percent_Change~Win+Z+I(Win*Z)+ln_Dist + Both_GATT + Both_EU + Both_Dem + Contiguous + Colony + Sibling + Alliance_Year_Before+as.factor(Year),no_ties[no_ties$SoccerMostPopular1==1&abs(no_ties$Z)<=3,])
-  print(i)
-  print(summary(model)$coefficients[2,4])}
+
+
+
+
+
+
+
+
+
 
 
 
