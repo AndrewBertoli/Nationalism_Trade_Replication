@@ -1043,9 +1043,8 @@ plot1<-ggplot(x,aes(x=zs,y=avgs))+ # Set the x values as zs and the
 								   # for each value in zs.
 geom_point(color="darkblue")+ # Set dark blue points.
 theme_classic()+ # Set the theme.
-xlim(-3.1,3.1)+ ylim(-5,12)+# Set the x-limits and y-limits.
-xlab("Points from Winning")+ylab("Percentage Change in Imports")+ # Set the x 
-																  # and y labels.
+xlim(-3.1,3.1)+xlab("Points from Winning")+ # Set the x-limits and x-axis label.
+ylab("Percentage Change in Imports")+ # Set the y-axis label.
 geom_vline(xintercept=0)+ # Draw a vertical line at x=0
 geom_segment(aes(x=0,y=a1,xend=3.1,yend=a1+b1*3.1),
              color="cornflowerblue") + # Add the regression line for the winners.
@@ -1076,7 +1075,7 @@ for(i in 1:length(zs)){
   
 # Calculate and store the lower bound of the confidence interval for
 # each value in zs.    
-  lower[i]<-m-1.96*se
+  lower[i]<-avgs[i]-1.96*se
 
 # End the for loop.
 }
