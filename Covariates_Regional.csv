@@ -1,0 +1,627 @@
+"Country","Year"
+"West Germany",1980
+"Belgium",1980
+"France",1984
+"Spain",1984
+"West Germany",1988
+"Russia",1988
+"Sweden",1992
+"Netherlands",1992
+"United Kingdom",1996
+"Denmark",1996
+"Spain",1996
+"Germany",1996
+"Germany",2000
+"Belgium",2000
+"Spain",2000
+"Netherlands",2000
+"Portugal",2004
+"France",2004
+"Sweden",2004
+"Czech Republic",2004
+"Switzerland",2008
+"Austria",2008
+"Netherlands",2008
+"Greece",2008
+"Iran",1972
+"South Korea",1972
+"Kuwait",1976
+"Iran",1976
+"Iran",1980
+"South Korea",1980
+"Saudi Arabia",1984
+"China",1984
+"South Korea",1988
+"Saudi Arabia",1988
+"Japan",1992
+"Saudi Arabia",1992
+"UAE",1996
+"Iran",1996
+"Japan",1996
+"Iran",2000
+"China",2000
+"Japan",2000
+"China",2004
+"South Korea",2004
+"Saudi Arabia",2004
+"Japan",2004
+"Thailand",2007
+"Vietnam",2007
+"Malaysia",2007
+"Indonesia",2007
+"Ethiopia",1968
+"Ghana",1968
+"Ivory Coast",1970
+"United Arab Republic",1970
+"Cameroon",1972
+"Zaire",1972
+"Egypt",1974
+"Congo",1974
+"Guinea",1976
+"Morocco",1976
+"Ghana",1978
+"Uganda",1978
+"Nigeria",1980
+"Algeria",1980
+"Libya",1982
+"Algeria",1982
+"Egypt",1984
+"Algeria",1984
+"Egypt",1986
+"Cameroon",1986
+"Morocco",1988
+"Nigeria",1988
+"Algeria",1990
+"Zambia",1990
+"Nigeria",1992
+"Cameroon",1992
+"Ivory Coast",1992
+"Ghana",1992
+"Tunisia",1994
+"Egypt",1994
+"Zambia",1994
+"Ghana",1994
+"South Africa",1996
+"Egypt",1996
+"Cameroon",1996
+"Angola",1996
+"Burkina Faso",1998
+"Cameroon",1998
+"Guinea",1998
+"Algeria",1998
+"Cameroon",2000
+"Ghana",2000
+"Ivory Coast",2000
+"Togo",2000
+"Mali",2002
+"Nigeria",2002
+"Liberia",2002
+"Algeria",2002
+"Tunisia",2004
+"Guinea",2004
+"Rwanda",2004
+"DRC",2004
+"Egypt",2006
+"Ivory Coast",2006
+"Morocco",2006
+"Libya",2006
+"Ghana",2008
+"Nigeria",2008
+"Egypt",2008
+"Tunisia",2008
+"Angola",2010
+"Ivory Coast",2010
+"Egypt",2010
+"Cameroon",2010
+"Equatorial Guinea",2012
+"Ivory Coast",2012
+"Gabon",2012
+"Ghana",2012
+"Poland",2012
+"Netherlands",2012
+"Spain",2012
+"Ukraine",2012
+"South Africa",2013
+"Ghana",2013
+"Zambia",2013
+"Ivory Coast",2013
+"Equatorial Guinea",2015
+"Zambia",2015
+"Ghana",2015
+"Ivory Coast",2015
+"Gabon",2017
+"Algeria",2017
+"Ivory Coast",2017
+"Ghana",2017
+"Egypt",2019
+"Nigeria",2019
+"Senegal",2019
+"Morocco",2019
+"Tunisia",2019
+"Cameroon",2019
+"Cameroon",2022
+"Senegal",2022
+"Morocco",2022
+"Nigeria",2022
+"Algeria",2022
+"Tunisia",2022
+"France",2016
+"United Kingdom",2016
+"Germany",2016
+"Spain",2016
+"Belgium",2016
+"Portugal",2016
+"Italy",2021
+"Belgium",2021
+"Ukraine",2021
+"United Kingdom",2021
+"Spain",2021
+"Germany",2021
+"Czechoslovakia",1980
+"Italy",1980
+"Denmark",1984
+"Portugal",1984
+"Italy",1988
+"Netherlands",1988
+"Denmark",1992
+"Germany",1992
+"Scotland",1996
+"Portugal",1996
+"France",1996
+"Czech Republic",1996
+"Romania",2000
+"Sweden",2000
+"Norway",2000
+"Czech Republic",2000
+"Spain",2004
+"United Kingdom",2004
+"Italy",2004
+"Germany",2004
+"Czech Republic",2008
+"Croatia",2008
+"Italy",2008
+"Sweden",2008
+"Thailand",1972
+"Khmer Republic",1972
+"China",1976
+"Iraq",1976
+"North Korea",1980
+"Kuwait",1980
+"Kuwait",1984
+"Iran ",1984
+"Iran",1988
+"China",1988
+"UAE",1992
+"China",1992
+"Kuwait",1996
+"Saudi Arabia",1996
+"China",1996
+"Iraq",2000
+"Korea",2000
+"Saudi Arabia",2000
+"Qatar",2004
+"Kuwait",2004
+"Iraq",2004
+"Iran",2004
+"Iraq",2007
+"UAE",2007
+"China",2007
+"Bahrain",2007
+"Ivory Coast",1968
+"Congo-Kinshasa",1968
+"Sudan",1970
+"Ghana",1970
+"Mali",1972
+"Congo",1972
+"Zambia",1974
+"Zaire",1974
+"Egypt",1976
+"Nigeria",1976
+"Nigeria",1978
+"Tunisia",1978
+"Egypt",1980
+"Morocco",1980
+"Ghana",1982
+"Zambia",1982
+"Cameroon",1984
+"Nigeria",1984
+"Ivory Coast",1986
+"Morocco",1986
+"Algeria",1988
+"Cameroon",1988
+"Nigeria",1990
+"Senegal",1990
+"Senegal",1992
+"Zaire",1992
+"Congo",1992
+"Zambia",1992
+"Mali",1994
+"Nigeria",1994
+"Ivory Coast",1994
+"Senegal",1994
+"Zambia",1996
+"Algeria",1996
+"Sierra Leonne",1996
+"Burkina Faso",1996
+"Tunisia",1998
+"DRC",1998
+"Ghana",1998
+"Togo",1998
+"South Africa",2000
+"Algeria",2000
+"DRC",2000
+"Gabon",2000
+"South Africa",2002
+"Ghana",2002
+"Morocco",2002
+"Burkina Faso",2002
+"Mali",2004
+"Senegal",2004
+"Kenya",2004
+"Burkina Faso",2004
+"Cameroon",2006
+"DRC",2006
+"Angola",2006
+"Togo",2006
+"Morocco",2008
+"Ivory Coast",2008
+"Cameroon",2008
+"Senegal",2008
+"Mali",2010
+"Ghana",2010
+"Nigeria",2010
+"Tunisia",2010
+"Zambia",2012
+"Angola",2012
+"Tunisia",2012
+"Guinea",2012
+"Russia",2012
+"Germany",2012
+"Italy",2012
+"England",2012
+"Angola",2013
+"Mali",2013
+"Nigeria",2013
+"Tunisia",2013
+"Burkina Faso",2015
+"Tunisia",2015
+"Algeria",2015
+"Mali",2015
+"Burkina Faso",2017
+"Tunisia",2017
+"DRC",2017
+"Mali",2017
+"DRC",2019
+"Guinea",2019
+"Algeria",2019
+"Ivory Coast",2019
+"Mali",2019
+"Ghana",2019
+"Burkina Faso",2022
+"Guinea",2022
+"Ghana",2022
+"Egypt",2022
+"Ivory Coast",2022
+"Mali",2022
+"Switzerland",2016
+"Russia",2016
+"Ukraine",2016
+"Croatia",2016
+"Italy",2016
+"Austria",2016
+"Switzerland",2021
+"Russia",2021
+"Netherlands",2021
+"Croatia",2021
+"Poland",2021
+"France",2021
+"Netherlands",1980
+"United Kingdom",1980
+"Belgium",1984
+"West Germany",1984
+"Spain",1988
+"Ireland",1988
+"France",1992
+"Scotland",1992
+"Switzerland",1996
+"Croatia",1996
+"Romnia",1996
+"Italy",1996
+"Portugal",2000
+"Italy",2000
+"Yugoslavia",2000
+"France",2000
+"Russia",2004
+"Croatia",2004
+"Denmark",2004
+"Netherlands",2004
+"Portugal",2008
+"Germany",2008
+"Romania",2008
+"Spain",2008
+"Iraq",1972
+"Kuwait",1972
+"Malaysia",1976
+"South Yemen",1976
+"Syria",1980
+"Malaysia",1980
+"Qatar",1984
+"UAE",1984
+"Qatar",1988
+"Syria",1988
+"Iran",1992
+"Qatar",1992
+"South Korea",1996
+"Iraq",1996
+"Syria",1996
+"Thailand",2000
+"South Korea",2000
+"Qatar",2000
+"Indonesia",2004
+"UAE",2004
+"Uzbekistan",2004
+"Thailand",2004
+"Oman",2007
+"Qatar",2007
+"Uzbekistan",2007
+"Saudi Arabia",2007
+"Algeria",1968
+"Senegal",1968
+"Cameroon",1970
+"Guinea",1970
+"Kenya",1972
+"Morocco",1972
+"Uganda",1974
+"Guinea",1974
+"Ethiopia",1976
+"Sudan",1976
+"Zambia",1978
+"Morocco",1978
+"Ivory Coast",1980
+"Ghana",1980
+"Cameroon",1982
+"Nigeria",1982
+"Ivory Coast",1984
+"Ghana",1984
+"Senegal",1986
+"Algeria",1986
+"Ivory Coast",1988
+"Egypt",1988
+"Ivory Coast",1990
+"Cameroon",1990
+"Kenya",1992
+"Morocco",1992
+"Algeria",1992
+"Egypt",1992
+"Zaire",1994
+"Gabon",1994
+"Sierra Leone",1994
+"Guinea",1994
+"Gabon",1996
+"Zaire",1996
+"Liberia",1996
+"Nigeria",1996
+"South Africa",1998
+"Ivory Coast",1998
+"Angola",1998
+"Namibia",1998
+"Egypt",2000
+"Senegal",2000
+"Zambia",2000
+"Burkina Faso",2000
+"Cameroon",2002
+"DRC",2002
+"Togo",2002
+"Ivory Coast",2002
+"Cameroon",2004
+"Algeria",2004
+"Egypt",2004
+"Zimbabwe",2004
+"Tunisia",2006
+"Guinea",2006
+"Zambia",2006
+"South Africa",2006
+"Guinea",2008
+"Mali",2008
+"Zambia",2008
+"South Africa",2008
+"Algeria",2010
+"Togo",2010
+"Benin",2010
+"Zambia",2010
+"Senegal",2012
+"Burkina Faso",2012
+"Morocco",2012
+"Mali",2012
+"Greece",2012
+"Portugal",2012
+"Croatia",2012
+"Sweden",2012
+"Morocco",2013
+"Niger",2013
+"Burkina Faso",2013
+"Algeria",2013
+"Gabon",2015
+"Cape Verde",2015
+"South Africa",2015
+"Cameroon",2015
+"Cameroon",2017
+"Senegal",2017
+"Morocco",2017
+"Egypt",2017
+"Uganda",2019
+"Madagascar",2019
+"Kenya",2019
+"South Africa",2019
+"Mauritania",2019
+"Benin",2019
+"Cape Verde",2022
+"Zimbabwe",2022
+"Gabon",2022
+"Guinea-Bissau",2022
+"Sierra Leone",2022
+"Mauritania",2022
+"Romania",2016
+"Slovakia",2016
+"Poland",2016
+"Czech Republic",2016
+"Sweden",2016
+"Hungary",2016
+"Turkey",2021
+"Denmark",2021
+"Austria",2021
+"Czech Republic",2021
+"Sweden",2021
+"Portugal",2021
+"Greece",1980
+"Spain",1980
+"Yugoslavia",1984
+"Romania",1984
+"Denmark",1988
+"United Kingdom",1988
+"United Kingdom",1992
+"Russia",1992
+"Netherlands",1996
+"Turkey",1996
+"Bulgaria",1996
+"Russia",1996
+"United Kingdom",2000
+"Turkey",2000
+"Slovenia",2000
+"Denmark",2000
+"Greece",2004
+"Switzerland",2004
+"Bulgaria",2004
+"Latvia",2004
+"Turkey",2008
+"Poland",2008
+"France",2008
+"Russia",2008
+"China",1980
+"Qatar",1980
+"Syria",1984
+"Singapore",1984
+"UAE",1988
+"Kuwait",1988
+"North Korea",1992
+"Thailand",1992
+"Indonesia",1996
+"Thailand",1996
+"Uzbekistan",1996
+"Lebanon",2000
+"Indonesia",2000
+"Uzbekistan",2000
+"Bahrain",2004
+"Jordan",2004
+"Turkmenistan",2004
+"Oman",2004
+"Australia",2007
+"Japan",2007
+"Iran",2007
+"South Korea",2007
+"Uganda",1968
+"Congo-Brazzaville",1968
+"Ethiopia",1970
+"Congo-Kinshasa",1970
+"Togo",1972
+"Sudan",1972
+"Ivory Coast",1974
+"Mauritius",1974
+"Uganda",1976
+"Zaire",1976
+"Upper Volta",1978
+"Congo",1978
+"Tanzania",1980
+"Guinea",1980
+"Tunisia",1982
+"Ethiopia",1982
+"Togo",1984
+"Malawi",1984
+"Mozambique",1986
+"Zambia",1986
+"Zaire",1988
+"Kenya",1988
+"Egypt",1990
+"Kenya",1990
+"Ghana",1996
+"Tunisia",1996
+"Ivory Coast",1996
+"Mozambique",1996
+"Morocco",1998
+"Egypt",1998
+"Zambia",1998
+"Mozambique",1998
+"Nigeria",2000
+"Tunisia",2000
+"Morocco",2000
+"Congo",2000
+"Senegal",2002
+"Egypt",2002
+"Tunisia",2002
+"Zambia",2002
+"Morocco",2004
+"Nigeria",2004
+"South Africa",2004
+"Benin",2004
+"Nigeria",2006
+"Senegal",2006
+"Ghana",2006
+"Zimbabwe",2006
+"Namibia",2008
+"Benin",2008
+"Sudan",2008
+"Angola",2008
+"Malawi",2010
+"Burkina Faso",2010
+"Mozambique",2010
+"Gabon",2010
+"Libya",2012
+"Sudan",2012
+"Niger",2012
+"Botswana",2012
+"Czech Republic",2012
+"Denmark",2012
+"Ireland",2012
+"France",2012
+"Cape Verde",2013
+"DRC",2013
+"Ethiopia",2013
+"Togo",2013
+"Congo",2015
+"DRC",2015
+"Senegal",2015
+"Guinea",2015
+"Guinea-Bissau",2017
+"Zimbabwe",2017
+"Togo",2017
+"Uganda",2017
+"Zimbabwe",2019
+"Burundi",2019
+"Tanzania",2019
+"Namibia",2019
+"Angola",2019
+"Guinea-Bissau",2019
+"Ethiopia",2022
+"Malawi",2022
+"Comoros",2022
+"Sudan",2022
+"Equatorial Guinea",2022
+"Gambia",2022
+"Albania",2016
+"Wales",2016
+"Northern Ireland",2016
+"Turkey",2016
+"Ireland",2016
+"Iceland",2016
+"Wales",2021
+"Finland",2021
+"North Macedonia",2021
+"Scotland",2021
+"Slovakia",2021
+"Hungary",2021
+"Bangladesh",1980
+"UAE",1980
+"South Korea",1984
+"India",1984
+"Japan",1988
+"Bahrian",1988
