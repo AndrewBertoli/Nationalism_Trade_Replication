@@ -49,6 +49,12 @@ dat$j[dat$j==170]<-"Colombia"
 dat$i[dat$i==174]<-"Comoros"
 dat$j[dat$j==174]<-"Comoros"
 
+dat$i[dat$i==178]<-"Congo"
+dat$j[dat$j==178]<-"Congo"
+
+dat$i[dat$i==180]<-"Zaire"
+dat$j[dat$j==180]<-"Zaire"
+
 dat$i[dat$i==188]<-"Costa Rica"
 dat$j[dat$j==188]<-"Costa Rica"
 
