@@ -1,7 +1,8 @@
+dat$i[dat$i==8]<-"Albania"
+dat$j[dat$j==8]<-"Albania"
+
 dat$i[dat$i==12]<-"Algeria"
 dat$j[dat$j==12]<-"Algeria"
-
-
 
 dat$i[dat$i==24]<-"Angola"
 dat$j[dat$j==24]<-"Angola"
@@ -27,8 +28,14 @@ dat$j[dat$j==76]<-"Brazil"
 dat$i[dat$i==100]<-"Bulgaria"
 dat$j[dat$j==100]<-"Bulgaria"
 
+dat$i[dat$i==108]<-"Burundi"
+dat$j[dat$j==108]<-"Burundi"
+
 dat$i[dat$i==120]<-"Cameroon"
 dat$j[dat$j==120]<-"Cameroon"
+
+dat$i[dat$i==136]<-"Cape Verde"
+dat$j[dat$j==136]<-"Cape Verde"
 
 dat$i[dat$i==152]<-"Chile"
 dat$j[dat$j==152]<-"Chile"
@@ -38,6 +45,9 @@ dat$j[dat$j==156]<-"China"
 
 dat$i[dat$i==170]<-"Colombia"
 dat$j[dat$j==170]<-"Colombia"
+
+dat$i[dat$i==174]<-"Comoros"
+dat$j[dat$j==174]<-"Comoros"
 
 dat$i[dat$i==188]<-"Costa Rica"
 dat$j[dat$j==188]<-"Costa Rica"
@@ -57,8 +67,14 @@ dat$j[dat$j==218]<-"Ecuador"
 dat$i[dat$i==818]<-"Egypt"
 dat$j[dat$j==818]<-"Egypt"
 
+dat$i[dat$i==246]<-"Finland"
+dat$j[dat$j==246]<-"Finland"
+
 dat$i[dat$i==251]<-"France"
 dat$j[dat$j==251]<-"France"
+
+dat$i[dat$i==270]<-"Gambia"
+dat$j[dat$j==270]<-"Gambia"
 
 dat$i[dat$i==276]<-"Germany"
 dat$j[dat$j==276]<-"Germany"
@@ -71,6 +87,9 @@ dat$j[dat$j==300]<-"Greece"
 
 dat$i[dat$i==340]<-"Honduras"
 dat$j[dat$j==340]<-"Honduras"
+
+dat$i[dat$i==348]<-"Hungary"
+dat$j[dat$j==348]<-"Hungary"
 
 dat$i[dat$i==352]<-"Iceland"
 dat$j[dat$j==352]<-"Iceland"
@@ -92,6 +111,12 @@ dat$j[dat$j==388]<-"Jamaica"
 
 dat$i[dat$i==392]<-"Japan"
 dat$j[dat$j==392]<-"Japan"
+
+dat$i[dat$i==450]<-"Madagascar"
+dat$j[dat$j==450]<-"Madagascar"
+
+dat$i[dat$i==478]<-"Mauritania"
+dat$j[dat$j==478]<-"Mauritania"
 
 dat$i[dat$i==484]<-"Mexico"
 dat$j[dat$j==484]<-"Mexico"
@@ -129,6 +154,9 @@ dat$j[dat$j==616]<-"Poland"
 dat$i[dat$i==620]<-"Portugal"
 dat$j[dat$j==620]<-"Portugal"
 
+dat$i[dat$i==624]<-"Guinea-Bissau"
+dat$j[dat$j==624]<-"Guinea-Bissau"
+
 dat$i[dat$i==642]<-"Romania"
 dat$j[dat$j==642]<-"Romania"
 
@@ -140,6 +168,9 @@ dat$j[dat$j==682]<-"Saudi Arabia"
 
 dat$i[dat$i==686]<-"Senegal"
 dat$j[dat$j==686]<-"Senegal"
+
+dat$i[dat$i==694]<-"Sierra Leone"
+dat$j[dat$j==694]<-"Sierra Leone"
 
 dat$i[dat$i==703]<-"Slovakia"
 dat$j[dat$j==703]<-"Slovakia"
