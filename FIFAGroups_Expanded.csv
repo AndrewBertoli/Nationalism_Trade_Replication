@@ -185,9 +185,9 @@ Vietnam;UAE;Qatar;Japan;NONE;2007;Asia
 Malaysia;China;Uzbekistan;Iran;NONE;2007;Asia
 Indonesia;Bahrain;Saudi Arabia;South Korea;NONE;2007;Asia
 Ethiopia;Ivory Coast;Algeria;Uganda;NONE;1968;Africa
-Ghana;Congo-Kinshasa;Senegal;Congo-Brazzaville;NONE;1968;Africa
+Ghana;Zaire;Senegal;Congo;NONE;1968;Africa
 Ivory Coast;Sudan;Cameroon;Ethiopia;NONE;1970;Africa
-United Arab Republic;Ghana;Guinea;Congo-Kinshasa;NONE;1970;Africa
+United Arab Republic;Ghana;Guinea;Zaire;NONE;1970;Africa
 Cameroon;Mali;Kenya;Togo;NONE;1972;Africa
 Zaire;Congo;Morocco;Sudan;NONE;1972;Africa
 Egypt;Zambia;Uganda;Ivory Coast;NONE;1974;Africa
@@ -293,5 +293,6 @@ United Kingdom;Croatia;Czech Republic;Scotland;NONE;2021;Europe
 Spain;Poland;Sweden;Slovakia;NONE;2021;Europe
 
 Germany;France;Portugal;Hungary;NONE;2021;Europe
+
 
 
