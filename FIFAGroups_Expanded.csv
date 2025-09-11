@@ -144,7 +144,7 @@ Sweden;Denmark;France;United Kingdom;NONE;1992;Europe
 Netherlands;Germany;Scotland;Russia;NONE;1992;Europe
 United Kingdom;Scotland;Switzerland;Netherlands;NONE;1996;Europe
 Denmark;Portugal;Croatia;Turkey;NONE;1996;Europe
-Spain;France;Romnia;Bulgaria;NONE;1996;Europe
+Spain;France;Romania;Bulgaria;NONE;1996;Europe
 Germany;Czech Republic;Italy;Russia;NONE;1996;Europe
 Germany;Romania;Portugal;United Kingdom;NONE;2000;Europe
 Belgium;Sweden;Italy;Turkey;NONE;2000;Europe
@@ -291,4 +291,5 @@ Belgium;Russia;Denmark;Finland;NONE;2021;Europe
 Ukraine;Netherlands;Austria;North Macedonia;NONE;2021;Europe
 United Kingdom;Croatia;Czech Republic;Scotland;NONE;2021;Europe
 Spain;Poland;Sweden;Slovakia;NONE;2021;Europe
+
 Germany;France;Portugal;Hungary;NONE;2021;Europe
