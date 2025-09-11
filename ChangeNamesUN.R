@@ -208,6 +208,9 @@ dat$j[dat$j==792]<-"Turkey"
 dat$i[dat$i==804]<-"Ukraine"
 dat$j[dat$j==804]<-"Ukraine"
 
+dat$i[dat$i==807]<-"North Macedonia"
+dat$j[dat$j==807]<-"North Macedonia"
+
 dat$i[dat$i==826]<-"United Kingdom"
 dat$j[dat$j==826]<-"United Kingdom"
 
