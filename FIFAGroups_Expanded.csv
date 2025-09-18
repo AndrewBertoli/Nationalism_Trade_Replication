@@ -232,10 +232,10 @@ Mali;South Africa;Cameroon;Senegal;NONE;2002;Africa
 Nigeria;Ghana;DRC;Egypt;NONE;2002;Africa
 Liberia;Morocco;Togo;Tunisia;NONE;2002;Africa
 Algeria;Burkina Faso;Ivory Coast;Zambia;NONE;2002;Africa
-Tunisia;Mali;Cameroon;Morocco;NONE;2004;Africa
-Guinea;Senegal;Algeria;Nigeria;NONE;2004;Africa
-Rwanda;Kenya;Egypt;South Africa;NONE;2004;Africa
-DRC;Burkina Faso;Zimbabwe;Benin;NONE;2004;Africa
+Tunisia;Senegal;Cameroon;Nigeria;NONE;2004;Africa
+DRC;Mali;Egypt;South Africa;NONE;2004;Africa
+Guinea;Burkina Faso;Algeria;Morocco;NONE;2004;Africa
+Rwanda;Kenya;Zimbabwe;Benin;NONE;2004;Africa
 Egypt;Cameroon;Tunisia;Nigeria;NONE;2006;Africa
 Ivory Coast;DRC;Guinea;Senegal;NONE;2006;Africa
 Morocco;Angola;Zambia;Ghana;NONE;2006;Africa
@@ -293,6 +293,7 @@ United Kingdom;Croatia;Czech Republic;Scotland;NONE;2021;Europe
 Spain;Poland;Sweden;Slovakia;NONE;2021;Europe
 
 Germany;France;Portugal;Hungary;NONE;2021;Europe
+
 
 
 
