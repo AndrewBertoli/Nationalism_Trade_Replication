@@ -354,8 +354,8 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 1965;Tunisia;Ethiopia;1;0;0;0;0;2;4;0;0;12;11;Africa
 1965;Senegal;Tunisia;1;0;0;0;0;2;0;0;0;14;11;Africa
 1965;Senegal;Ethiopia;1;0;0;0;0;2;5;1;0;19;11;Africa
-1965;Ghana;DRC;1;0;0;0;0;2;5;2;0;12;11;Africa
-1965;Ivory Coast;DRC;1;0;0;0;0;2;3;0;0;14;11;Africa
+1965;Ghana;Zaire;1;0;0;0;0;2;5;2;0;12;11;Africa
+1965;Ivory Coast;Zaire;1;0;0;0;0;2;3;0;0;14;11;Africa
 1965;Ghana;Ivory Coast;1;0;0;0;0;2;4;1;0;19;11;Africa
 1965;Ivory Coast;Senegal;0;1;0;0;0;2;1;0;0;21;11;Africa
 1965;Ghana;Tunisia;0;1;0;0;0;2;3;2;0;21;11;Africa
@@ -366,27 +366,27 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 1968;Ivory Coast;Uganda;1;0;0;0;0;3;2;1;0;16;1;Africa
 1968;Ethiopia;Algeria;1;0;0;0;0;3;3;1;0;16;1;Africa
 1968;Ghana;Senegal;1;0;0;0;0;3;2;2;0;12;1;Africa
-1968;Congo;DRC;1;0;0;0;0;3;3;0;0;12;1;Africa
+1968;Congo;Zaire;1;0;0;0;0;3;3;0;0;12;1;Africa
 1968;Senegal;Congo;1;0;0;0;0;3;2;1;0;14;1;Africa
-1968;Ghana;DRC;1;0;0;0;0;3;2;1;0;14;1;Africa
-1968;DRC;Senegal;1;0;0;0;0;3;2;1;0;16;1;Africa
+1968;Ghana;Zaire;1;0;0;0;0;3;2;1;0;14;1;Africa
+1968;Zaire;Senegal;1;0;0;0;0;3;2;1;0;16;1;Africa
 1968;Ghana;Congo;1;0;0;0;0;3;3;1;0;16;1;Africa
-1968;DRC;Ethiopia;0;1;0;0;0;3;3;2;0;19;1;Africa
+1968;Zaire;Ethiopia;0;1;0;0;0;3;3;2;0;19;1;Africa
 1968;Ghana;Ivory Coast;0;1;0;0;0;3;4;3;0;19;1;Africa
 1968;Ivory Coast;Ethiopia;0;0;1;0;0;3;1;0;0;21;1;Africa
-1968;DRC;Ghana;0;0;1;0;0;3;1;0;0;21;1;Africa
+1968;Zaire;Ghana;0;0;1;0;0;3;1;0;0;21;1;Africa
 1970;Cameroon;Ivory Coast;1;0;0;0;0;3;3;2;0;6;2;Africa
 1970;Sudan;Ethiopia;1;0;0;0;0;3;3;0;0;6;2;Africa
 1970;Cameroon;Ethiopia;1;0;0;0;0;3;3;2;0;8;2;Africa
 1970;Ivory Coast;Sudan;1;0;0;0;0;3;1;0;0;8;2;Africa
 1970;Ivory Coast;Ethiopia;1;0;0;0;0;3;6;1;0;10;2;Africa
 1970;Sudan;Cameroon;1;0;0;0;0;3;2;1;0;10;2;Africa
-1970;Ghana;DRC;1;0;0;0;0;3;2;0;0;7;2;Africa
+1970;Ghana;Zaire;1;0;0;0;0;3;2;0;0;7;2;Africa
 1970;UAE;Guinea;1;0;0;0;0;3;4;1;0;7;2;Africa
-1970;DRC;Guinea;1;0;0;0;0;3;2;2;0;9;2;Africa
+1970;Zaire;Guinea;1;0;0;0;0;3;2;2;0;9;2;Africa
 1970;UAE;Ghana;1;0;0;0;0;3;1;1;0;9;2;Africa
 1970;Guinea;Ghana;1;0;0;0;0;3;1;1;0;11;2;Africa
-1970;UAE;DRC;1;0;0;0;0;3;1;0;0;11;2;Africa
+1970;UAE;Zaire;1;0;0;0;0;3;1;0;0;11;2;Africa
 1970;Ghana;Ivory Coast;0;1;0;0;0;3;2;1;0;14;2;Africa
 1970;Sudan;UAE;0;1;0;0;0;3;2;1;0;14;2;Africa
 1970;UAE;Ivory Coast;0;0;1;0;0;3;3;1;0;16;2;Africa
@@ -398,14 +398,14 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 1972;Togo;Kenya;1;0;0;0;0;3;1;1;0;28;2;Africa
 1972;Cameroon;Mali;1;0;0;0;0;3;1;1;0;28;2;Africa
 1972;Congo;Morocco;1;0;0;0;0;3;1;1;0;25;2;Africa
-1972;DRC;Sudan;1;0;0;0;0;3;1;1;0;25;2;Africa
+1972;Zaire;Sudan;1;0;0;0;0;3;1;1;0;25;2;Africa
 1972;Morocco;Sudan;1;0;0;0;0;3;1;1;0;27;2;Africa
-1972;DRC;Congo;1;0;0;0;0;3;2;0;0;27;2;Africa
-1972;Morocco;DRC;1;0;0;0;0;3;1;1;0;29;2;Africa
+1972;Zaire;Congo;1;0;0;0;0;3;2;0;0;27;2;Africa
+1972;Morocco;Zaire;1;0;0;0;0;3;1;1;0;29;2;Africa
 1972;Congo;Sudan;1;0;0;0;0;3;4;2;0;29;2;Africa
 1972;Congo;Cameroon;0;1;0;0;0;3;1;0;0;2;3;Africa
-1972;Mali;DRC;0;1;0;0;0;3;4;3;0;2;3;Africa
-1972;Cameroon;DRC;0;0;1;0;0;3;5;2;0;4;3;Africa
+1972;Mali;Zaire;0;1;0;0;0;3;4;3;0;2;3;Africa
+1972;Cameroon;Zaire;0;0;1;0;0;3;5;2;0;4;3;Africa
 1972;Congo;Mali;0;0;1;0;0;3;3;2;0;5;3;Africa
 1974;Egypt;Uganda;1;0;0;0;0;3;2;1;0;1;3;Africa
 1974;Zambia;Ivory Coast;1;0;0;0;0;3;1;0;0;2;3;Africa
@@ -413,28 +413,28 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 1974;Ivory Coast;Uganda;1;0;0;0;0;3;2;2;0;4;3;Africa
 1974;Egypt;Ivory Coast;1;0;0;0;0;3;2;0;0;6;3;Africa
 1974;Zambia;Uganda;1;0;0;0;0;3;1;0;0;6;3;Africa
-1974;DRC;Guinea;1;0;0;0;0;3;2;1;0;3;3;Africa
+1974;Zaire;Guinea;1;0;0;0;0;3;2;1;0;3;3;Africa
 1974;Congo;Mauritius;1;0;0;0;0;3;2;0;0;3;3;Africa
 1974;Guinea;Mauritius;1;0;0;0;0;3;2;1;0;5;3;Africa
-1974;Congo;DRC;1;0;0;0;0;3;2;1;0;5;3;Africa
+1974;Congo;Zaire;1;0;0;0;0;3;2;1;0;5;3;Africa
 1974;Congo;Guinea;1;0;0;0;0;3;1;1;0;7;3;Africa
-1974;DRC;Mauritius;1;0;0;0;0;3;4;1;0;7;3;Africa
-1974;DRC;Egypt;0;1;0;0;0;3;3;2;0;9;3;Africa
+1974;Zaire;Mauritius;1;0;0;0;0;3;4;1;0;7;3;Africa
+1974;Zaire;Egypt;0;1;0;0;0;3;3;2;0;9;3;Africa
 1974;Zambia;Congo;0;1;0;0;0;3;4;2;0;9;3;Africa
 1974;Egypt;Congo;0;0;1;0;0;3;4;0;0;11;3;Africa
-1974;DRC;Zambia;0;0;1;0;0;3;2;0;1;12;3;Africa
+1974;Zaire;Zambia;0;0;1;0;0;3;2;0;1;12;3;Africa
 1976;Ethiopia;Uganda;1;0;0;0;0;2;2;0;0;29;2;Africa
 1976;Egypt;Guinea;1;0;0;0;0;2;1;1;0;29;2;Africa
 1976;Egypt;Uganda;1;0;0;0;0;2;2;1;0;3;3;Africa
 1976;Guinea;Ethiopia;1;0;0;0;0;2;2;1;0;3;3;Africa
 1976;Guinea;Uganda;1;0;0;0;0;2;2;1;0;5;3;Africa
 1976;Ethiopia;Egypt;1;0;0;0;0;2;1;1;0;5;3;Africa
-1976;Nigeria;DRC;1;0;0;0;0;2;4;2;0;1;3;Africa
+1976;Nigeria;Zaire;1;0;0;0;0;2;4;2;0;1;3;Africa
 1976;Morocco;Sudan;1;0;0;0;0;2;2;2;0;1;3;Africa
 1976;Nigeria;Sudan;1;0;0;0;0;2;1;0;0;4;3;Africa
-1976;Morocco;DRC;1;0;0;0;0;2;1;0;0;4;3;Africa
+1976;Morocco;Zaire;1;0;0;0;0;2;1;0;0;4;3;Africa
 1976;Morocco;Nigeria;1;0;0;0;0;2;3;1;0;6;3;Africa
-1976;DRC;Sudan;1;0;0;0;0;2;1;1;0;6;3;Africa
+1976;Zaire;Sudan;1;0;0;0;0;2;1;1;0;6;3;Africa
 1976;Guinea;Nigeria;0;1;0;0;0;2;1;1;0;9;3;Africa
 1976;Morocco;Egypt;0;1;0;0;0;2;2;1;0;9;3;Africa
 1976;Morocco;Nigeria;0;1;0;0;0;2;2;1;0;11;3;Africa
@@ -521,11 +521,11 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 1986;Egypt;Morocco;0;1;0;0;0;3;1;0;0;17;3;Africa
 1986;Ivory Coast;Morocco;0;0;1;0;0;3;3;2;0;20;3;Africa
 1986;Egypt;Cameroon;0;0;1;0;0;3;5;4;1;21;3;Africa
-1988;Morocco;DRC;1;0;0;0;0;3;1;1;0;13;3;Africa
+1988;Morocco;Zaire;1;0;0;0;0;3;1;1;0;13;3;Africa
 1988;Ivory Coast;Algeria;1;0;0;0;0;3;1;1;0;13;3;Africa
-1988;Ivory Coast;DRC;1;0;0;0;0;3;1;1;0;16;3;Africa
+1988;Ivory Coast;Zaire;1;0;0;0;0;3;1;1;0;16;3;Africa
 1988;Morocco;Algeria;1;0;0;0;0;3;1;0;0;16;3;Africa
-1988;Algeria;DRC;1;0;0;0;0;3;1;0;0;19;3;Africa
+1988;Algeria;Zaire;1;0;0;0;0;3;1;0;0;19;3;Africa
 1988;Morocco;Ivory Coast;1;0;0;0;0;3;0;0;0;19;3;Africa
 1988;Cameroon;Egypt;1;0;0;0;0;3;1;0;0;14;3;Africa
 1988;Nigeria;Kenya;1;0;0;0;0;3;3;0;0;14;3;Africa
@@ -557,15 +557,15 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 1992;Nigeria;Kenya;1;0;0;0;0;4;2;1;0;14;1;Africa
 1992;Senegal;Kenya;1;0;0;0;0;4;3;0;0;16;1;Africa
 1992;Cameroon;Morocco;1;0;0;0;0;4;1;0;0;12;1;Africa
-1992;Morocco;DRC;1;0;0;0;0;4;1;1;0;14;1;Africa
-1992;Cameroon;DRC;1;0;0;0;0;4;1;1;0;16;1;Africa
+1992;Morocco;Zaire;1;0;0;0;0;4;1;1;0;14;1;Africa
+1992;Cameroon;Zaire;1;0;0;0;0;4;1;1;0;16;1;Africa
 1992;Ivory Coast;Algeria;1;0;0;0;0;4;3;0;0;13;1;Africa
 1992;Ivory Coast;Congo;1;0;0;0;0;4;0;0;0;15;1;Africa
 1992;Algeria;Congo;1;0;0;0;0;4;1;1;0;17;1;Africa
 1992;Zambia;Egypt;1;0;0;0;0;4;1;0;0;13;1;Africa
 1992;Ghana;Zambia;1;0;0;0;0;4;1;0;0;15;1;Africa
 1992;Ghana;Egypt;1;0;0;0;0;4;1;0;0;17;1;Africa
-1992;Nigeria;DRC;0;1;0;0;0;4;1;0;0;19;1;Africa
+1992;Nigeria;Zaire;0;1;0;0;0;4;1;0;0;19;1;Africa
 1992;Cameroon;Senegal;0;1;0;0;0;4;1;0;0;19;1;Africa
 1992;Ivory Coast;Zambia;0;1;0;0;0;4;1;0;0;20;1;Africa
 1992;Ghana;Congo;0;1;0;0;0;4;2;1;0;20;1;Africa
@@ -574,8 +574,8 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 1992;Nigeria;Cameroon;0;0;0;1;0;4;2;1;0;25;1;Africa
 1992;Ivory Coast;Ghana;0;0;0;1;0;4;11;10;1;26;1;Africa
 1994;Mali;Tunisia;1;0;0;0;0;4;2;0;0;26;3;Africa
-1994;DRC;Mali;1;0;0;0;0;4;1;0;0;28;3;Africa
-1994;Tunisia;DRC;1;0;0;0;0;4;1;1;0;30;3;Africa
+1994;Zaire;Mali;1;0;0;0;0;4;1;0;0;28;3;Africa
+1994;Tunisia;Zaire;1;0;0;0;0;4;1;1;0;30;3;Africa
 1994;Nigeria;Gabon;1;0;0;0;0;4;3;0;0;26;3;Africa
 1994;Egypt;Gabon;1;0;0;0;0;4;4;0;0;28;3;Africa
 1994;Nigeria;Egypt;1;0;0;0;0;4;0;0;0;30;3;Africa
@@ -585,7 +585,7 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 1994;Ghana;Guinea;1;0;0;0;0;4;1;0;0;27;3;Africa
 1994;Senegal;Guinea;1;0;0;0;0;4;2;1;0;29;3;Africa
 1994;Ghana;Senegal;1;0;0;0;0;4;1;0;0;31;3;Africa
-1994;Nigeria;DRC;0;1;0;0;0;4;2;0;0;2;4;Africa
+1994;Nigeria;Zaire;0;1;0;0;0;4;2;0;0;2;4;Africa
 1994;Mali;Egypt;0;1;0;0;0;4;1;0;0;2;4;Africa
 1994;Zambia;Senegal;0;1;0;0;0;4;1;0;0;3;4;Africa
 1994;Ivory Coast;Ghana;0;1;0;0;0;4;2;1;0;3;4;Africa
@@ -606,8 +606,8 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 1996;Algeria;Burkina Faso;1;0;0;0;0;4;2;1;0;24;1;Africa
 1996;Zambia;Sierra Leone;1;0;0;0;0;4;4;0;0;24;1;Africa
 1996;Gabon;Liberia;1;0;0;0;0;4;2;1;0;16;1;Africa
-1996;Gabon;DRC;1;0;0;0;0;4;2;0;0;19;1;Africa
-1996;DRC;Liberia;1;0;0;0;0;4;2;0;0;25;1;Africa
+1996;Gabon;Zaire;1;0;0;0;0;4;2;0;0;19;1;Africa
+1996;Zaire;Liberia;1;0;0;0;0;4;2;0;0;25;1;Africa
 1996;Ghana;Ivory Coast;1;0;0;0;0;4;2;0;0;14;1;Africa
 1996;Tunisia;Mozambique;1;0;0;0;0;4;1;1;0;16;1;Africa
 1996;Ghana;Tunisia;1;0;0;0;0;4;2;1;0;19;1;Africa
@@ -617,7 +617,7 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 1996;South Africa;Algeria;0;1;0;0;0;4;2;1;0;27;1;Africa
 1996;Zambia;Egypt;0;1;0;0;0;4;3;1;0;27;1;Africa
 1996;Tunisia;Gabon;0;1;0;0;0;4;4;1;1;28;1;Africa
-1996;Ghana;DRC;0;1;0;0;0;4;1;0;0;28;1;Africa
+1996;Ghana;Zaire;0;1;0;0;0;4;1;0;0;28;1;Africa
 1996;South Africa;Ghana;0;0;1;0;0;4;3;0;0;31;1;Africa
 1996;Tunisia;Zambia;0;0;1;0;0;4;4;2;0;31;1;Africa
 1996;Zambia;Ghana;0;0;0;1;0;4;1;0;0;3;2;Africa
@@ -628,11 +628,11 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 1998;Burkina Faso;Algeria;1;0;0;0;0;4;2;1;0;11;2;Africa
 1998;Burkina Faso;Guinea;1;0;0;0;0;4;1;0;0;15;2;Africa
 1998;Cameroon;Algeria;1;0;0;0;0;4;2;1;0;15;2;Africa
-1998;DRC;Togo;1;0;0;0;0;4;2;1;0;9;2;Africa
+1998;Zaire;Togo;1;0;0;0;0;4;2;1;0;9;2;Africa
 1998;Ghana;Tunisia;1;0;0;0;0;4;2;0;0;9;2;Africa
-1998;Tunisia;DRC;1;0;0;0;0;4;2;1;0;12;2;Africa
+1998;Tunisia;Zaire;1;0;0;0;0;4;2;1;0;12;2;Africa
 1998;Togo;Ghana;1;0;0;0;0;4;2;1;0;12;2;Africa
-1998;DRC;Ghana;1;0;0;0;0;4;1;0;0;16;2;Africa
+1998;Zaire;Ghana;1;0;0;0;0;4;1;0;0;16;2;Africa
 1998;Tunisia;Togo;1;0;0;0;0;4;3;1;0;16;2;Africa
 1998;South Africa;Angola;1;0;0;0;0;4;0;0;0;8;2;Africa
 1998;Ivory Coast;Namibia;1;0;0;0;0;4;4;3;0;8;2;Africa
@@ -646,13 +646,13 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 1998;Morocco;Mozambique;1;0;0;0;0;4;3;0;0;13;2;Africa
 1998;Zambia;Mozambique;1;0;0;0;0;4;3;1;0;17;2;Africa
 1998;Morocco;Egypt;1;0;0;0;0;4;1;0;0;17;2;Africa
-1998;DRC;Cameroon;0;1;0;0;0;4;1;0;0;20;2;Africa
+1998;Zaire;Cameroon;0;1;0;0;0;4;1;0;0;20;2;Africa
 1998;Burkina Faso;Tunisia;0;1;0;0;0;4;8;7;1;21;2;Africa
 1998;Egypt;Ivory Coast;0;1;0;0;0;4;5;4;1;21;2;Africa
 1998;South Africa;Morocco;0;1;0;0;0;4;2;1;0;22;2;Africa
-1998;South Africa;DRC;0;0;1;0;0;4;2;1;0;25;2;Africa
+1998;South Africa;Zaire;0;0;1;0;0;4;2;1;0;25;2;Africa
 1998;Egypt;Burkina Faso;0;0;1;0;0;4;2;0;0;25;2;Africa
-1998;DRC;Burkina Faso;0;0;0;1;0;4;4;1;1;27;2;Africa
+1998;Zaire;Burkina Faso;0;0;0;1;0;4;4;1;1;27;2;Africa
 1998;Egypt;South Africa;0;0;0;1;0;4;2;0;0;28;2;Africa
 2000;Cameroon;Ghana;1;0;0;0;0;4;1;1;0;22;1;Africa
 2000;Ivory Coast;Togo;1;0;0;0;0;4;1;1;0;24;1;Africa
@@ -661,11 +661,11 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 2000;Ivory Coast;Ghana;1;0;0;0;0;4;2;0;0;31;1;Africa
 2000;Togo;Cameroon;1;0;0;0;0;4;1;0;0;31;1;Africa
 2000;South Africa;Gabon;1;0;0;0;0;4;3;1;0;23;1;Africa
-2000;DRC;Algeria;1;0;0;0;0;4;0;0;0;24;1;Africa
-2000;South Africa;DRC;1;0;0;0;0;4;1;0;0;27;1;Africa
+2000;Zaire;Algeria;1;0;0;0;0;4;0;0;0;24;1;Africa
+2000;South Africa;Zaire;1;0;0;0;0;4;1;0;0;27;1;Africa
 2000;Algeria;Gabon;1;0;0;0;0;4;3;1;0;29;1;Africa
 2000;South Africa;Algeria;1;0;0;0;0;4;1;1;0;2;2;Africa
-2000;DRC;Gabon;1;0;0;0;0;4;0;0;0;2;2;Africa
+2000;Zaire;Gabon;1;0;0;0;0;4;0;0;0;2;2;Africa
 2000;Egypt;Zambia;1;0;0;0;0;4;2;0;0;23;1;Africa
 2000;Senegal;Burkina Faso;1;0;0;0;0;4;3;1;0;25;1;Africa
 2000;Egypt;Senegal;1;0;0;0;0;4;1;0;0;28;1;Africa
@@ -698,12 +698,12 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 2002;Morocco;Burkina Faso;1;0;0;0;0;4;2;1;0;26;1;Africa
 2002;South Africa;Morocco;1;0;0;0;0;4;3;1;0;30;1;Africa
 2002;Ghana;Burkina Faso;1;0;0;0;0;4;2;1;0;30;1;Africa
-2002;Cameroon;DRC;1;0;0;0;0;4;1;0;0;20;1;Africa
+2002;Cameroon;Zaire;1;0;0;0;0;4;1;0;0;20;1;Africa
 2002;Togo;Ivory Coast;1;0;0;0;0;4;0;0;0;21;1;Africa
 2002;Cameroon;Ivory Coast;1;0;0;0;0;4;1;0;0;25;1;Africa
-2002;DRC;Togo;1;0;0;0;0;4;0;0;0;26;1;Africa
+2002;Zaire;Togo;1;0;0;0;0;4;0;0;0;26;1;Africa
 2002;Cameroon;Togo;1;0;0;0;0;4;3;0;0;29;1;Africa
-2002;DRC;Ivory Coast;1;0;0;0;0;4;3;1;0;29;1;Africa
+2002;Zaire;Ivory Coast;1;0;0;0;0;4;3;1;0;29;1;Africa
 2002;Senegal;Egypt;1;0;0;0;0;4;1;0;0;20;1;Africa
 2002;Zambia;Tunisia;1;0;0;0;0;4;0;0;0;21;1;Africa
 2002;Egypt;Tunisia;1;0;0;0;0;4;1;0;0;25;1;Africa
@@ -713,17 +713,17 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 2002;Mali;South Africa;0;1;0;0;0;4;2;0;0;3;2;Africa
 2002;Nigeria;Ghana;0;1;0;0;0;4;1;0;0;3;2;Africa
 2002;Cameroon;Egypt;0;1;0;0;0;4;1;0;0;4;2;Africa
-2002;Senegal;DRC;0;1;0;0;0;4;2;0;0;4;2;Africa
+2002;Senegal;Zaire;0;1;0;0;0;4;2;0;0;4;2;Africa
 2002;Senegal;Nigeria;0;0;1;0;0;4;2;1;0;7;2;Africa
 2002;Cameroon;Mali;0;0;1;0;0;4;3;0;0;7;2;Africa
 2002;Nigeria;Mali;0;0;0;1;0;4;1;0;0;9;2;Africa
 2002;Cameroon;Senegal;0;0;0;1;0;4;3;2;1;13;2;Africa
 2004;Tunisia;Rwanda;1;0;0;0;0;4;2;1;0;24;1;Africa
-2004;Guinea;DRC;1;0;0;0;0;4;2;1;0;25;1;Africa
+2004;Guinea;Zaire;1;0;0;0;0;4;2;1;0;25;1;Africa
 2004;Rwanda;Guinea;1;0;0;0;0;4;1;1;0;28;1;Africa
-2004;Tunisia;DRC;1;0;0;0;0;4;3;0;0;28;1;Africa
+2004;Tunisia;Zaire;1;0;0;0;0;4;3;0;0;28;1;Africa
 2004;Tunisia;Guinea;1;0;0;0;0;4;1;1;0;1;2;Africa
-2004;Rwanda;DRC;1;0;0;0;0;4;1;0;0;1;2;Africa
+2004;Rwanda;Zaire;1;0;0;0;0;4;1;0;0;1;2;Africa
 2004;Mali;Kenya;1;0;0;0;0;4;3;1;0;26;1;Africa
 2004;Senegal;Burkina Faso;1;0;0;0;0;4;0;0;0;26;1;Africa
 2004;Senegal;Kenya;1;0;0;0;0;4;3;0;0;30;1;Africa
@@ -757,11 +757,11 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 2006;Egypt;Ivory Coast;1;0;0;0;0;4;3;1;0;28;1;Africa
 2006;Libya;Morocco;1;0;0;0;0;4;0;0;0;28;1;Africa
 2006;Cameroon;Angola;1;0;0;0;0;4;3;1;0;21;1;Africa
-2006;DRC;Togo;1;0;0;0;0;4;2;0;0;21;1;Africa
-2006;Angola;DRC;1;0;0;0;0;4;0;0;0;25;1;Africa
+2006;Zaire;Togo;1;0;0;0;0;4;2;0;0;21;1;Africa
+2006;Angola;Zaire;1;0;0;0;0;4;0;0;0;25;1;Africa
 2006;Cameroon;Togo;1;0;0;0;0;4;2;0;0;25;1;Africa
 2006;Angola;Togo;1;0;0;0;0;4;3;2;0;29;1;Africa
-2006;Cameroon;DRC;1;0;0;0;0;4;2;0;0;29;1;Africa
+2006;Cameroon;Zaire;1;0;0;0;0;4;2;0;0;29;1;Africa
 2006;Tunisia;Zambia;1;0;0;0;0;4;4;1;0;22;1;Africa
 2006;Guinea;South Africa;1;0;0;0;0;4;2;0;0;22;1;Africa
 2006;Guinea;Zambia;1;0;0;0;0;4;2;1;0;26;1;Africa
@@ -775,7 +775,7 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 2006;Nigeria;Senegal;1;0;0;0;0;4;2;1;0;31;1;Africa
 2006;Zimbabwe;Ghana;1;0;0;0;0;4;2;1;0;31;1;Africa
 2006;Senegal;Guinea;0;1;0;0;0;4;3;2;0;3;2;Africa
-2006;Egypt;DRC;0;1;0;0;0;4;4;1;0;3;2;Africa
+2006;Egypt;Zaire;0;1;0;0;0;4;4;1;0;3;2;Africa
 2006;Nigeria;Tunisia;0;1;0;0;0;4;6;5;1;4;2;Africa
 2006;Ivory Coast;Cameroon;0;1;0;0;0;4;12;11;1;4;2;Africa
 2006;Egypt;Senegal;0;0;1;0;0;4;2;1;0;7;2;Africa
@@ -884,12 +884,12 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 2013;Cape Verde;Morocco;1;0;0;0;0;4;1;1;0;23;1;Africa
 2013;Morocco;South Africa;1;0;0;0;0;4;2;2;0;27;1;Africa
 2013;Cape Verde;Angola;1;0;0;0;0;4;2;1;0;27;1;Africa
-2013;Ghana;DRC;1;0;0;0;0;4;2;2;0;20;1;Africa
+2013;Ghana;Zaire;1;0;0;0;0;4;2;2;0;20;1;Africa
 2013;Mali;Niger;1;0;0;0;0;4;1;0;0;20;1;Africa
 2013;Ghana;Mali;1;0;0;0;0;4;1;0;0;24;1;Africa
-2013;Niger;DRC;1;0;0;0;0;4;0;0;0;24;1;Africa
+2013;Niger;Zaire;1;0;0;0;0;4;0;0;0;24;1;Africa
 2013;Ghana;Niger;1;0;0;0;0;4;3;0;0;28;1;Africa
-2013;DRC;Mali;1;0;0;0;0;4;1;1;0;28;1;Africa
+2013;Zaire;Mali;1;0;0;0;0;4;1;1;0;28;1;Africa
 2013;Zambia;Ethiopia;1;0;0;0;0;4;1;1;0;21;1;Africa
 2013;Nigeria;Burkina Faso;1;0;0;0;0;4;1;1;0;21;1;Africa
 2013;Zambia;Nigeria;1;0;0;0;0;4;1;1;0;25;1;Africa
@@ -916,12 +916,12 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 2015;Ccngo;Gabon;1;0;0;0;0;4;1;0;0;21;1;Africa
 2015;Equatorial Guinea;Gabon;1;0;0;0;0;4;2;0;0;25;1;Africa
 2015;Ccngo;Burkina Faso;1;0;0;0;0;4;2;1;0;25;1;Africa
-2015;Zambia;DRC;1;0;0;0;0;4;1;1;0;18;1;Africa
+2015;Zambia;Zaire;1;0;0;0;0;4;1;1;0;18;1;Africa
 2015;Tunisia;Cape Verde;1;0;0;0;0;4;1;1;0;18;1;Africa
 2015;Tunisia;Zambia;1;0;0;0;0;4;2;1;0;22;1;Africa
-2015;Cape Verde;DRC;1;0;0;0;0;4;0;0;0;22;1;Africa
+2015;Cape Verde;Zaire;1;0;0;0;0;4;0;0;0;22;1;Africa
 2015;Cape Verde;Zambia;1;0;0;0;0;4;0;0;0;26;1;Africa
-2015;Tunisia;DRC;1;0;0;0;0;4;1;1;0;26;1;Africa
+2015;Tunisia;Zaire;1;0;0;0;0;4;1;1;0;26;1;Africa
 2015;Senegal;Ghana;1;0;0;0;0;4;2;1;0;19;1;Africa
 2015;Algeria;South Africa;1;0;0;0;0;4;3;1;0;19;1;Africa
 2015;Ghana;Algeria;1;0;0;0;0;4;1;0;0;23;1;Africa
@@ -934,13 +934,13 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 2015;Cameroon;Guinea;1;0;0;0;0;4;1;1;0;24;1;Africa
 2015;Ivory Coast;Cameroon;1;0;0;0;0;4;1;0;0;28;1;Africa
 2015;Guinea;Mali;1;0;0;0;0;4;1;1;0;28;1;Africa
-2015;DRC;Congo;0;1;0;0;0;4;4;2;0;31;1;Africa
+2015;Zaire;Congo;0;1;0;0;0;4;4;2;0;31;1;Africa
 2015;Ivory Coast;Algeria;0;1;0;0;0;4;3;1;0;1;2;Africa
 2015;Ghana;Guinea;0;1;0;0;0;4;3;0;0;1;2;Africa
 2015;Equatorial Guinea;Tunisia;0;1;0;0;0;4;2;1;0;31;1;Africa
-2015;Ivory Coast;DRC;0;0;1;0;0;4;3;1;0;4;2;Africa
+2015;Ivory Coast;Zaire;0;0;1;0;0;4;3;1;0;4;2;Africa
 2015;Ghana;Equatorial Guinea;0;0;1;0;0;4;3;0;0;5;2;Africa
-2015;DRC;Equatorial Guinea;0;0;0;1;0;4;4;2;1;7;2;Africa
+2015;Zaire;Equatorial Guinea;0;0;0;1;0;4;4;2;1;7;2;Africa
 2015;Ivory Coast;Ghana;0;0;0;1;0;4;9;8;1;8;2;Africa
 2017;Gabon;Guinea-Bissau;1;0;0;0;0;4;1;1;0;14;1;Africa
 2017;Burkina Faso;Cameroon;1;0;0;0;0;4;1;1;0;14;1;Africa
@@ -955,11 +955,11 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 2017;Senegal;Algeria;1;0;0;0;0;4;2;2;0;24;1;Africa
 2017;Tunisia;Zimbabwe;1;0;0;0;0;4;4;2;0;24;1;Africa
 2017;Ivory Coast;Togo;1;0;0;0;0;4;0;0;0;16;1;Africa
-2017;DRC;Morocco;1;0;0;0;0;4;1;0;0;16;1;Africa
-2017;Ivory Coast;DRC;1;0;0;0;0;4;2;2;0;20;1;Africa
+2017;Zaire;Morocco;1;0;0;0;0;4;1;0;0;16;1;Africa
+2017;Ivory Coast;Zaire;1;0;0;0;0;4;2;2;0;20;1;Africa
 2017;Morocco;Togo;1;0;0;0;0;4;3;1;0;20;1;Africa
 2017;Morocco;Ivory Coast;1;0;0;0;0;4;1;0;0;24;1;Africa
-2017;DRC;Togo;1;0;0;0;0;4;3;1;0;24;1;Africa
+2017;Zaire;Togo;1;0;0;0;0;4;3;1;0;24;1;Africa
 2017;Ghana;Uganda;1;0;0;0;0;4;1;0;0;17;1;Africa
 2017;Mali;Egypt;1;0;0;0;0;4;0;0;0;17;1;Africa
 2017;Ghana;Mali;1;0;0;0;0;4;1;0;0;21;1;Africa
@@ -969,17 +969,17 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 2017;Burkina Faso;Tunisia;0;1;0;0;0;4;2;0;0;28;1;Africa
 2017;Egypt;Morocco;0;1;0;0;0;4;1;0;0;29;1;Africa
 2017;Cameroon;Senegal;0;1;0;0;0;4;5;4;1;28;1;Africa
-2017;Ghana;DRC;0;1;0;0;0;4;2;1;0;29;1;Africa
+2017;Ghana;Zaire;0;1;0;0;0;4;2;1;0;29;1;Africa
 2017;Egypt;Burkina Faso;0;0;1;0;0;4;4;3;1;1;2;Africa
 2017;Cameroon;Ghana;0;0;1;0;0;4;2;0;0;2;2;Africa
 2017;Burkina Faso;Ghana;0;0;0;1;0;4;1;0;0;4;2;Africa
 2017;Cameroon;Egypt;0;0;0;1;0;4;2;1;0;5;2;Africa
 2019;Egypt;Zimbabwe;1;0;0;0;0;5;1;0;0;21;6;Africa
-2019;Uganda;DRC;1;0;0;0;0;5;2;0;0;22;6;Africa
+2019;Uganda;Zaire;1;0;0;0;0;5;2;0;0;22;6;Africa
 2019;Uganda;Zimbabwe;1;0;0;0;0;5;1;1;0;26;6;Africa
-2019;Egypt;DRC;1;0;0;0;0;5;2;0;0;26;6;Africa
+2019;Egypt;Zaire;1;0;0;0;0;5;2;0;0;26;6;Africa
 2019;Egypt;Uganda;1;0;0;0;0;5;2;0;0;30;6;Africa
-2019;DRC;Zimbabwe;1;0;0;0;0;5;4;0;0;30;6;Africa
+2019;Zaire;Zimbabwe;1;0;0;0;0;5;4;0;0;30;6;Africa
 2019;Nigeria;Burundi;1;0;0;0;0;5;1;0;0;22;6;Africa
 2019;Guinea;Madagascar;1;0;0;0;0;5;2;2;0;22;6;Africa
 2019;Nigeria;Guinea;1;0;0;0;0;5;1;0;0;26;6;Africa
@@ -1012,7 +1012,7 @@ Year;Country1;Country2;GroupStage;Round1;Round2;Round3;Round4;Rounds;Score1;Scor
 2019;Ghana;Guinea-Bissau;1;0;0;0;0;5;2;0;0;2;7;Africa
 2019;Senegal;Uganda;0;1;0;0;0;5;1;0;0;5;7;Africa
 2019;Benin;Morocco;0;1;0;0;0;5;4;1;1;5;7;Africa
-2019;Madagascar;DRC;0;1;0;0;0;5;4;2;1;7;7;Africa
+2019;Madagascar;Zaire;0;1;0;0;0;5;4;2;1;7;7;Africa
 2019;Tunisia;Ghana;0;1;0;0;0;5;4;5;1;8;7;Africa
 2019;Ivory Coast;Mali;0;1;0;0;0;5;1;0;0;8;7;Africa
 2019;Algeria;Guinea;0;1;0;0;0;5;3;0;0;7;7;Africa
